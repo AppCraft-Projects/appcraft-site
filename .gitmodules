@@ -1,0 +1,3 @@
+[submodule "themes/appcraft-site-hugo-theme"]
+	path = themes/appcraft-site-hugo-theme
+	url = git@github.com:AppCraft-Projects/appcraft-site-hugo-theme.git
