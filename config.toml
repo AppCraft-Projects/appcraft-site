@@ -1,7 +1,7 @@
 baseURL = "http://appcraft.hu/"
 languageCode = "en-us"
 title = "AppCraft"
-theme = "minimal"
+theme = "appcraft-site-hugo-theme"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
