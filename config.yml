@@ -1,4 +1,4 @@
-baseURL: 'http://appcraft.hu/'
+baseURL: 'https://appcraft-projects.github.io/appcraft-site/'
 publishDir: docs
 languageCode: en-us
 title: AppCraft

@@ -3,92 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://appcraft.hu/post/creating-a-new-theme/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/post/goisforlovers/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/post/hugoisforlovers/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/post/migrate-from-jekyll/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/categories/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/development/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/go/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/go/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/golang/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/hugo/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://appcraft.hu/post/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://appcraft.hu/tags/static-site-generator/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/post/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/static-site-generator/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/template/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/template/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://appcraft.hu/tags/themes/</loc>
+    <loc>https://appcraft-projects.github.io/appcraft-site/tags/themes/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
