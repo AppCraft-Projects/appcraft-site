@@ -1,10 +1,8 @@
 baseURL: 'https://appcraft-projects.github.io/appcraft-site/'
-publishDir: docs
 languageCode: en-us
 title: AppCraft
-theme: appcraft-site-hugo-theme
-disqusShortname: username
 googleAnalytics: ''
+publishDir: docs
 params:
   author: Adam Arold
   description: End to end
@@ -23,7 +21,14 @@ params:
     - swift
 menu:
   main:
-
+    - url: /
+      identifier: logo
+      name: ""
+      weight: 1
+    - url: /programs
+      identifier: programs
+      name: Programs
+      weight: 2
   icon:
     - url: 'mailto:info@appcraft.hu'
       name: AppCraft
@@ -31,6 +36,10 @@ menu:
     - url: 'https://github.com/AppCraft-Projects/'
       name: github
       weight: 2
-    - url: 'https://twitter.com/AppCraftEnd2End/'
+    - url: 'https://twitter.com/username/'
       name: twitter
       weight: 3
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  event: "events"

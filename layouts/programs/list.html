@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section id="taxonomy-menu">
+    <ul class="nav nav-tabs">
+        {{ range $key, $taxonomy := .Site.Taxonomies.events }}
+        <li role="presentation"><a href="/appcraft-site/events/{{ $key }}">{{ $key }}</a></li>
+        {{ end }}
+    </ul>
+</section>
+<main>
+    <h2>{{ .Title }}</h2>
+    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+</main>
+{{ end }}
