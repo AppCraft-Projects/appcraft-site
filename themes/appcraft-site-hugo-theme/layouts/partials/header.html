@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-    <head>
-        {{ partial "head-open" . }}
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ .Title }}</title>
-        {{ partial "css" . }} {{ partial "js" . }} {{ .Hugo.Generator }}
-        {{ if .RSSLink }}
-        <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-        <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-        {{ end }}
-        
-        {{ if .Site.GoogleAnalytics }}
-        <!-- Global Site Tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)};
-          gtag('js', new Date());
+<head>
+    {{ partial "head-open" . }}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }}</title>
+    {{ partial "css" . }} {{ partial "js" . }} {{ .Hugo.Generator }}
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>
+    {{ end }}
 
-          gtag('config', '{{ .Site.GoogleAnalytics }}');
-        </script>
-        {{ end }}
-    </head>
+    {{ if .Site.GoogleAnalytics }}
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    <body>
-        {{ partial "body-open" . }}
-        <nav class="navbar navbar-default navbar-fixed-top">
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
 
-            <div class="container">
+        gtag('config', '{{ .Site.GoogleAnalytics }}');
+    </script>
+    {{ end }}
+</head>
 
-                <div class="navbar-header">
+<body>
+{{ partial "body-open" . }}
+<nav class="navbar navbar-default navbar-fixed-top">
 
-                    <a class="navbar-brand visible-xs" href="#">{{ .Title }}</a>
+    <div class="container">
 
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+        <div class="navbar-header">
 
-                </div>
+            <a class="navbar-brand visible-xs" href="#">{{ .Title }}</a>
 
-                <div class="collapse navbar-collapse">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
-                    {{ if .Site.Menus.main }}
-                        <ul class="nav navbar-nav">
-                            {{ range sort .Site.Menus.main }}
-                                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                            {{ end }}
-                        </ul>
-                    {{ end }}
+        </div>
 
-                    {{ if .Site.Menus.icon }}
-                        <ul class="nav navbar-nav navbar-right">
-                            {{ range sort .Site.Menus.icon }}
-                                <li class="navbar-icon"><a href="{{ .URL }}"><i class="fa fa-{{ .Name }}"></i></a></li>
-                            {{ end }}
-                        </ul>
-                    {{ end }}
+        <div class="collapse navbar-collapse">
 
-                </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                {{ range sort .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
 
-            </div>
+            {{ if .Site.Menus.icon }}
+            <ul class="nav navbar-nav navbar-right">
+                {{ range sort .Site.Menus.icon }}
+                <li class="navbar-icon"><a href="{{ .URL }}"><i class="fa fa-{{ .Name }}"></i></a></li>
+                {{ end }}
+            </ul>
+            {{ end }}
 
-        </nav>
+        </div>
+
+    </div>
+
+</nav>

@@ -23,15 +23,7 @@ params:
     - swift
 menu:
   main:
-    - url: /
-      name: Home
-      weight: 1
-    - url: /post/
-      name: Posts
-      weight: 2
-    - url: /project/
-      name: Projects
-      weight: 3
+
   icon:
     - url: 'mailto:info@appcraft.hu'
       name: AppCraft
@@ -39,6 +31,6 @@ menu:
     - url: 'https://github.com/AppCraft-Projects/'
       name: github
       weight: 2
-    - url: 'https://twitter.com/username/'
+    - url: 'https://twitter.com/AppCraftEnd2End/'
       name: twitter
       weight: 3
