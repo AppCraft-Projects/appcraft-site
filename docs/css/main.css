@@ -1,105 +1,261 @@
-html, body {
-    height: 100%;
+@charset "utf-8";
+@import "media.css";
+@import "gist.css";
+
+:root {
+    /** fonts **/
+    --default-font: 'PT Sans', sans-serif;
+    --accent-font: 'PT Serif', serif;
+    --code-font: 'Source Code Pro', monospace;
+
+    /** sizes **/
+    --one-liner-height: 2.5em;
+    --sub-one-liner-height: 2.4em;
+    --logical-separator-spacing: 1em;
+    --header-bottom-spacing: 0.1em;
+    --section-spacing: 1em;
+    --inline-spacing: 0.5em;
+    --max-chars: 80ch;
+    --accent-border-width: 0.25rem;
+
+    /** colors **/
+
+    --accent-color: #2aa198;
+    --bright-foreground-color: #073642;
+    --dark-foreground-color: #002b36;
+    --bright-background-color: #fdf6e3;
+    --dark-background-color: #eee8d5;
+
+    /** decoration **/
+    --box-shadow: 0px 4px 5px 0px rgba(105, 105, 105, 0.25);
+
 }
 
-#logo {
-    display: block;
-    float: left;
-    height: 3em;
-    width: 3em;
-    background-size:cover;
-    margin: 0.3em 0 0 0;
-    text-decoration: none;
-    background-image: url("../images/appcraft_logo.png");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: var(--default-font);
+    font-size: 100%;
 }
 
 body {
-    padding-top: 55px;
-    display: flex;
+    background-color: var(--bright-background-color);
+    color: var(--dark-foreground-color);
+    line-height: 1.4em;
+}
+
+#main-menu {
     text-align: center;
-    flex-direction: column;
+    background-color: var(--dark-background-color);
+    border-top: 0.5rem solid var(--accent-color);
+    box-shadow: var(--box-shadow);
 }
 
-main {
-    margin: auto;
-    padding: 25px;
-    flex: 1 0 auto;
-    max-width: 750px;
+#main-menu a {
+    margin: 0 0.25em;
+    line-height: var(--one-liner-height);
 }
 
-/*footer*/
-
-.copyright {
-    margin: 15px 0;
+li {
+    margin: 0 0 0.25em 1em
 }
 
-/*home page*/
-
-.intro {
-    margin: 25vh 0;
+ul:last-child li:last-child {
+    margin-bottom: 0;
 }
 
-.intro > h1 {
-    color: #212121;
-    font-size: 12vh;
+ul {
+    margin: var(--section-spacing) 0;
 }
 
-.intro > h2 {
-    color: #757575;
-    font-size: 3vmin;
+article img {
+    margin: var(--section-spacing) auto;
+    border: 1px solid var(--accent-color);
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
 }
 
-/*apply accent colour to links*/
-
-a:link, a:visited {
-    color: var(--accent);
+code, blockquote code {
+    font-family: var(--code-font);
+    font-style: italic;
+    color: var(--bright-foreground-color);
 }
 
-a.icon:hover {
+#tldr, blockquote {
+    background-color: var(--dark-background-color);
+    border-left: var(--accent-border-width) solid var(--accent-color);
+    padding: 0.5em;
+    box-shadow: var(--box-shadow);
+    box-sizing: border-box;
+}
+
+#tldr {
+    margin-bottom: var(--logical-separator-spacing);
+}
+
+blockquote {
+    line-height: 1.4em;
+    font-size: 0.85em;
+    font-style: italic;
+    margin: var(--section-spacing) 0;
+}
+
+blockquote li {
+    list-style-type: circle;
+}
+
+cite {
+    font-family: var(--accent-font);
+    font-style: italic;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+a {
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--accent) !important;
+    text-decoration: underline;
 }
 
-/*paginator at bottom of list view*/
-
-.pages {
-    padding: 15px 0;
+h2 {
+    font-family: var(--accent-font);
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding: var(--logical-separator-spacing) 0 var(--header-bottom-spacing) 0;
 }
 
-.pages-icon {
-    padding: 0 15px;
+h3 {
+    font-family: var(--accent-font);
+    font-size: 1.2em;
+    line-height: 1.3em;
+    padding: var(--logical-separator-spacing) 0 var(--header-bottom-spacing) 0;
 }
 
-/*list item for posts and projects*/
-
-.item {
-    padding: 10px 0;
+h4 {
+    font-family: var(--accent-font);
+    font-size: 1em;
+    line-height: 1.1em;
+    padding: var(--logical-separator-spacing) 0 var(--header-bottom-spacing) 0;
 }
 
-.item-tag {
-    background-color: var(--accent);
+#home {
+    display: block;
+    float: left;
+    background: url("../images/appcraft_logo.png");
+    height: var(--sub-one-liner-height);
+    width: var(--sub-one-liner-height);
+    background-size: cover;
+    margin: 0.1em 0 0 0;
+    text-decoration: none;
 }
 
-/*navigation bar icons*/
-
-.navbar-icon {
-    font-size: 125%;
-    display: inline-block !important;
+#contact-button {
+    display: block;
+    margin: var(--logical-separator-spacing) auto;
+    line-height: var(--one-liner-height);
+    padding: 0 var(--one-liner-height);
+    background: var(--accent-color);
+    color: var(--dark-background-color);
+    width: 6em;
+    text-align: center;
+    border: 0.1em var(--accent-color) solid;
 }
 
-/*coloured borders at top and bottom of the page*/
+#contact-button:hover {
+    text-decoration: none;
+    background: var(--dark-background-color);
+    color: var(--bright-foreground-color);
+}
 
-.navbar.navbar-default {
-    border-top: var(--border-width) solid var(--accent);
+#home a:hover {
+    text-decoration: none;
+}
+
+#page {
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--accent-font);
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+    margin: 0;
+    padding-bottom: 0.75em;
+}
+
+header p {
+    font-family: var(--accent-font);
+}
+
+#post-meta {
+    padding-bottom: 1.5em;
+}
+
+#wrapper, #teaser, #footer-content, #page-navigation, #nav-content {
+    padding: 0 var(--section-spacing);
+    margin: 0 auto;
+    max-width: var(--max-chars);
+    position: relative;
+}
+
+#wrapper {
+    margin-top: 1.5em;
+}
+
+#teaser {
+    padding-bottom: var(--section-spacing);
+}
+
+#next {
+    display: block;
+    float: right;
+}
+
+#intro {
+    margin: 0 auto var(--logical-separator-spacing) auto;
+    max-width: var(--max-chars);
+}
+
+#teaser-section, #bottom {
+    background-color: var(--dark-background-color);
+    color: var(--dark-foreground-color);
+}
+
+#page-navigation {
+    line-height: var(--one-liner-height);
+    overflow: auto;
+}
+
+#notices, #notices a {
+    text-align: center;
+    line-height: var(--one-liner-height);
+    font-size: 0.8em;
 }
 
 footer {
-    border-bottom: var(--border-width) solid var(--accent);
+    background-color: var(--bright-foreground-color);
+    color: var(--bright-background-color);
 }
 
-img {
-    max-width: 100%;
+footer h2 {
+    padding-top: var(--section-spacing);
+}
+
+#bottom.stickybottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

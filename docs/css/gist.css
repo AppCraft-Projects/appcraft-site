@@ -1,0 +1,48 @@
+body .gist {
+  margin: $section-spacing 0;
+  box-shadow: $box-shadow;
+}
+
+body .gist .gist-file {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+}
+
+body .gist .gist-data {
+  border: none;
+  border-radius: 0;
+}
+
+body .gist .blob-wrapper {
+  background-color: $dark-background-color;
+  border: none;
+  border-radius: 0;
+}
+
+body .gist .highlight {
+  background-color: $dark-background-color;
+  border: none;
+  border-radius: 0;
+}
+
+body .gist .blob-code {
+  font-size: 1.1em !important;
+  font-family: $code-font !important;
+}
+
+body .gist tr:first-child td {
+  padding-top: 0.5em !important;
+}
+
+body .gist tr:last-child td {
+  padding-bottom: 0.5em !important;
+}
+
+body .gist .blob-num {
+  display: none;
+}
+
+body .gist .gist-meta {
+  display: none;
+}

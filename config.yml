@@ -3,26 +3,10 @@ languageCode: en-us
 title: AppCraft
 googleAnalytics: ''
 publishDir: docs
-params:
-  author: Adam Arold
-  description: End to end
-  githubUsername: AppCraft-Projects
-  accent: teal
-  showBorder: true
-  backgroundColor: white
-  font: Raleway
-  highlight: true
-  highlightStyle: solarized-dark
-  highlightLanguages:
-    - go
-    - haskell
-    - kotlin
-    - scala
-    - swift
 menu:
   main:
     - url: /
-      identifier: logo
+      identifier: home
       name: ""
       weight: 1
     - url: /programs
