@@ -1,0 +1,14 @@
+about_page_url: "/"
+pages:
+
+- title: "GitHub"
+  id: "github-link"
+  url: "https://github.com/AppCraft-Projects"
+
+- title: "Twitter"
+  id: "twitter-link"
+  url: "https://twitter.com/@appcraftend2end"
+
+- title: "Contact"
+  id: "contact-link"
+  url: "mailto:info@appcraft.hu"

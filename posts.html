@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div id="intro">
+    <header>
+        <h1>Posts</h1>
+    </header>
+    <div id="latest-posts">
+        {% for post in site.posts %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+        {% endfor %}
+    </div>
+</div>

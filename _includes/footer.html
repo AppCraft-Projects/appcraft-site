@@ -1,0 +1,36 @@
+<div id="bottom">
+    {% if page.previous.url or page.next.url or page.url == site.data.static_page_data.about_page_url %}
+        {% if page.previous.url or page.next.url %}
+            <div id="page-navigation">
+                <span id="prev">
+                    {% if page.previous.url %}
+                        Previous: <a class="prev" href="{{page.previous.url | prepend:site.baseurl}}">&laquo;{{page.previous.title}}</a>
+                    {% else %}
+                        &nbsp;
+                    {% endif %}
+                </span>
+                <span id="next">
+                    {% if page.next.url %}
+                        Next: <a class="next" href="{{page.next.url | prepend:site.baseurl}}">{{page.next.title}} &raquo;</a>
+                    {% else %}
+                        &nbsp;
+                    {% endif %}
+                </span>
+            </div>
+        {% else %}
+            <section id="teaser-section">
+                <div id="teaser">
+                    {% include latest_posts.html %}
+                </div>
+            </section>
+        {% endif %}
+    {% endif %}
+    <footer>
+        <div id="footer-content">
+            {% if page.url != site.data.static_page_data.about_page_url %}
+                {% include about.html %}
+            {% endif %}
+            {% include licenses.html %}
+        </div>
+    </footer>
+</div>

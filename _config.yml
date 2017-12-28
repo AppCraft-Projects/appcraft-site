@@ -1,0 +1,19 @@
+title: AppCraft
+email: info@appcraft.hu
+description: >
+  AppCraft description.
+baseurl: "/appcraft-site"
+url: "http://the-cogitator.com"
+twitter_username: AppCraftEnd2End
+github_username:  AppCraft-Projects
+incremental: true
+destination: "docs"
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "AppCraft"

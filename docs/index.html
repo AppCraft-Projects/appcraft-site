@@ -1,89 +1,80 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="AppCraft">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="TODO">
-
-    <title>AppCraft</title>
-
-    <link rel="stylesheet" href="https://appcraft-projects.github.io/appcraft-site//css/main.css">
-    <meta name="generator" content="Hugo 0.31.1" />
-    
-    <link href="https://appcraft-projects.github.io/appcraft-site/index.xml" rel="alternate" type="application/rss+xml" title="AppCraft"/>
-    <link href="https://appcraft-projects.github.io/appcraft-site/index.xml" rel="feed" type="application/rss+xml" title="AppCraft"/>
-    
-
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <meta name="author" content="Adam Arold">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="canonical" href="TODO">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 
-    
+    <title>AppCraft</title>
+    <meta name="description"
+          content="AppCraft description.
+">
+
+    <link rel="stylesheet" href="/appcraft-site/css/main.css">
+    <link rel="canonical" href="/appcraft-site/">
+    <link rel="alternate"
+          type="application/rss+xml"
+          title="AppCraft"
+          href="http://localhost:4000/appcraft-site/feed.xml">
 </head>
 
 <body id="site">
 <div id="page">
-    <nav id="main-menu">
+    <nav>
     <div id="nav-content">
+        <a id="home" href="/">&nbsp;</a>
         
+            <a href="/appcraft-sitehttps://github.com/AppCraft-Projects" alt="GitHub" id="github-link">GitHub</a>
         
-        <a href="/appcraft-site/" alt="" id="home"></a>
+            <a href="/appcraft-sitehttps://twitter.com/@appcraftend2end" alt="Twitter" id="twitter-link">Twitter</a>
         
-        <a href="/appcraft-site/programs" alt="Programs" id="programs">Programs</a>
-        
-        
-
-        
-        
-        <a href="mailto:info@appcraft.hu" alt="AppCraft" id="">AppCraft</a>
-        
-        <a href="https://github.com/AppCraft-Projects/" alt="github" id="">github</a>
-        
-        <a href="https://twitter.com/username/" alt="twitter" id="">twitter</a>
-        
+            <a href="/appcraft-sitemailto:info@appcraft.hu" alt="Contact" id="contact-link">Contact</a>
         
     </div>
 </nav>
     <div id="wrapper">
-        
-<main>
-    <div class="intro">
+        <div id="intro">
+    <header>
         <h1>AppCraft</h1>
-        <h2></h2>
-    </div>
-</main>
+    </header>
+    <p>
+        End to End
+    </p>
+    <a id="contact-button" href="mailto:info@appcraft.hu">Contact me</a>
+</div>
 
     </div>
     <div id="bottom">
-
     
-    <div id="page-navigation">
-        <nav role="pagination" class="post-list-pagination">
-            <a href="/" class="prev">&laquo;Previous</a>
-            <a href="/" class="next">Next &raquo;</a>
-        </nav>
-    </div>
-    
-    <section id="teaser-section">
-        <div id="teaser">
-            <h3>Check out our latest posts</h3>
-
+        
+            <section id="teaser-section">
+                <div id="teaser">
+                    <h3>Check out our latest posts</h3>
 <div id="latest-posts">
-    <h4><a href="/">Post title</a></h4>
-    <p>Excerpt of post</p>
+    
+    <h4><a href="/appcraft-site/2017/12/28/foo-bar.html">Web Design Cheat Sheet</a></h4>
+    <p>After reading a lot of guides and tutorials about design I decided to pull them together in a simple cheat sheet. The aim of this document is not to teach you how to design things but to get you started.</p>
+    
     <h4><a href="/posts">More posts &raquo;</a></h4>
 </div>
-        </div>
-    </section>
+                </div>
+            </section>
+        
+    
     <footer>
         <div id="footer-content">
             
-            <h2>About us</h2>
-<p id="about">This is the description</p>
             <p id="notices">
     <a href='http://www.catb.org/hacker-emblem/'>
         <img
@@ -100,7 +91,6 @@
         </div>
     </footer>
 </div>
-
 </div>
 <script>
 
@@ -142,10 +132,12 @@
         throttle("resize", "optimizedResize");
     })();
 
-    
+    // handle event
     window.addEventListener("optimizedResize", function () {
         fixFooter()
     });
+
+    // google analytics here
 
 </script>
 </body>

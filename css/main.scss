@@ -1,0 +1,278 @@
+---
+---
+
+@charset "utf-8";
+
+// fonts
+$default-font: 'PT Sans', sans-serif;
+$accent-font: 'PT Serif', serif;
+$code-font: 'Source Code Pro', monospace;
+
+// sizes
+$one-liner-height: 2.5em;
+$sub-one-liner-height: 2.4em;
+$logical-separator-spacing: 1em;
+$header-bottom-spacing: 0.1em;
+$section-spacing: 1em;
+$inline-spacing: 0.5em;
+$max-chars: 80ch;
+$accent-border-width: 0.25rem;
+
+// colors
+
+$accent-color: #2aa198;
+$bright-foreground-color: #073642;
+$dark-foreground-color: #002b36;
+$bright-background-color: #fdf6e3;
+$dark-background-color: #eee8d5;
+
+// decoration
+$box-shadow: 0px 4px 5px 0px rgba(105,105,105,0.25);
+
+// general rules
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: $default-font;
+  font-size: 100%;
+}
+
+body {
+  background-color: $bright-background-color;
+  color: $dark-foreground-color;
+  line-height: 1.4em;
+}
+
+nav {
+  text-align: center;
+  background-color: $dark-background-color;
+  border-top: 0.5rem solid $accent-color;
+  box-shadow: $box-shadow;
+}
+
+nav a {
+  margin: 0 0.25em;
+  line-height: $one-liner-height;
+}
+
+li {
+  margin: 0 0 0.25em 1em
+}
+
+ul:last-child li:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: $section-spacing 0;
+}
+
+article img {
+  margin: $section-spacing auto;
+  border: 1px solid $accent-color;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+code, blockquote code {
+  font-family: $code-font;
+  font-style: italic;
+  color: $bright-foreground-color;
+}
+
+#tldr, blockquote {
+  background-color: $dark-background-color;
+  border-left: $accent-border-width solid $accent-color;
+  padding: 0.5em;
+  box-shadow: $box-shadow;
+  box-sizing: border-box;
+}
+
+#tldr {
+  margin-bottom: $logical-separator-spacing;
+}
+
+blockquote {
+  line-height: 1.4em;
+  font-size: 0.85em;
+  font-style: italic;
+  margin: $section-spacing 0;
+}
+
+blockquote li {
+  list-style-type: circle;
+}
+
+cite {
+  font-family: $accent-font;
+  font-style: italic;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: $accent-font;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
+}
+
+h3 {
+  font-family: $accent-font;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
+}
+
+h4 {
+  font-family: $accent-font;
+  font-size: 1em;
+  line-height: 1.1em;
+  padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
+}
+
+// section rules
+
+#home {
+  display: block;
+  float: left;
+  background: url("/assets/logo_70.png");
+  height: $sub-one-liner-height;
+  width: $sub-one-liner-height;
+  background-size:cover;
+  margin: 0.1em 0 0 0;
+  text-decoration: none;
+}
+
+#contact-button {
+  display: block;
+  margin: $logical-separator-spacing auto;
+  line-height: $one-liner-height;
+  padding: 0 $one-liner-height;
+  background: $accent-color;
+  color: $dark-background-color;
+  width: 6em;
+  text-align: center;
+  border: 0.1em $accent-color solid;
+}
+
+#contact-button:hover {
+  text-decoration: none;
+  background: $dark-background-color;
+  color: $bright-foreground-color;
+}
+
+#home a:hover {
+  text-decoration: none;
+}
+
+#page {
+  padding: 0;
+}
+
+header {
+  text-align: center;
+
+  h1 {
+    font-family: $accent-font;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+    margin: 0;
+    padding-bottom: 0.75em;
+  }
+
+  p {
+    font-family: $accent-font;
+  }
+}
+
+#post-meta {
+  padding-bottom: 1.5em;
+}
+
+#wrapper, #teaser, #footer-content, #page-navigation, #nav-content {
+  padding: 0 $section-spacing;
+  margin: 0 auto;
+  max-width: $max-chars;
+  position: relative;
+}
+
+#wrapper {
+  margin-top: 1.5em;
+}
+
+#teaser {
+  padding-bottom: $section-spacing;
+}
+
+#next {
+  display: block;
+  float: right;
+}
+
+#intro {
+  margin: 0 auto $logical-separator-spacing auto;
+  max-width: $max-chars;
+}
+
+#teaser-section, #bottom {
+  background-color: $dark-background-color;
+  color: $dark-foreground-color;
+}
+
+#page-navigation {
+  line-height: $one-liner-height;
+  overflow: auto;
+}
+
+#notices, #notices a {
+  text-align: center;
+  line-height: $one-liner-height;
+  font-size: 0.8em;
+}
+
+#disqus {
+  margin-top: $section-spacing;
+}
+
+footer {
+  background-color: $bright-foreground-color;
+  color: $bright-background-color;
+}
+
+footer h2 {
+  padding-top: $section-spacing;
+}
+
+#bottom.stickybottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#disqus_thread {
+  overflow: hidden;
+
+  iframe {
+    margin-bottom: -65px;
+  }
+}
+
+/* imports */
+@import "media";
+@import "gist";

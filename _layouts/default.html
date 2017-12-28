@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="site">
+<div id="page">
+    {% include navigation.html %}
+    <div id="wrapper">
+        {{ content }}
+    </div>
+    {% include footer.html %}
+</div>
+<script>
+
+    function fixFooter() {
+        var page = document.getElementById('page');
+        var style = page.currentStyle || window.getComputedStyle(page);
+        var pageTopPadding = style.paddingTop.replace("px", "");
+        var wrapper = document.getElementById('wrapper');
+        var bottom = document.getElementById('bottom');
+        var arbitraryMarginToKeep = 30;
+        var totalHeight = wrapper.offsetHeight + bottom.offsetHeight + parseInt(pageTopPadding);
+        if (totalHeight + arbitraryMarginToKeep < window.innerHeight) {
+            bottom.classList.add("stickybottom");
+        } else {
+            bottom.classList.remove("stickybottom")
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        fixFooter();
+    }, false);
+
+    (function () {
+        var throttle = function (type, name, obj) {
+            obj = obj || window;
+            var running = false;
+            var func = function () {
+                if (running) {
+                    return;
+                }
+                running = true;
+                requestAnimationFrame(function () {
+                    obj.dispatchEvent(new CustomEvent(name));
+                    running = false;
+                });
+            };
+            obj.addEventListener(type, func);
+        };
+        throttle("resize", "optimizedResize");
+    })();
+
+    // handle event
+    window.addEventListener("optimizedResize", function () {
+        fixFooter()
+    });
+
+    // google analytics here
+
+</script>
+</body>
+</html>

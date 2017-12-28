@@ -1,0 +1,8 @@
+<nav>
+    <div id="nav-content">
+        <a id="home" href="/">&nbsp;</a>
+        {% for item in site.data.static_page_data.pages %}
+            <a href="{{ item.url | prepend:site.baseurl }}" alt="{{ item.title }}" id="{{ item.id }}">{{ item.title }}</a>
+        {% endfor %}
+    </div>
+</nav>
