@@ -95,7 +95,7 @@ h4 {
 #home {
   display: block;
   float: left;
-  background: url("/assets/logo_70.png");
+  background: url("../assets/appcraft_logo.png");
   height: 2.4em;
   width: 2.4em;
   background-size: cover;
