@@ -1,0 +1,12 @@
+---
+layout: default
+permalink: /events/index.html
+---
+
+{% assign events = site.documents| where: 'taxonomy', 'event' | sort: 'date' | reverse %}
+
+{% for event in events %}
+    <h2>{{ event.title }}</h2>
+    <p>{{ event.description }}</p>
+    <p><a href="{{ event.url | prepend:site.baseurl }}">{{ event.title }}</a></p>
+{% endfor %}

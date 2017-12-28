@@ -1,0 +1,9 @@
+---
+layout: default
+permalink: /events/conferences/index.html
+---
+{% for item in site.conferences %}
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.description }}</p>
+    <p><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></p>
+{% endfor %}
