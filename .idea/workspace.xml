@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b161df0-6aa4-4ee5-9278-f9b275111b90" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/licenses.html" afterPath="$PROJECT_DIR$/_includes/licenses.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" afterPath="$PROJECT_DIR$/_includes/navigation.html" />
-      <change beforePath="$PROJECT_DIR$/assets/logo_48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/logo_64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/logo_70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/foo-bar.html" afterPath="$PROJECT_DIR$/docs/2017/12/28/foo-bar.html" />
-      <change beforePath="$PROJECT_DIR$/docs/404.html" afterPath="$PROJECT_DIR$/docs/404.html" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/logo_48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/logo_64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/logo_70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" afterPath="$PROJECT_DIR$/docs/css/main.css" />
       <change beforePath="$PROJECT_DIR$/docs/feed.xml" afterPath="$PROJECT_DIR$/docs/feed.xml" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change beforePath="$PROJECT_DIR$/docs/posts.html" afterPath="$PROJECT_DIR$/docs/posts.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,6 +80,10 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_includes/navigation.html" />
         <option value="$PROJECT_DIR$/_includes/licenses.html" />
+        <option value="$PROJECT_DIR$/events/index.html" />
+        <option value="$PROJECT_DIR$/events/meetups/index.html" />
+        <option value="$PROJECT_DIR$/events/conferences/index.html" />
+        <option value="$PROJECT_DIR$/events/workshops/index.html" />
       </list>
     </option>
   </component>
@@ -137,12 +127,7 @@
             <path>
               <item name="appcraft-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="appcraft-site" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appcraft-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appcraft-site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,14 +143,15 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\appcraft-site\layouts\event" />
-      <recent name="C:\dev\appcraft-site\layouts\meetups" />
-      <recent name="C:\dev\appcraft-site\layouts\section" />
-      <recent name="C:\dev\appcraft-site\content\programs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\appcraft-site\content\programs\meetups" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\appcraft-site\events\workshops" />
+      <recent name="C:\dev\appcraft-site\events\conferences" />
+      <recent name="C:\dev\appcraft-site\events\meetups" />
+      <recent name="C:\dev\appcraft-site\layouts\event" />
+      <recent name="C:\dev\appcraft-site\layouts\meetups" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,12 +237,12 @@
       <workItem from="1514282692218" duration="253000" />
       <workItem from="1514409518593" duration="2471000" />
       <workItem from="1514466908498" duration="7222000" />
-      <workItem from="1514488715575" duration="3183000" />
+      <workItem from="1514488715575" duration="3776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13129000" />
+    <option name="totallyTimeSpent" value="13722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -628,6 +614,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/workshops/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/conferences/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/meetups/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
