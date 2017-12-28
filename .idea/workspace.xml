@@ -2,93 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b161df0-6aa4-4ee5-9278-f9b275111b90" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/archetypes/default.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/archetypes/post.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/archetypes/project.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/config.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/events/hwsw.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/events/kotlin-workshop.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/events/meetups/appcraft-meetup.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/content/events/meetups/appcraft-meetup2.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/info.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/categories/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/css/gist.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" afterPath="$PROJECT_DIR$/docs/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/docs/css/media.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/conferences/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/conferences/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/conferences/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/meetups/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/meetups/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/meetups/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/workshops/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/workshops/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/events/workshops/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/appcraft_logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/programs/appcraft-meetup/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/programs/appcraft-meetup2/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/programs/hwsw/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/programs/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/programs/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/programs/kotlin-workshop/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/programs/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/sitemap.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/2/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/2/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/2/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/appcraft/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/appcraft/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/appcraft/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/conference/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/conference/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/conference/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/hwsw/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/hwsw/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/hwsw/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/kotlin/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/kotlin/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/kotlin/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/meetup/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/meetup/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/meetup/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/random/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/random/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/random/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/workshop/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/workshop/index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/workshop/page/1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/event/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/event/single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/events/single.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/head.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/latest_posts.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/licenses.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/list-item.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/navigation.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/paginator.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/programs/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/baseurl.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/taxonomy/event.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/layouts/taxonomy/event.terms.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/gist.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/media.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/images/appcraft_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,11 +15,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appcraft-site.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appcraft-site.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -308,12 +253,12 @@
       <workItem from="1514282692218" duration="253000" />
       <workItem from="1514409518593" duration="2471000" />
       <workItem from="1514466908498" duration="7222000" />
-      <workItem from="1514488715575" duration="1118000" />
+      <workItem from="1514488715575" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11064000" />
+    <option name="totallyTimeSpent" value="11183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -661,6 +606,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcraft-site.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
