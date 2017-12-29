@@ -58,7 +58,7 @@ nav {
   box-shadow: $box-shadow;
 }
 
-nav a {
+.nav-content a {
   margin: 0 0.25em;
   line-height: $one-liner-height;
 }
@@ -124,7 +124,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, .selected {
   text-decoration: underline;
 }
 
@@ -149,7 +149,6 @@ h4 {
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
-// section rules
 
 // events
 
@@ -185,6 +184,8 @@ h4 {
   color: $non-important-color;
   font-style: italic;
 }
+
+// section rules
 
 #home {
   display: block;

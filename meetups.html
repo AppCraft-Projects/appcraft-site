@@ -1,12 +1,13 @@
 ---
 layout: default
 permalink: /events/meetups/index.html
+selected: meetups
 ---
 
 {% include event_nav.html %}
 
 <ul id="event-list">
-{% for event in site.meetups %}
+    {% for event in site.meetups %}
     <li class="event-card {{ event.collection }}-card" data-date="{{ event.event_date | date: '%Y%m%d' }}">
         <p>
             <a class="event-title" href="{{ event.url | prepend:site.baseurl }}">{{ event.title }}</a>
@@ -14,5 +15,5 @@ permalink: /events/meetups/index.html
         </p>
         <p>{{ event.excerpt }}</p>
     </li>
-{% endfor %}
+    {% endfor %}
 </ul>

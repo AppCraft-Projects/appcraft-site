@@ -16,12 +16,15 @@ collections:
   meetups:
     output: true
     permalink: "/events/:collection/:name"
+    taxonomy: "event"
   conferences:
     output: true
     permalink: "/events/:collection/:name"
+    taxonomy: "event"
   workshops:
     output: true
     permalink: "/events/:collection/:name"
+    taxonomy: "event"
 
 # Handling Reading
 safe:                 false

@@ -1,7 +1,15 @@
-<nav>
-    <div class="nav-content">
-        {% for item in site.collections | where: 'taxonomy', 'event' %}
-            <a href="{{ site.baseurl }}/events/{{ item.label }}">{{ item.label }}</a>
-        {% endfor %}
-    </div>
-</nav>
+<div class="nav-content">
+    {% assign events = site.collections | where: 'taxonomy', 'event' %}
+    {% for item in events | where: "taxonomy", "event" %}
+        {% if page.selected == item.label %}
+            <a class="selected" href="{{ site.baseurl }}/events/{{ item.label }}">
+        {% else %}
+            <a href="{{ site.baseurl }}/events/{{ item.label }}">
+        {% endif %}
+                {{ item.label }}
+            </a>
+    {% if forloop.last == false %}
+     |
+    {% endif %}
+    {% endfor %}
+</div>

@@ -3,188 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5b161df0-6aa4-4ee5-9278-f9b275111b90" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_conferences/conference1.md" afterPath="$PROJECT_DIR$/_conferences/conference1.md" />
-      <change beforePath="$PROJECT_DIR$/_conferences/conference2.md" afterPath="$PROJECT_DIR$/_conferences/conference2.md" />
       <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" afterPath="$PROJECT_DIR$/_includes/navigation.html" />
-      <change beforePath="$PROJECT_DIR$/_meetups/meetup1.md" afterPath="$PROJECT_DIR$/_meetups/meetup1.md" />
-      <change beforePath="$PROJECT_DIR$/_meetups/meetup2.md" afterPath="$PROJECT_DIR$/_meetups/meetup2.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0144.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01444.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014445.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0144456.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01444567.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014445678.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01445.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014455.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01445510.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0144557.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014455711.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014455798.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01445579812.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01445589.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0144558913.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014456.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0144561010.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014456101015.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01445614.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-01445711.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0144571116.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-014459.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02557.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025571112.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02557111218.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0255717.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025576.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0255761213.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025576121320.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02557619.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0255769.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02557691314.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0255769131422.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025576921.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025578.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0255781415.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025578141524.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02557823.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0256.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025610.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0256101616.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025610161627.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02561026.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02561517.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0256151728.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025625.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02567.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0256711.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02567111818.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0256711181831.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025671130.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-025671719.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-02567171932.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0256729.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03669.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0366912.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03669122020.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0366912202035.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036691234.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036691921.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03669192136.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0366933.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036698.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03669813.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036698132222.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03669813222239.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0366981338.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0366982123.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036698212340.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03669837.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0368.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036814.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0368142424.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036814242443.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03681442.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03682325.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0368232544.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036841.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03689.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0368915.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03689152626.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0368915262647.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036891546.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-036892527.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-03689252748.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-12-28-test-0368945.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_workshops/workshop1.md" afterPath="$PROJECT_DIR$/_workshops/workshop1.md" />
-      <change beforePath="$PROJECT_DIR$/_workshops/workshop2.md" afterPath="$PROJECT_DIR$/_workshops/workshop2.md" />
+      <change beforePath="$PROJECT_DIR$/_includes/event_nav.html" afterPath="$PROJECT_DIR$/_includes/event_nav.html" />
       <change beforePath="$PROJECT_DIR$/conferences.html" afterPath="$PROJECT_DIR$/conferences.html" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0144.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01444.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014445.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0144456.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01444567.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014445678.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01445.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014455.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01445510.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0144557.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014455711.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014455798.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01445579812.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01445589.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0144558913.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014456.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0144561010.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014456101015.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01445614.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-01445711.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0144571116.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-014459.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02557.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025571112.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02557111218.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0255717.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025576.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0255761213.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025576121320.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02557619.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0255769.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02557691314.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0255769131422.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025576921.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025578.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0255781415.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025578141524.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02557823.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0256.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025610.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0256101616.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025610161627.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02561026.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02561517.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0256151728.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025625.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02567.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0256711.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02567111818.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0256711181831.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025671130.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-025671719.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-02567171932.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0256729.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03669.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0366912.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03669122020.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0366912202035.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036691234.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036691921.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03669192136.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0366933.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036698.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03669813.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036698132222.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03669813222239.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0366981338.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0366982123.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036698212340.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03669837.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0368.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036814.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0368142424.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036814242443.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03681442.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03682325.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0368232544.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036841.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03689.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0368915.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03689152626.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0368915262647.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036891546.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-036892527.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-03689252748.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/2017/12/28/test-0368945.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docs/404.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docs/LICENSE" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docs/appcraft-site.iml" afterPath="" />
@@ -203,8 +25,6 @@
       <change beforePath="$PROJECT_DIR$/docs/feed.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docs/posts.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/events.html" afterPath="$PROJECT_DIR$/events.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/meetups.html" afterPath="$PROJECT_DIR$/meetups.html" />
       <change beforePath="$PROJECT_DIR$/workshops.html" afterPath="$PROJECT_DIR$/workshops.html" />
     </list>
@@ -217,13 +37,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event_nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/event_nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>logo</find>
       <find>h3</find>
       <find>contact</find>
+      <find>a</find>
+      <find>:hover</find>
       <find>nav</find>
     </findStrings>
   </component>
@@ -286,16 +129,16 @@
         <option value="$PROJECT_DIR$/_workshops/workshop2.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_conferences/conference1.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/event_details.html" />
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/_includes/navigation.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_posts/2017-12-28-test-03669813222239.md" />
-        <option value="$PROJECT_DIR$/_includes/event_nav.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/conferences.html" />
-        <option value="$PROJECT_DIR$/workshops.html" />
         <option value="$PROJECT_DIR$/meetups.html" />
+        <option value="$PROJECT_DIR$/workshops.html" />
+        <option value="$PROJECT_DIR$/_includes/event_nav.html" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
       </list>
     </option>
   </component>
@@ -330,6 +173,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,7 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -461,14 +304,16 @@
       <workItem from="1514503456534" duration="3546000" />
       <workItem from="1514548023026" duration="2147000" />
       <workItem from="1514578545912" duration="3877000" />
+      <workItem from="1514583199114" duration="1747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28122000" />
+    <option name="totallyTimeSpent" value="29869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -479,7 +324,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27172503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27626458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -621,7 +466,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="36">
             <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -632,7 +476,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="36">
             <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -643,25 +486,16 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="36">
             <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_events.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_events.scss" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +511,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="36">
             <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -689,7 +521,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="36">
             <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -700,7 +531,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="36">
             <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -710,15 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,73 +554,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-28-test-03669813222239.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-28-test-03669813222239.md" />
+    <entry file="file://$PROJECT_DIR$/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/event_nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="68" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="261" column="1" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="1" />
+        <state relative-caret-position="381">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conferences.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workshops.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meetups.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshops.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/event_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
           <folding />
         </state>
       </provider>
