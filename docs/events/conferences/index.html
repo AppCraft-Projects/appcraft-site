@@ -26,14 +26,15 @@
     <link rel="alternate"
           type="application/rss+xml"
           title="AppCraft"
-          href="http://appcraft.hu/appcraft-site/feed.xml">
+          href="http://localhost:4000/appcraft-site/feed.xml">
 </head>
 
 <body id="site">
 <div id="page">
     <nav>
-    <div id="nav-content">
-        <a id="home" href="http://appcraft.hu/appcraft-site/">&nbsp;</a>
+    <div class="nav-content">
+        <a id="home" href="http://localhost:4000/appcraft-site/">&nbsp;</a>
+        <a href="/appcraft-site/events">Events</a>
         
             <a href="https://github.com/AppCraft-Projects" alt="GitHub" id="github-link">GitHub</a>
         
@@ -44,15 +45,39 @@
     </div>
 </nav>
     <div id="wrapper">
+        <nav>
+    <div class="nav-content">
         
-    <h2>Conference1</h2>
-    <p></p>
-    <p><a href="/appcraft-site/events/conferences/conference1">Conference1</a></p>
+            <a href="/appcraft-site/events/conferences">conferences</a>
+        
+            <a href="/appcraft-site/events/meetups">meetups</a>
+        
+            <a href="/appcraft-site/events/posts">posts</a>
+        
+            <a href="/appcraft-site/events/workshops">workshops</a>
+        
+    </div>
+</nav>
 
-    <h2>Conference2</h2>
-    <p></p>
-    <p><a href="/appcraft-site/events/conferences/conference2">Conference2</a></p>
-
+<ul id="event-list">
+    
+    <li class="event-card conferences-card" data-date="20180103">
+        <p>
+            <a class="event-title" href="/appcraft-site/events/conferences/conference1">Conference1</a>
+            <span class="event-date">2018. 01. 03.</span>
+        </p>
+        <p>conference 1 fourth</p>
+    </li>
+    
+    <li class="event-card conferences-card" data-date="20170101">
+        <p>
+            <a class="event-title" href="/appcraft-site/events/conferences/conference2">Conference2</a>
+            <span class="event-date">2017. 01. 01.</span>
+        </p>
+        <p>conference 2 past</p>
+    </li>
+    
+</ul>
     </div>
     <div id="bottom">
     

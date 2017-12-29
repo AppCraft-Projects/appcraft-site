@@ -17,14 +17,19 @@ $section-spacing: 1em;
 $inline-spacing: 0.5em;
 $max-chars: 80ch;
 $accent-border-width: 0.25rem;
+$non-important-font-size: 0.8em;
 
 // colors
-
 $accent-color: #2aa198;
 $bright-foreground-color: #073642;
 $dark-foreground-color: #002b36;
 $bright-background-color: #fdf6e3;
 $dark-background-color: #eee8d5;
+$non-important-color: #586e75;
+
+$meetup-color: #2aa198;
+$workshop-color: #d33682;
+$conference-color: #b58900;
 
 // decoration
 $box-shadow: 0px 4px 5px 0px rgba(105,105,105,0.25);
@@ -146,6 +151,41 @@ h4 {
 
 // section rules
 
+// events
+
+.event-list {
+
+}
+
+.event-card {
+  list-style: none;
+  background-color: $dark-background-color;
+  padding: 0.5em;
+  box-shadow: $box-shadow;
+  box-sizing: border-box;
+  margin: 0 0 $section-spacing 0;
+}
+
+.conferences-card {
+  border-left: $accent-border-width solid $conference-color;
+}
+
+.meetups-card {
+  border-left: $accent-border-width solid $meetup-color;
+}
+
+.workshops-card {
+  border-left: $accent-border-width solid $workshop-color;
+}
+
+.event-date {
+  display: block;
+  float: right;
+  font-size: $non-important-font-size;
+  color: $non-important-color;
+  font-style: italic;
+}
+
 #home {
   display: block;
   float: left;
@@ -157,7 +197,7 @@ h4 {
   text-decoration: none;
 }
 
-#contact-button {
+.cta-button {
   display: block;
   margin: $logical-separator-spacing auto;
   line-height: $one-liner-height;
@@ -169,7 +209,7 @@ h4 {
   border: 0.1em $accent-color solid;
 }
 
-#contact-button:hover {
+.cta-button:hover {
   text-decoration: none;
   background: $dark-background-color;
   color: $bright-foreground-color;
@@ -204,7 +244,7 @@ header {
   padding-bottom: 1.5em;
 }
 
-#wrapper, #teaser, #footer-content, #page-navigation, #nav-content {
+#wrapper, #teaser, #footer-content, #page-navigation, .nav-content {
   padding: 0 $section-spacing;
   margin: 0 auto;
   max-width: $max-chars;

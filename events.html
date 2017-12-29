@@ -3,10 +3,18 @@ layout: default
 permalink: /events/index.html
 ---
 
-{% assign events = site.documents| where: 'taxonomy', 'event' | sort: 'date' | reverse %}
+{% include event_nav.html %}
 
+{% assign events = site.documents | where: 'taxonomy', 'event' | sort: 'event_date' | reverse %}
+
+<ul id="event-list">
 {% for event in events %}
-    <h2>{{ event.title }}</h2>
-    <p>{{ event.description }}</p>
-    <p><a href="{{ event.url | prepend:site.baseurl }}">{{ event.title }}</a></p>
+    <li class="event-card {{ event.collection }}-card" data-date="{{ event.event_date | date: '%Y%m%d' }}">
+        <p>
+            <a class="event-title" href="{{ event.url | prepend:site.baseurl }}">{{ event.title }}</a>
+            <span class="event-date">{{ event.event_date | date: "%Y. %m. %d." }}</span>
+        </p>
+        <p>{{ event.excerpt }}</p>
+    </li>
 {% endfor %}
+</ul>

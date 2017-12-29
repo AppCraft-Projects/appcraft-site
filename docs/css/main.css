@@ -92,6 +92,30 @@ h4 {
   line-height: 1.1em;
   padding: 1em 0 0.1em 0; }
 
+.event-card {
+  list-style: none;
+  background-color: #eee8d5;
+  padding: 0.5em;
+  box-shadow: 0px 4px 5px 0px rgba(105, 105, 105, 0.25);
+  box-sizing: border-box;
+  margin: 0 0 1em 0; }
+
+.conferences-card {
+  border-left: 0.25rem solid #b58900; }
+
+.meetups-card {
+  border-left: 0.25rem solid #2aa198; }
+
+.workshops-card {
+  border-left: 0.25rem solid #d33682; }
+
+.event-date {
+  display: block;
+  float: right;
+  font-size: 0.8em;
+  color: #586e75;
+  font-style: italic; }
+
 #home {
   display: block;
   float: left;
@@ -102,7 +126,7 @@ h4 {
   margin: 0.1em 0 0 0;
   text-decoration: none; }
 
-#contact-button {
+.cta-button {
   display: block;
   margin: 1em auto;
   line-height: 2.5em;
@@ -113,7 +137,7 @@ h4 {
   text-align: center;
   border: 0.1em #2aa198 solid; }
 
-#contact-button:hover {
+.cta-button:hover {
   text-decoration: none;
   background: #eee8d5;
   color: #073642; }
@@ -139,7 +163,7 @@ header {
 #post-meta {
   padding-bottom: 1.5em; }
 
-#wrapper, #teaser, #footer-content, #page-navigation, #nav-content {
+#wrapper, #teaser, #footer-content, #page-navigation, .nav-content {
   padding: 0 1em;
   margin: 0 auto;
   max-width: 80ch;

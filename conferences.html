@@ -2,8 +2,17 @@
 layout: default
 permalink: /events/conferences/index.html
 ---
-{% for item in site.conferences %}
-    <h2>{{ item.title }}</h2>
-    <p>{{ item.description }}</p>
-    <p><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></p>
-{% endfor %}
+
+{% include event_nav.html %}
+
+<ul id="event-list">
+    {% for event in site.conferences %}
+    <li class="event-card {{ event.collection }}-card" data-date="{{ event.event_date | date: '%Y%m%d' }}">
+        <p>
+            <a class="event-title" href="{{ event.url | prepend:site.baseurl }}">{{ event.title }}</a>
+            <span class="event-date">{{ event.event_date | date: "%Y. %m. %d." }}</span>
+        </p>
+        <p>{{ event.excerpt }}</p>
+    </li>
+    {% endfor %}
+</ul>

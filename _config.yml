@@ -47,7 +47,7 @@ markdown:    kramdown
 highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true
 
 # Serving
 detach:  false
@@ -69,17 +69,20 @@ defaults:
       layout: "default"
       author: "AppCraft"
   - scope:
-      type: meetups
+      type: "meetups"
     values:
-      taxonomy: event
+      layout: "event_details"
+      taxonomy: "event"
   - scope:
-      type: conferences
+      type: "conferences"
     values:
-      taxonomy: event
+      layout: "event_details"
+      taxonomy: "event"
   - scope:
-      type: workshops
+      type: "workshops"
     values:
-      taxonomy: event
+      layout: "event_details"
+      taxonomy: "event"
 liquid:
   error_mode: warn
 

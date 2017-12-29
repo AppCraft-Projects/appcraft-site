@@ -1,0 +1,7 @@
+<nav>
+    <div class="nav-content">
+        {% for item in site.collections | where: 'taxonomy', 'event' %}
+            <a href="{{ site.baseurl }}/events/{{ item.label }}">{{ item.label }}</a>
+        {% endfor %}
+    </div>
+</nav>
