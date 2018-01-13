@@ -24,6 +24,11 @@ regenerate: true
         </div>
     </header>
     <div itemprop="articleBody">
+        {% if page.series %}
+            {% assign seriesdata = site.workshops | where: "series", page.series %}
+            {% include series_nav.html seriesdata = seriesdata %}
+        {% endif %}
+
         {{ content }}
     </div>
 </article>
