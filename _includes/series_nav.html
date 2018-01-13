@@ -20,6 +20,8 @@
     <p>Ez a cikk egy sorozat része.
     {% if prevItem or nextItem %}
         Itt éred el őket:
+        </p>
+        <p>
         <span id="prev">
         {% if prevItem %}
             Előző: <a class="prev" href="{{prevItem.url | prepend:site.baseurl}}">&laquo;{{prevItem.title}}</a>
