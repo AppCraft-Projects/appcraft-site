@@ -20,22 +20,22 @@
     <p>Ez a cikk egy sorozat része.
     {% if prevItem or nextItem %}
         Itt éred el őket:
-    {% else %}
-        Nézz vissza később, hamarosan érkezik a következő rész!
-    {% endif %}
-    </p>
-    <span id="prev">
+        <span id="prev">
         {% if prevItem %}
             Előző: <a class="prev" href="{{prevItem.url | prepend:site.baseurl}}">&laquo;{{prevItem.title}}</a>
         {% else %}
             &nbsp;
         {% endif %}
-    </span>
-    <span id="next">
-        {% if nextItem %}
-            Következő: <a class="next" href="{{nextItem.url | prepend:site.baseurl}}">{{nextItem.title}} &raquo;</a>
-        {% else %}
-            &nbsp;
-        {% endif %}
-    </span>
+        </span>
+            <span id="next">
+            {% if nextItem %}
+                Következő: <a class="next" href="{{nextItem.url | prepend:site.baseurl}}">{{nextItem.title}} &raquo;</a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </span>
+    {% else %}
+        Nézz vissza később, hamarosan érkezik a következő rész!
+    {% endif %}
+    </p>
 </div>
