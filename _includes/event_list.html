@@ -1,0 +1,5 @@
+<ul id="{{ include.subcategory }}-list">
+    {% for event in include.events %}
+    {% include event_card.html event=event %}
+    {% endfor %}
+</ul>

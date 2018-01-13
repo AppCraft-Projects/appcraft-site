@@ -3,7 +3,6 @@ author: "Gabor Orosz"
 title: "React Native tapasztalatok 2"
 type: "posts"
 subtype: "news"
-tags: ["react", "native", "facebook", "xp", "novoda", "conclusion"]
 series: "testing"
 ---
 

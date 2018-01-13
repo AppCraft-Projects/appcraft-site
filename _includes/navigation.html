@@ -1,7 +1,7 @@
 <nav id="main-nav">
     <div class="nav-content">
         <a id="home" href="{{ site.url }}{{ site.baseurl }}/">&nbsp;</a>
-        <a href="{{ site.baseurl }}/events">Events</a>
+        <a href="{{ site.baseurl }}/events">Események</a>
         {% for item in site.data.static_page_data.pages %}
         <a href="{{ item.url }}" alt="{{ item.title }}" id="{{ item.id }}">{{ item.title }}</a>
         {% endfor %}

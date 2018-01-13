@@ -18,19 +18,22 @@ collections:
     permalink: "/events/:collection/:name"
     category: "event"
     subcategory: "meetups"
-    display: "Meetups"
+    display: "Meetupok"
   conferences:
     output: true
     permalink: "/events/:collection/:name"
     category: "event"
     subcategory: "conferences"
-    display: "Conferences"
+    display: "Konferenciák"
   workshops:
     output: true
     permalink: "/events/:collection/:name"
     category: "event"
     subcategory: "workshops"
-    display: "Workshops"
+    display: "Workshopok"
+  tags:
+    output: true
+    permalink: "/tag/:name/"
 
 # Handling Reading
 safe:                 false
@@ -79,11 +82,20 @@ defaults:
       author: "AppCraft"
   - scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: "post"
+      subtategory: "post"
+      taggable: true
+  - scope:
+      path: ""
       type: "meetups"
     values:
       layout: "meetup_details"
       category: "event"
       subtategory: "meetups"
+      taggable: true
   - scope:
       path: ""
       type: "conferences"
@@ -91,6 +103,7 @@ defaults:
       layout: "conference_details"
       category: "event"
       subtategory: "conferences"
+      taggable: true
   - scope:
       path: ""
       type: "workshops"
@@ -98,6 +111,12 @@ defaults:
       layout: "workshop_details"
       category: "event"
       subtategory: "workshops"
+      taggable: true
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag_details"
 liquid:
   error_mode: warn
 

@@ -32,6 +32,10 @@ selected: workshops
         {% endif %}
 
         {{ content }}
+
+        {% if page.tags %}
+            {% include tags.html tags = page.tags %}
+        {% endif %}
     </div>
 </article>
 

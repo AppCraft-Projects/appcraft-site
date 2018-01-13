@@ -32,7 +32,7 @@ $workshop-color: #d33682;
 $conference-color: #b58900;
 
 // decoration
-$box-shadow: 0px 4px 5px 0px rgba(105, 105, 105, 0.25);
+$box-shadow: 0px 3px 4px 0px rgba(105, 105, 105, 0.25);
 
 // general rules
 * {
@@ -189,10 +189,6 @@ h4 {
 
 // events
 
-.event-list {
-
-}
-
 .event-card {
   list-style: none;
   background-color: $dark-background-color;
@@ -202,15 +198,15 @@ h4 {
   margin: 0 0 $section-spacing 0;
 }
 
-.conferences-card {
+#events-list .conferences-card {
   border-left: $accent-border-width solid $conference-color;
 }
 
-.meetups-card {
+#events-list .meetups-card {
   border-left: $accent-border-width solid $meetup-color;
 }
 
-.workshops-card {
+#events-list .workshops-card {
   border-left: $accent-border-width solid $workshop-color;
 }
 

@@ -4,15 +4,4 @@ permalink: /events/workshops/index.html
 ---
 
 {% include event_nav.html selected="workshops" %}
-
-<ul id="event-list">
-    {% for event in site.workshops %}
-    <li class="event-card {{ event.collection }}-card" data-date="{{ event.event_date | date: '%Y%m%d' }}">
-        <p>
-            <a class="event-title" href="{{ event.url | prepend:site.baseurl }}">{{ event.title }}</a>
-            <span class="event-date">{{ event.event_date | date: "%Y. %m. %d." }}</span>
-        </p>
-        <p>{{ event.excerpt }}</p>
-    </li>
-    {% endfor %}
-</ul>
+{% include event_list.html events=site.workshops subcategory="workshops" %}

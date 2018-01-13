@@ -1,0 +1,11 @@
+{% assign siteTags = site.tags | map: "slug" %}
+<ul id="tags">
+    {% for tag in include.tags %}
+        {% if siteTags contains tag %}
+        <li>
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+            <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>

@@ -1,0 +1,26 @@
+---
+layout: default
+regenerate: true
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.name }}</h1>
+    </header>
+    <div itemprop="articleBody">
+        {% assign docs = site.documents | where: "taggable", true | group_by: "category" %}
+        {% for doc in docs %}
+            {% if doc.name == "event" %}
+                <h2>Kapcsolódó események</h2>
+                <ul id="events-list">
+                {% for event in doc.items %}
+                    {% if event.tags contains page.slug %}
+                        {% include event_card.html event=event %}
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endfor %}
+    </div>
+</article>
+
