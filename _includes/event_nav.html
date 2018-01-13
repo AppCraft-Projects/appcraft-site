@@ -1,15 +1,13 @@
-<div class="nav-content">
+<div id="category-nav">
     {% assign events = site.collections | where: 'category', 'event' %}
     {% for item in events | where: "category", "event" %}
+
         {% if page.selected == item.label %}
-            <a class="selected" href="{{ site.baseurl }}/events/{{ item.label }}">
+            <a class="selected {{ item.subcategory }}-subcategory" href="{{ site.baseurl }}/events/{{ item.label }}">
         {% else %}
-            <a href="{{ site.baseurl }}/events/{{ item.label }}">
+            <a class="{{ item.subcategory }}-subcategory" href="{{ site.baseurl }}/events/{{ item.label }}">
         {% endif %}
-                {{ item.label }}
+                {{ item.display }}
             </a>
-    {% if forloop.last == false %}
-     |
-    {% endif %}
     {% endfor %}
 </div>

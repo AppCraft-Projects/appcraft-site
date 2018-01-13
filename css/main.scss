@@ -32,7 +32,7 @@ $workshop-color: #d33682;
 $conference-color: #b58900;
 
 // decoration
-$box-shadow: 0px 4px 5px 0px rgba(105,105,105,0.25);
+$box-shadow: 0px 4px 5px 0px rgba(105, 105, 105, 0.25);
 
 // general rules
 * {
@@ -51,17 +51,55 @@ body {
   line-height: 1.4em;
 }
 
-nav {
+// navigation
+
+#main-nav {
   text-align: center;
   background-color: $dark-background-color;
   border-top: 0.5rem solid $accent-color;
   box-shadow: $box-shadow;
 }
 
-.nav-content a {
-  margin: 0 0.25em;
+#main-nav .nav-content a {
+  margin: 0 $section-spacing 0 0;
   line-height: $one-liner-height;
 }
+
+#category-nav {
+  position: relative;
+  margin-top: $inline-spacing;
+  height: 2em;
+  text-align: center;
+
+  a {
+    display: block;
+    float: left;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 $section-spacing 0 0;
+    padding: 0 $section-spacing;
+  }
+
+  .meetups-subcategory:hover, .meetups-subcategory.selected {
+    border-bottom: $accent-border-width solid $meetup-color;
+  }
+
+  .conferences-subcategory:hover, .conferences-subcategory.selected {
+    border-bottom: $accent-border-width solid $conference-color;
+  }
+
+  .workshops-subcategory:hover, .workshops-subcategory.selected {
+    border-bottom: $accent-border-width solid $workshop-color;
+  }
+
+  :after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// general rules
 
 li {
   margin: 0 0 0.25em 1em
@@ -73,6 +111,10 @@ ul:last-child li:last-child {
 
 ul {
   margin: $section-spacing 0;
+}
+
+article {
+  margin-top: 1.5em;
 }
 
 article img {
@@ -124,10 +166,6 @@ a {
   text-decoration: none;
 }
 
-a:hover, .selected {
-  text-decoration: underline;
-}
-
 h2 {
   font-family: $accent-font;
   font-size: 1.5em;
@@ -148,7 +186,6 @@ h4 {
   line-height: 1.1em;
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
-
 
 // events
 
@@ -193,8 +230,8 @@ h4 {
   background: url("../assets/appcraft_logo.png");
   height: $sub-one-liner-height;
   width: $sub-one-liner-height;
-  background-size:cover;
-  margin: 0.1em 0 0 0;
+  background-size: cover;
+  margin: 1em 0 0 0;
   text-decoration: none;
 }
 
@@ -252,10 +289,6 @@ header {
   position: relative;
 }
 
-#wrapper {
-  margin-top: 1.5em;
-}
-
 #teaser {
   padding-bottom: $section-spacing;
 }
@@ -266,7 +299,7 @@ header {
 }
 
 #intro {
-  margin: 0 auto $logical-separator-spacing auto;
+  margin: $section-spacing auto $logical-separator-spacing auto;
   max-width: $max-chars;
 }
 
