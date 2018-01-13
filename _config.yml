@@ -33,7 +33,7 @@ collections:
     display: "Workshopok"
   tags:
     output: true
-    permalink: "/tag/:name/"
+    permalink: "/tags/:name/"
 
 # Handling Reading
 safe:                 false

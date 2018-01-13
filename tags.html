@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /tags/index.html
+---
+
+<div id="intro">
+    <header>
+        <h1>Cimék</h1>
+    </header>
+    <div id="tags-list">
+        {% for post in site.tags %}
+        <h3><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h3>
+        <p>{{ post.description }}</p>
+        {% endfor %}
+    </div>
+</div>

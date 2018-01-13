@@ -32,7 +32,8 @@ $workshop-color: #d33682;
 $conference-color: #b58900;
 
 // decoration
-$box-shadow: 0px 3px 4px 0px rgba(105, 105, 105, 0.25);
+$box-shadow: 0px 4px 4px 0px rgba(105, 105, 105, 0.25);
+$inactive-box-shadow: 0px 2px 2px 0px rgba(105, 105, 105, 0.25);
 
 // general rules
 * {
@@ -273,6 +274,37 @@ header {
     font-family: $accent-font;
   }
 }
+
+// tags
+
+#tags {
+
+  :after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 $inline-spacing 0 0;
+    padding: 0 $inline-spacing;
+    display: block;
+    float: left;
+    list-style-type: none;
+    background-color: $dark-background-color;
+    box-shadow: $inactive-box-shadow;
+  }
+
+  li:hover {
+    box-shadow: $box-shadow;
+  }
+}
+
 
 #post-meta {
   padding-bottom: 1.5em;
