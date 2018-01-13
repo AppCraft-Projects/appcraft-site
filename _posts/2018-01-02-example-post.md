@@ -1,13 +1,10 @@
 ---
 author: "Gabor Orosz"
-title: "React Native tapasztalatok"
+title: "React Native tapasztalatok 1" 
 type: "posts"
 subtype: "news"
 tags: ["react", "native", "facebook", "xp", "novoda", "conclusion"]
 series: "testing"
-next: "/events/marc2018"
-prev: "/events/dec2017"
-weight: 45
 ---
 
 A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.

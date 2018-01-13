@@ -5,7 +5,7 @@ permalink: /events/index.html
 
 {% include event_nav.html %}
 
-{% assign events = site.documents | where: 'taxonomy', 'event' | sort: 'event_date' | reverse %}
+{% assign events = site.documents | where: 'category', 'event' | sort: 'event_date' | reverse %}
 
 <ul id="event-list">
 {% for event in events %}

@@ -1,6 +1,6 @@
 <div class="nav-content">
-    {% assign events = site.collections | where: 'taxonomy', 'event' %}
-    {% for item in events | where: "taxonomy", "event" %}
+    {% assign events = site.collections | where: 'category', 'event' %}
+    {% for item in events | where: "category", "event" %}
         {% if page.selected == item.label %}
             <a class="selected" href="{{ site.baseurl }}/events/{{ item.label }}">
         {% else %}

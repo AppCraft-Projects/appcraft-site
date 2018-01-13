@@ -1,16 +1,13 @@
 ---
 host: "Gabor Orosz"
-title: "A nagy tesztelős meetup"
+excerpt: A nagy tesztelős meetup kivonata
+title: "A nagy tesztelős meetup 2"
 start-time: "2018-02-17T18:30:00+00:00"
 end-time: "2018-02-17T22:00:00+00:00"
-type: "event"
-subtype: "meetup"
 tags: ["practices", "testing", "ios", "android"]
 address: "Supercharge HQ 1075, Károly krt 9. Budapest"
 coords: "47.4966016, 19.0578469"
-next: "/events/marc2018"
-prev: "/events/dec2017"
-weight: 11
+event_date: 2018-01-03
 ---
 
 Mikulás másnapján, mikor már kiürültek a csizmák és elfogytak a csokik várni fogunk Titeket egy frankó évzáró meetup-al. A novemberihez hasonlóan ezúttal is három különálló, érdekes témával készülünk.

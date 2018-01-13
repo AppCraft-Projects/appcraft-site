@@ -6,7 +6,7 @@ url: "http://appcraft.hu"
 
 # Where things are
 source:          .
-destination:     docs
+destination:     _site
 collections_dir: .
 plugins_dir:     _plugins
 layouts_dir:     _layouts
@@ -16,15 +16,18 @@ collections:
   meetups:
     output: true
     permalink: "/events/:collection/:name"
-    taxonomy: "event"
+    category: "event"
+    subcategory: "meetups"
   conferences:
     output: true
     permalink: "/events/:collection/:name"
-    taxonomy: "event"
+    category: "event"
+    subcategory: "conferences"
   workshops:
     output: true
     permalink: "/events/:collection/:name"
-    taxonomy: "event"
+    category: "event"
+    subcategory: "workshops"
 
 # Handling Reading
 safe:                 false
@@ -56,7 +59,7 @@ incremental: true
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "/appcraft-site" # does not include hostname
+baseurl: "/appcraft-site"
 show_dir_listing: false
 
 # Outputting
@@ -72,20 +75,26 @@ defaults:
       layout: "default"
       author: "AppCraft"
   - scope:
+      path: ""
       type: "meetups"
     values:
       layout: "event_details"
-      taxonomy: "event"
+      category: "event"
+      subtategory: "meetups"
   - scope:
+      path: ""
       type: "conferences"
     values:
       layout: "event_details"
-      taxonomy: "event"
+      category: "event"
+      subtategory: "conferences"
   - scope:
+      path: ""
       type: "workshops"
     values:
       layout: "event_details"
-      taxonomy: "event"
+      category: "event"
+      subtategory: "workshops"
 liquid:
   error_mode: warn
 
