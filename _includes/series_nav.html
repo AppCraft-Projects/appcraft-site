@@ -1,0 +1,41 @@
+{% assign limit = seriesdata.size | minus: 1 %}
+
+{% for i in (0..limit) %}
+    {% if seriesdata[i].title == page.title %}
+        {% assign currIdx = i %}
+    {% endif %}
+{% endfor %}
+
+{% assign prevIdx = currIdx | minus: 1 %}
+{% assign nextIdx = currIdx | plus: 1 %}
+
+{% if seriesdata[prevIdx] and prevIdx >= 0 %}
+    {% assign prevItem = seriesdata[prevIdx] %}
+{% endif %}
+{% if seriesdata[nextIdx] and nextIdx >= 0 %}
+    {% assign nextItem = seriesdata[nextIdx] %}
+{% endif %}
+
+<div id="series-navigation">
+    <p>Ez a cikk egy sorozat része.
+    {% if prevItem or nextItem %}
+        Itt éred el őket:
+    {% else %}
+        Nézz vissza később, hamarosan érkezik a következő rész!
+    {% endif %}
+    </p>
+    <span id="prev">
+        {% if prevItem %}
+            Előző: <a class="prev" href="{{prevItem.url | prepend:site.baseurl}}">&laquo;{{prevItem.title}}</a>
+        {% else %}
+            &nbsp;
+        {% endif %}
+    </span>
+    <span id="next">
+        {% if nextItem %}
+            Következő: <a class="next" href="{{nextItem.url | prepend:site.baseurl}}">{{nextItem.title}} &raquo;</a>
+        {% else %}
+            &nbsp;
+        {% endif %}
+    </span>
+</div>

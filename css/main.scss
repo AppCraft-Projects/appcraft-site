@@ -131,7 +131,7 @@ code, blockquote code {
   color: $bright-foreground-color;
 }
 
-#tldr, blockquote {
+#tldr, blockquote, #series-navigation {
   background-color: $dark-background-color;
   border-left: $accent-border-width solid $accent-color;
   padding: 0.5em;
@@ -139,7 +139,7 @@ code, blockquote code {
   box-sizing: border-box;
 }
 
-#tldr {
+#tldr, #series-navigation {
   margin-bottom: $logical-separator-spacing;
 }
 

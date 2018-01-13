@@ -1,10 +1,9 @@
 ---
 layout: default
 permalink: /events/conferences/index.html
-selected: conferences
 ---
 
-{% include event_nav.html %}
+{% include event_nav.html selected="conferences" %}
 
 <ul id="event-list">
     {% for event in site.conferences %}

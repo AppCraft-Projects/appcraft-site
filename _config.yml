@@ -81,21 +81,21 @@ defaults:
       path: ""
       type: "meetups"
     values:
-      layout: "event_details"
+      layout: "meetup_details"
       category: "event"
       subtategory: "meetups"
   - scope:
       path: ""
       type: "conferences"
     values:
-      layout: "event_details"
+      layout: "conference_details"
       category: "event"
       subtategory: "conferences"
   - scope:
       path: ""
       type: "workshops"
     values:
-      layout: "event_details"
+      layout: "workshop_details"
       category: "event"
       subtategory: "workshops"
 liquid:
