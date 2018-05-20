@@ -1,10 +1,8 @@
 ---
-author: "Gabor Orosz"
-title: "React Native tapasztalatok 1" 
-type: "posts"
-subtype: "news"
-series: "testing"
-tags: [clojure, kotlin, react]
+excerpt: Example blog post 3 excerpt
+title: Example blog post 3
+date: 2018-02-04
+tags: [kotlin, react, ruby]
 ---
 
 A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.

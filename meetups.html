@@ -1,8 +1,10 @@
 ---
 layout: default
-permalink: /events/meetups/index.html
-selected: meetups
+permalink: /events/meetups/
 ---
 
-{% include event_nav.html selected="meetups" %}
-{% include event_list.html events=site.meetups subcategory="meetups" %}
+{% include category_nav.html category="events" selected="meetups" %}
+
+{% assign entries = site.documents | where: 'subcategory', 'meetups' | sort: 'date' | reverse %}
+
+{% include entry_list.html entries=entries %}

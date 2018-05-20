@@ -1,25 +1,8 @@
 ---
 layout: default
-permalink: posts/
+permalink: /posts/
 ---
-<div id="posts">
-    <ul id="posts-list">
-        {% for post in site.posts %}
-        <li class="page-card {{ post.collection }}-card" data-date="{{ post.date | date: '%Y%m%d' }}">
-            <p class="page-icon {{post.category}}-icon"></p>
-            <p class="post-meta">
-                <span class="post-date">{{ post.date | date: "%Y. %m. %d." }}</span>
-            </p>
-            <p class="post-title">
-                <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-            </p>
-            {% if post.tags %}
-            <p class="post-tags">
-                {% include tag_list.html tags = post.tags %}
-            </p>
-            {% endif %}
-        </li>
-        {% endfor %}
-    </ul>
-    <div class="clear"></div>
-</div>
+{% include category_nav.html category="posts" %}
+
+{% assign entries = site.documents | where: 'category', 'posts' | sort: 'date' | reverse %}
+{% include entry_list.html entries=entries %}

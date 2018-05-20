@@ -13,22 +13,34 @@ layouts_dir:     _layouts
 data_dir:        _data
 includes_dir:    _includes
 collections:
+  blog:
+    output: true
+    permalink: "/posts/:collection/:name"
+    category: "posts"
+    subcategory: "blog"
+    display: "Blog"
+  news:
+    output: true
+    permalink: "/posts/:collection/:name"
+    category: "posts"
+    subcategory: "news"
+    display: "News"
   meetups:
     output: true
     permalink: "/events/:collection/:name"
-    category: "event"
+    category: "events"
     subcategory: "meetups"
     display: "Meetups"
   conferences:
     output: true
     permalink: "/events/:collection/:name"
-    category: "event"
+    category: "events"
     subcategory: "conferences"
     display: "Conferences"
   workshops:
     output: true
     permalink: "/events/:collection/:name"
-    category: "event"
+    category: "events"
     subcategory: "workshops"
     display: "Workshops"
   tags:
@@ -82,35 +94,43 @@ defaults:
       author: "AppCraft"
   - scope:
       path: ""
-      type: "posts"
+      type: "blog"
     values:
-      layout: "post"
-      category: "post"
-      subtategory: "post"
+      layout: "blog_details"
+      category: "posts"
+      subcategory: "blog"
+      taggable: true
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "news_details"
+      category: "posts"
+      subcategory: "news"
       taggable: true
   - scope:
       path: ""
       type: "meetups"
     values:
       layout: "meetup_details"
-      category: "event"
-      subtategory: "meetups"
+      category: "events"
+      subcategory: "meetups"
       taggable: true
   - scope:
       path: ""
       type: "conferences"
     values:
       layout: "conference_details"
-      category: "event"
-      subtategory: "conferences"
+      category: "events"
+      subcategory: "conferences"
       taggable: true
   - scope:
       path: ""
       type: "workshops"
     values:
       layout: "workshop_details"
-      category: "event"
-      subtategory: "workshops"
+      category: "events"
+      subcategory: "workshops"
       taggable: true
   - scope:
       path: ""

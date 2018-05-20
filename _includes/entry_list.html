@@ -1,0 +1,21 @@
+<div id="entries">
+    <ul id="entry-list">
+        {% for entry in include.entries %}
+        <li class="entry-card {{ entry.collection }}-card" data-date="{{ entry.date | date: '%Y%m%d' }}">
+            <p class="entry-icon {{ entry.collection }}-icon"></p>
+            <p class="entry-meta">
+                <span class="entry-date">{{ entry.date | date: "%Y. %m. %d." }}</span>
+            </p>
+            <p class="entry-title">
+                <a href="{{ entry.url | prepend:site.baseurl }}">{{ entry.title }}</a>
+            </p>
+            {% if entry.tags %}
+            <p class="entry-tags">
+                {% include tag_list.html tags = entry.tags %}
+            </p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="clear"></div>
+</div>

@@ -1,7 +1,10 @@
 ---
 layout: default
-permalink: /events/workshops/index.html
+permalink: /events/workshops/
 ---
 
-{% include event_nav.html selected="workshops" %}
-{% include event_list.html events=site.workshops subcategory="workshops" %}
+{% include category_nav.html category="events" selected="workshops" %}
+
+{% assign entries = site.documents | where: 'subcategory', 'workshops' | sort: 'date' | reverse %}
+
+{% include entry_list.html entries=entries %}

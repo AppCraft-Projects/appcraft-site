@@ -1,7 +1,10 @@
 ---
 layout: default
-permalink: /events/conferences/index.html
+permalink: /events/conferences/
 ---
 
-{% include event_nav.html selected="conferences" %}
-{% include event_list.html events=site.conferences subcategory="conferences" %}
+{% include category_nav.html category="events" selected="conferences" %}
+
+{% assign entries = site.documents | where: 'subcategory', 'conferences' | sort: 'date' | reverse %}
+
+{% include entry_list.html entries=entries %}

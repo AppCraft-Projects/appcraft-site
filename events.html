@@ -1,9 +1,8 @@
 ---
 layout: default
-permalink: events/
+permalink: /events/
 ---
+{% include category_nav.html category="events" %}
 
-{% include event_nav.html %}
-
-{% assign events = site.documents | where: 'category', 'event' | sort: 'event_date' | reverse %}
-{% include event_list.html events=events subcategory="events" %}
+{% assign entries = site.documents | where: 'category', 'events' | sort: 'date' | reverse %}
+{% include entry_list.html entries=entries %}

@@ -185,10 +185,10 @@ h4 {
   }
 }
 
-#posts {
+#entries {
   margin-top: $section-spacing;
 
-  #posts-list {
+  #entry-list {
 
     li:nth-child(even) {
       margin: 0 0 $inline-spacing 0;
@@ -198,7 +198,7 @@ h4 {
       margin: 0 4% 4% 0;
     }
 
-    .page-card {
+    .entry-card {
       position: relative;
       box-sizing: border-box;
       float: left;
@@ -223,23 +223,40 @@ h4 {
         height: 0;
       }
 
-      .post-meta {
+      .entry-meta {
         color: $background-text-color;
         font-size: $background-text-size;
         margin: $inline-spacing 0;
       }
 
-      .post-title a {
+      .entry-title a {
         color: $main-text-color;
         font-size: $h3-font-size;
         line-height: $h3-line-height;
       }
 
-      .post-icon {
-        background: url("../assets/blog-icon.svg");
-        width: 2em;
-        height: 2em;
-        background-size: 2em 2em;
+      .blog-icon {
+        width: 35px;
+        height: 42px;
+        background: url("../assets/blog-icon.svg") no-repeat;
+      }
+
+      .news-icon {
+        width: 50px;
+        height: 42px;
+        background: url("../assets/news-icon.svg") no-repeat;
+      }
+
+      .meetups-icon {
+        width: 57px;
+        height: 42px;
+        background: url("../assets/meetup-icon.svg") no-repeat;
+      }
+
+      .workshops-icon {
+        width: 61px;
+        height: 42px;
+        background: url("../assets/workshop-icon.svg") no-repeat;
       }
     }
 
