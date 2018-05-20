@@ -11,7 +11,7 @@ permalink: posts/
                 <span class="post-date">{{ post.date | date: "%Y. %m. %d." }}</span>
             </p>
             <p class="post-title">
-                <a href="{{ event.url | prepend:site.baseurl }}">{{ post.title }}</a>
+                <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
             </p>
             {% if post.tags %}
             <p class="post-tags">

@@ -23,6 +23,13 @@ $max-chars: 80ch;
 $accent-border-width: 0.25rem;
 $non-important-font-size: 0.8em;
 
+$h2-font-size: 1.5em;
+$h2-line-height: 1.3em;
+$h3-font-size: 1.2em;
+$h3-line-height: 1.3em;
+$h4-font-size: 1em;
+$h4-line-height: 1.1em;
+
 // colors
 $page-color: #e9eae4;
 $nav-background-color: #1c2a43;
@@ -61,22 +68,22 @@ a {
 
 h2 {
   font-family: $accent-font;
-  font-size: 1.5em;
-  line-height: 1.3em;
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
 h3 {
   font-family: $accent-font;
-  font-size: 1.2em;
-  line-height: 1.3em;
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
 h4 {
   font-family: $accent-font;
-  font-size: 1em;
-  line-height: 1.1em;
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
@@ -182,12 +189,15 @@ h4 {
   margin-top: $section-spacing;
 
   #posts-list {
-    :nth-child(even) {
+
+    li:nth-child(even) {
       margin: 0 0 $inline-spacing 0;
     }
-    :nth-child(odd) {
+
+    li:nth-child(odd) {
       margin: 0 4% 4% 0;
     }
+
     .page-card {
       position: relative;
       box-sizing: border-box;
@@ -196,6 +206,35 @@ h4 {
       width: 48%;
       background-color: $post-background-color;
       padding: $inline-spacing;
+      min-height: 10em;
+      max-height: 12em;
+      overflow: hidden;
+      box-shadow: 0 1px 2px 0 rgba(192,205,216,0.50);
+      border-radius: 3px;
+
+      :hover {
+        box-shadow:none;
+        cursor:pointer;
+      }
+
+      :after {
+        content: '';
+        display: block;
+        height: 0;
+      }
+
+      .post-meta {
+        color: $background-text-color;
+        font-size: $background-text-size;
+        margin: $inline-spacing 0;
+      }
+
+      .post-title a {
+        color: $main-text-color;
+        font-size: $h3-font-size;
+        line-height: $h3-line-height;
+      }
+
       .post-icon {
         background: url("../assets/blog-icon.svg");
         width: 2em;
@@ -203,6 +242,20 @@ h4 {
         background-size: 2em 2em;
       }
     }
+
+    .posts-card:hover:after {
+      content: '';
+      display: block;
+      width: 94%;
+      height: 48px;
+      box-shadow: 0 2px 45px 0 #97B0C6;
+      position: absolute;
+      bottom: 0;
+      left: 3%;
+      z-index: -1;
+      transition: height .5s;
+    }
+
   }
 }
 

@@ -4,6 +4,7 @@ title: "React Native tapasztalatok 2"
 type: "posts"
 subtype: "news"
 series: "testing"
+tags: [kotlin, react]
 ---
 
 A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.
