@@ -1,0 +1,27 @@
+<!--suppress ALL -->
+<nav id="main-nav">
+    <div class="nav-content">
+        <ul id="nav-left">
+            {% for item in site.data.static_page_data.categories %}
+            <li>
+                <a href="{{ site.baseurl }}/{{item.url}}"
+                   alt="{{ item.title }}"
+                   {% if item.url== page.permalink %}class="active" {% endif %}
+                   id="{{ item.id }}">
+                    {{ item.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <div id="logo-container">
+            <a id="logo" href="{{ site.baseurl }}/">&nbsp;</a>
+        </div>
+        <div id="nav-right">
+            <ul>
+                <li><a id="contact" href="{{ site.baseurl }}/tags">Contact</a></li>
+            </ul>
+            {% include external_nav.html %}
+        </div>
+        <div class="clear"></div>
+    </div>
+</nav>

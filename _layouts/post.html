@@ -2,25 +2,28 @@
 layout: default
 regenerate: true
 ---
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article id="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        {% if page.tags %}
+        {% include tag_list.html tags = page.tags %}
+        {% endif %}
+        <h1 class="post-title"
+            itemprop="name headline">{{ page.title }}</h1>
         <div id="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}"
+                  itemprop="datePublished">
+                {{ page.date | date: "%Y. %m. %d." }}
+            </time>
             {% if page.author %}
-                <p>
-                    written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
-                        itemprop="name">{{ page.author }}</span></span>
-                </p>
+            <span itemprop="author"
+                  itemscope
+                  itemtype="http://schema.org/Person">
+                <span itemprop="name">{{ page.author }}</span>
+            </span>
             {% endif %}
-            <p>
-                published on
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                    {{ page.date | date: "%Y. %m. %d." }}
-                </time>
-            </p>
         </div>
     </header>
-    <div itemprop="articleBody">
+    <div id="post-body" itemprop="articleBody">
         {{ content }}
     </div>
 </article>

@@ -1,14 +1,29 @@
 about_page_url: "/"
-pages:
-
-- title: "GitHub"
-  id: "github-link"
-  url: "https://github.com/AppCraft-Projects"
-
-- title: "Twitter"
-  id: "twitter-link"
-  url: "https://twitter.com/@appcraftend2end"
-
-- title: "Kapcsolat"
-  id: "contact-link"
+contact:
+  title: "CONTACT"
+  id: "contact"
   url: "mailto:info@appcraft.hu"
+about:
+  title: "ABOUT"
+  id: "about"
+  url: ""
+categories:
+- title: "POSTS"
+  id: "posts"
+  url: "posts/"
+- title: "EVENTS"
+  id: "events"
+  url: "events/"
+- title: "TAGS"
+  id: "tags"
+  url: "tags/"
+external:
+- title: "Facebook"
+  id: "facebook"
+  url: "https://www.facebook.com/groups/budapest.mobile/"
+- title: "Twitter"
+  id: "twitter"
+  url: "https://twitter.com/@appcraftend2end"
+- title: "GitHub"
+  id: "github"
+  url: "https://github.com/AppCraft-Projects"

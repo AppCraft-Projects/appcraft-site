@@ -1,0 +1,11 @@
+<div class="external-nav">
+    <ul>
+        {% for item in site.data.static_page_data.external %}
+        <li>
+            <a href="{{item.url}}"
+               alt="{{ item.title }}"
+               class="icon-link {{ item.id }}">&nbsp;</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

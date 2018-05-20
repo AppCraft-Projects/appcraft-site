@@ -18,19 +18,19 @@ collections:
     permalink: "/events/:collection/:name"
     category: "event"
     subcategory: "meetups"
-    display: "Meetupok"
+    display: "Meetups"
   conferences:
     output: true
     permalink: "/events/:collection/:name"
     category: "event"
     subcategory: "conferences"
-    display: "Konferenciák"
+    display: "Conferences"
   workshops:
     output: true
     permalink: "/events/:collection/:name"
     category: "event"
     subcategory: "workshops"
-    display: "Workshopok"
+    display: "Workshops"
   tags:
     output: true
     permalink: "/tags/:name/"

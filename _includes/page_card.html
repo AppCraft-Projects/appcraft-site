@@ -1,0 +1,7 @@
+<li class="page-card {{ event.collection }}-card" data-date="{{ event.event_date | date: '%Y%m%d' }}">
+    <p>
+        <a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a>
+        <span class="page-date">{{ page.date | date: "%Y. %m. %d." }}</span>
+    </p>
+    <p>{{ event.excerpt }}</p>
+</li>

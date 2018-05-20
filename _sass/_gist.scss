@@ -1,6 +1,5 @@
 body .gist {
   margin: $section-spacing 0;
-  box-shadow: $box-shadow;
 }
 
 body .gist .gist-file {
@@ -15,13 +14,11 @@ body .gist .gist-data {
 }
 
 body .gist .blob-wrapper {
-  background-color: $dark-background-color;
   border: none;
   border-radius: 0;
 }
 
 body .gist .highlight {
-  background-color: $dark-background-color;
   border: none;
   border-radius: 0;
 }

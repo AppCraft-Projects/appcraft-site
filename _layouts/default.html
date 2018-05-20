@@ -3,11 +3,11 @@
 {% include head.html %}
 <body id="site">
 <div id="page">
-    {% include navigation.html %}
+    {% include main_nav.html %}
     <div id="wrapper">
         {{ content }}
     </div>
-    {% include footer.html %}
+    {% include bottom.html %}
 </div>
 <script>
 
@@ -53,9 +53,7 @@
     window.addEventListener("optimizedResize", function () {
         fixFooter()
     });
-
     // google analytics here
-
 </script>
 </body>
 </html>

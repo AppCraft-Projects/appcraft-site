@@ -4,6 +4,7 @@ title: "React Native tapasztalatok 1"
 type: "posts"
 subtype: "news"
 series: "testing"
+tags: [clojure, kotlin, react]
 ---
 
 A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.
@@ -17,3 +18,17 @@ TL;DR, avagy a tanulságok röviden:
 - Jól jön a javaScript és a natív tudás is, mindkettő kelleni fog.
 
 Persze mindez a mostani verzióra vonatkozik, ez még simán változhat, ahogy fejlődik a cucc.
+
+## Tovabba
+
+A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.
+
+A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.
+
+
+## Es meg
+
+A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.
+
+A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.
+

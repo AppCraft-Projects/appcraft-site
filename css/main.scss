@@ -1,6 +1,7 @@
 ---
 ---
 
+//noinspection CssInvalidCharsetRule
 @charset "utf-8";
 
 // fonts
@@ -9,31 +10,30 @@ $accent-font: 'PT Serif', serif;
 $code-font: 'Source Code Pro', monospace;
 
 // sizes
+$main-menu-line-height: 4em;
+$icon-size: 1em;
 $one-liner-height: 2.5em;
 $sub-one-liner-height: 2.4em;
 $logical-separator-spacing: 1em;
 $header-bottom-spacing: 0.1em;
-$section-spacing: 1em;
-$inline-spacing: 0.5em;
+$section-spacing: 2em;
+$page-spacing: 3em;
+$inline-spacing: 1em;
 $max-chars: 80ch;
 $accent-border-width: 0.25rem;
 $non-important-font-size: 0.8em;
 
 // colors
-$accent-color: #2aa198;
-$bright-foreground-color: #073642;
-$dark-foreground-color: #002b36;
-$bright-background-color: #fdf6e3;
-$dark-background-color: #eee8d5;
-$non-important-color: #586e75;
+$page-color: #e9eae4;
+$nav-background-color: #1c2a43;
+$nav-text-color: #fff;
+$accent-color: #fbc100;
+$post-background-color: #fff;
+$tag-hover-color: #1b2436;
 
-$meetup-color: #2aa198;
-$workshop-color: #d33682;
-$conference-color: #b58900;
-
-// decoration
-$box-shadow: 0px 4px 4px 0px rgba(105, 105, 105, 0.25);
-$inactive-box-shadow: 0px 2px 2px 0px rgba(105, 105, 105, 0.25);
+$main-text-color: #111b2c;
+$background-text-color: #9298a4;
+$background-text-size: 0.8em;
 
 // general rules
 * {
@@ -47,123 +47,15 @@ html {
 }
 
 body {
-  background-color: $bright-background-color;
-  color: $dark-foreground-color;
-  line-height: 1.4em;
+  background-color: $page-color;
+  color: $main-text-color;
 }
 
-// navigation
-
-#main-nav {
-  text-align: center;
-  background-color: $dark-background-color;
-  border-top: 0.5rem solid $accent-color;
-  box-shadow: $box-shadow;
-}
-
-#main-nav .nav-content a {
-  margin: 0 $section-spacing 0 0;
-  line-height: $one-liner-height;
-}
-
-#category-nav {
-  position: relative;
-  margin-top: $inline-spacing;
-  height: 2em;
-  text-align: center;
-
-  a {
-    display: block;
-    float: left;
-    height: 2em;
-    line-height: 2em;
-    margin: 0 $section-spacing 0 0;
-    padding: 0 $section-spacing;
-  }
-
-  .meetups-subcategory:hover, .meetups-subcategory.selected {
-    border-bottom: $accent-border-width solid $meetup-color;
-  }
-
-  .conferences-subcategory:hover, .conferences-subcategory.selected {
-    border-bottom: $accent-border-width solid $conference-color;
-  }
-
-  .workshops-subcategory:hover, .workshops-subcategory.selected {
-    border-bottom: $accent-border-width solid $workshop-color;
-  }
-
-  :after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-// general rules
-
-li {
-  margin: 0 0 0.25em 1em
-}
-
-ul:last-child li:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: $section-spacing 0;
-}
-
-article {
-  margin-top: 1.5em;
-}
-
-article img {
-  margin: $section-spacing auto;
-  border: 1px solid $accent-color;
-  width: 100%;
-  box-sizing: border-box;
-  display: block;
-}
-
-code, blockquote code {
-  font-family: $code-font;
-  font-style: italic;
-  color: $bright-foreground-color;
-}
-
-#tldr, blockquote, #series-navigation {
-  background-color: $dark-background-color;
-  border-left: $accent-border-width solid $accent-color;
-  padding: 0.5em;
-  box-shadow: $box-shadow;
-  box-sizing: border-box;
-}
-
-#tldr, #series-navigation {
-  margin-bottom: $logical-separator-spacing;
-}
-
-blockquote {
-  line-height: 1.4em;
-  font-size: 0.85em;
-  font-style: italic;
-  margin: $section-spacing 0;
-}
-
-blockquote li {
-  list-style-type: circle;
-}
-
-cite {
-  font-family: $accent-font;
-  font-style: italic;
-  padding-left: 1em;
-  padding-right: 1em;
+.clear {
+  clear: both;
 }
 
 a {
-  color: $accent-color;
   text-decoration: none;
 }
 
@@ -188,126 +80,148 @@ h4 {
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
-// events
-
-.event-card {
-  list-style: none;
-  background-color: $dark-background-color;
-  padding: 0.5em;
-  box-shadow: $box-shadow;
-  box-sizing: border-box;
-  margin: 0 0 $section-spacing 0;
-}
-
-#events-list .conferences-card {
-  border-left: $accent-border-width solid $conference-color;
-}
-
-#events-list .meetups-card {
-  border-left: $accent-border-width solid $meetup-color;
-}
-
-#events-list .workshops-card {
-  border-left: $accent-border-width solid $workshop-color;
-}
-
-.event-date {
-  display: block;
-  float: right;
-  font-size: $non-important-font-size;
-  color: $non-important-color;
-  font-style: italic;
-}
-
-// section rules
-
-#home {
-  display: block;
-  float: left;
-  background: url("../assets/appcraft_logo.png");
-  height: $sub-one-liner-height;
-  width: $sub-one-liner-height;
-  background-size: cover;
-  margin: 1em 0 0 0;
-  text-decoration: none;
-}
-
-.cta-button {
-  display: block;
-  margin: $logical-separator-spacing auto;
-  line-height: $one-liner-height;
-  padding: 0 $one-liner-height;
-  background: $accent-color;
-  color: $dark-background-color;
-  width: 6em;
+#main-nav {
   text-align: center;
-  border: 0.1em $accent-color solid;
-}
+  background-color: $nav-background-color;
 
-.cta-button:hover {
-  text-decoration: none;
-  background: $dark-background-color;
-  color: $bright-foreground-color;
-}
-
-#home a:hover {
-  text-decoration: none;
-}
-
-#page {
-  padding: 0;
-}
-
-header {
-  text-align: center;
-
-  h1 {
-    font-family: $accent-font;
-    text-align: center;
-    font-size: 2.5em;
-    line-height: 1em;
-    margin: 0;
-    padding-bottom: 0.75em;
+  #nav-left, #logo-container, #nav-right {
+    float: left;
   }
 
-  p {
-    font-family: $accent-font;
+  li {
+    list-style: none;
+    float: left;
+  }
+
+  a {
+    margin: 0 $section-spacing 0 0;
+    color: $nav-text-color;
+    line-height: $main-menu-line-height;
+  }
+
+  #nav-left, #nav-right {
+    width: 40%;
+  }
+
+  #logo-container {
+    width: 20%;
+  }
+
+  #logo {
+    background: url("../assets/appcraft-logo-dark.svg");
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+  }
+
+  .active {
+    color: $accent-color
+  }
+  .external-nav {
+    .icon-link {
+      width: $icon-size;
+      height: $main-menu-line-height;
+      margin: 0 $logical-separator-spacing 0 0;
+      display: block;
+    }
+    .facebook {
+      background: url("../assets/facebook-light.svg") no-repeat center, left;
+    }
+    .twitter {
+      background: url("../assets/twitter-light.svg") no-repeat center, left;
+    }
   }
 }
 
-// tags
-
-#tags {
-
+#category-nav {
+  position: relative;
+  margin-top: $inline-spacing;
+  height: 2em;
+  text-align: center;
+  a {
+    display: block;
+    float: left;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 $section-spacing 0 0;
+    padding: 0 $section-spacing;
+  }
   :after {
     content: "";
     display: table;
     clear: both;
   }
+}
 
-  a {
+#post {
+  background-color: $post-background-color;
+  margin-top: $section-spacing;
+  padding: $page-spacing;
+  h1 {
+    font-family: $accent-font;
+    font-size: 2.5em;
+    line-height: 2em;
     margin: 0;
-    padding: 0;
   }
-
+  p {
+    font-family: $accent-font;
+  }
+  #post-meta {
+    color: $background-text-color;
+    font-size: $background-text-size;
+  }
+  #post-body {
+    margin-top: $section-spacing
+  }
   li {
-    margin: 0 $inline-spacing 0 0;
-    padding: 0 $inline-spacing;
-    display: block;
-    float: left;
-    list-style-type: none;
-    background-color: $dark-background-color;
-    box-shadow: $inactive-box-shadow;
-  }
-
-  li:hover {
-    box-shadow: $box-shadow;
+    list-style-position: inside;
   }
 }
 
+#posts {
+  margin-top: $section-spacing;
 
-#post-meta {
-  padding-bottom: 1.5em;
+  #posts-list {
+    :nth-child(even) {
+      margin: 0 0 $inline-spacing 0;
+    }
+    :nth-child(odd) {
+      margin: 0 4% 4% 0;
+    }
+    .page-card {
+      position: relative;
+      box-sizing: border-box;
+      float: left;
+      list-style: none;
+      width: 48%;
+      background-color: $post-background-color;
+      padding: $inline-spacing;
+      .post-icon {
+        background: url("../assets/blog-icon.svg");
+        width: 2em;
+        height: 2em;
+        background-size: 2em 2em;
+      }
+    }
+  }
+}
+
+.tag-list-block {
+  li {
+    margin: 0 $inline-spacing 0 0;
+    padding: 0 $inline-spacing 0 0;
+    display: block;
+    float: left;
+    list-style-type: none;
+  }
+  a {
+    color: $background-text-color;
+    font-size: $background-text-size;
+  }
+  a:hover {
+    color: $tag-hover-color;
+    text-decoration: underline;
+  }
 }
 
 #wrapper, #teaser, #footer-content, #page-navigation, .nav-content {
@@ -331,50 +245,62 @@ header {
   max-width: $max-chars;
 }
 
-#teaser-section, #bottom {
-  background-color: $dark-background-color;
-  color: $dark-foreground-color;
-}
-
 #page-navigation {
   line-height: $one-liner-height;
   overflow: auto;
 }
 
-#notices, #notices a {
-  text-align: center;
-  line-height: $one-liner-height;
-  font-size: 0.8em;
-}
+#bottom {
+  background-color: #ffffff;
+  margin-top: 4em;
+  footer {
+    .links, .logo, .external-nav {
+      float: left;
+    }
+    li {
+      list-style-type: none;
+    }
+    .links {
+      width: 40%;
 
-#disqus {
-  margin-top: $section-spacing;
-}
-
-footer {
-  background-color: $bright-foreground-color;
-  color: $bright-background-color;
-}
-
-footer h2 {
-  padding-top: $section-spacing;
-}
-
-#bottom.stickybottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-#disqus_thread {
-  overflow: hidden;
-
-  iframe {
-    margin-bottom: -65px;
+      a {
+        margin: 0 $section-spacing 0 0;
+        color: $nav-background-color;
+        line-height: $main-menu-line-height;
+      }
+    }
+    .logo {
+      width: 20%;
+      height: $main-menu-line-height;
+      background: url("../assets/appcraft-logo-dark.svg") no-repeat center, center;
+    }
+    .external-nav {
+      width: 40%;
+      text-align: right;
+      li {
+        float: right;
+      }
+      .icon-link {
+        width: $icon-size;
+        height: $main-menu-line-height;
+        margin: 0 0 0 $logical-separator-spacing;
+        display: block;
+      }
+      .facebook {
+        background: url("../assets/facebook-dark.svg") no-repeat center, center;
+      }
+      .twitter {
+        background: url("../assets/twitter-dark.svg") no-repeat center, center;
+      }
+    }
+  }
+  .stickybottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 }
 
-/* imports */
 @import "media";
 @import "gist";
