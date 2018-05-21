@@ -4,7 +4,6 @@ permalink: /posts/news/
 category: posts
 selected: news
 ---
-{{ page }}
 {% assign entries = site.documents | where: 'collection', page.selected | sort: 'date' | reverse %}
 
 {% include entry_list.html entries=entries %}

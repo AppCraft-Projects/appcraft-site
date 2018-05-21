@@ -20,6 +20,8 @@
         var bottom = document.getElementById('bottom');
         var arbitraryMarginToKeep = 30;
         var totalHeight = wrapper.offsetHeight + bottom.offsetHeight + parseInt(pageTopPadding);
+        console.log("height: " + totalHeight);
+        console.log("inner height: " + window.innerHeight);
         if (totalHeight + arbitraryMarginToKeep < window.innerHeight) {
             bottom.classList.add("stickybottom");
         } else {
