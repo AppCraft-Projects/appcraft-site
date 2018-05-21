@@ -2,38 +2,30 @@
 layout: default
 regenerate: true
 ---
-
-{% include category_nav.html category="event" selected="meetups" %}
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
+{% include category_nav.html category="events" selected="meetups" %}
+<article id="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        {% if page.tags %}
+        {% include tag_list.html tags = page.tags %}
+        {% endif %}
+        <h1 class="post-title"
+            itemprop="name headline">{{ page.title }}</h1>
         <div id="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}"
+                  itemprop="datePublished">
+                {{ page.date | date: "%Y. %m. %d." }}
+            </time>
             {% if page.author %}
-                <p>
-                    written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
-                        itemprop="name">{{ page.author }}</span></span>
-                </p>
+            <span itemprop="author"
+                  itemscope
+                  itemtype="http://schema.org/Person">
+                <span itemprop="name">{{ page.author }}</span>
+            </span>
             {% endif %}
-            <p>
-                published on
-                <time datetime="{{ page.event_date | date_to_xmlschema }}" itemprop="datePublished">
-                    {{ page.event_date | date: "%Y. %m. %d." }}
-                </time>
-            </p>
         </div>
     </header>
-    <div itemprop="articleBody">
-        {% if page.series %}
-            {% assign seriesdata = site.workshops | where: "series", page.series %}
-            {% include series_nav.html seriesdata = seriesdata %}
-        {% endif %}
-
+    <div id="post-body" itemprop="articleBody">
         {{ content }}
-
-        {% if page.tags %}
-            {% include tag_list.html tags = page.tags %}
-        {% endif %}
     </div>
 </article>
 

@@ -1,8 +1,9 @@
 ---
 layout: default
 permalink: /events/
+category: events
+selected: all
 ---
-{% include category_nav.html category="events" %}
 
 {% assign entries = site.documents | where: 'category', 'events' | sort: 'date' | reverse %}
 {% include entry_list.html entries=entries %}

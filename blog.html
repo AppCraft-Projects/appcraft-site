@@ -1,10 +1,10 @@
 ---
 layout: default
 permalink: /posts/blog/
+category: posts
+selected: blog
 ---
 
-{% include category_nav.html category="posts" selected="blog" %}
-
-{% assign entries = site.documents | where: 'subcategory', 'blog' | sort: 'date' | reverse %}
+{% assign entries = site.documents | where: 'collection', page.selected | sort: 'date' | reverse %}
 
 {% include entry_list.html entries=entries %}

@@ -2,7 +2,7 @@
 layout: default
 regenerate: true
 ---
-{% include category_nav.html category="events" selected="workshops" %}
+{% include category_nav.html category="posts" selected="blog" %}
 <article id="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
         {% if page.tags %}
@@ -25,10 +25,6 @@ regenerate: true
         </div>
     </header>
     <div id="post-body" itemprop="articleBody">
-        {% if page.series %}
-            {% assign seriesdata = site.workshops | where: "series", page.series %}
-            {% include series_nav.html seriesdata = seriesdata %}
-        {% endif %}
         {{ content }}
     </div>
 </article>

@@ -10,13 +10,13 @@ about:
 categories:
 - title: "POSTS"
   id: "posts"
-  url: "posts/"
+  url: "/posts/"
 - title: "EVENTS"
   id: "events"
-  url: "events/"
+  url: "/events/"
 - title: "TAGS"
   id: "tags"
-  url: "tags/"
+  url: "/tags/"
 external:
 - title: "Facebook"
   id: "facebook"

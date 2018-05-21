@@ -32,7 +32,8 @@ $h4-line-height: 1.1em;
 
 // colors
 $page-color: #e9eae4;
-$nav-background-color: #1c2a43;
+$main-nav-background-color: #1c2a43;
+$category-nav-background-color: #333f56;
 $nav-text-color: #fff;
 $accent-color: #fbc100;
 $post-background-color: #fff;
@@ -89,7 +90,7 @@ h4 {
 
 #main-nav {
   text-align: center;
-  background-color: $nav-background-color;
+  background-color: $main-nav-background-color;
 
   #nav-left, #logo-container, #nav-right {
     float: left;
@@ -141,22 +142,37 @@ h4 {
 }
 
 #category-nav {
-  position: relative;
-  margin-top: $inline-spacing;
-  height: 2em;
   text-align: center;
-  a {
-    display: block;
+  background-color: $category-nav-background-color;
+
+  li {
+    list-style: none;
     float: left;
-    height: 2em;
-    line-height: 2em;
-    margin: 0 $section-spacing 0 0;
-    padding: 0 $section-spacing;
   }
-  :after {
-    content: "";
-    display: table;
-    clear: both;
+
+  a {
+    margin: 0 $section-spacing 0 0;
+    color: $nav-text-color;
+    line-height: $main-menu-line-height;
+  }
+
+  #nav-left, #nav-right {
+    width: 40%;
+  }
+
+  #logo-container {
+    width: 20%;
+  }
+
+  #logo {
+    background: url("../assets/appcraft-logo-dark.svg");
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+  }
+
+  .active {
+    color: $accent-color
   }
 }
 
@@ -335,7 +351,7 @@ h4 {
 
       a {
         margin: 0 $section-spacing 0 0;
-        color: $nav-background-color;
+        color: $main-nav-background-color;
         line-height: $main-menu-line-height;
       }
     }

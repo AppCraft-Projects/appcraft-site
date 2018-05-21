@@ -1,8 +1,9 @@
 ---
 layout: default
 permalink: /posts/
+category: posts
+selected: all
 ---
-{% include category_nav.html category="posts" %}
 
 {% assign entries = site.documents | where: 'category', 'posts' | sort: 'date' | reverse %}
 {% include entry_list.html entries=entries %}
