@@ -1,6 +1,6 @@
 <!--suppress ALL -->
 {% assign entries = site.collections | where: 'category', include.category %}
-{% if entries %}
+{% if entries != '' %}
 <nav id="category-nav">
     <div class="nav-content">
         <ul>
