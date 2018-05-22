@@ -1,8 +1,9 @@
 <!--suppress ALL -->
+{% assign entries = site.collections | where: 'category', include.category %}
+{% if entries %}
 <nav id="category-nav">
     <div class="nav-content">
         <ul>
-            {% assign entries = site.collections | where: 'category', include.category %}
             <li>
                 <a
                         class="{% if include.selected == 'all' %}active{% endif %}"
@@ -22,3 +23,4 @@
         <div class="clear"></div>
     </div>
 </nav>
+{% endif %}
