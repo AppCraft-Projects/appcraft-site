@@ -1,7 +1,7 @@
 <!--suppress ALL -->
 {% assign entries = site.collections | where: 'category', include.category %}
-{% assign navitems = entries | where: "category", include.category %}
-{% if navitems != '' %}
+{% assign count = entries | size %}
+{% if count > 0 %}
 <nav id="category-nav">
     <div class="nav-content">
         <ul>
@@ -12,7 +12,7 @@
                     All
                 </a>
             </li>
-            {% for item in navitems %}
+            {% for item in entries %}
             <li>
                 <a class="{% if include.selected == item.label %}active{% endif %} {{ item.subcategory }}-subcategory"
                    href="{{ site.baseurl }}/{{item.category}}/{{ item.label }}">
