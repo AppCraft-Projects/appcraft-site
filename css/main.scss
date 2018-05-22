@@ -91,52 +91,79 @@ h4 {
 #main-nav {
   text-align: center;
   background-color: $main-nav-background-color;
-
-  #nav-left, #logo-container, #nav-right {
-    float: left;
-  }
+  position: relative;
+  height: 6em;
+  padding-top: 1em;
 
   li {
     list-style: none;
     float: left;
-  }
+    vertical-align: bottom;
 
-  a {
-    margin: 0 $section-spacing 0 0;
-    color: $nav-text-color;
-    line-height: $main-menu-line-height;
-  }
-
-  #nav-left, #nav-right {
-    width: 40%;
-  }
-
-  #logo-container {
-    width: 20%;
-  }
-
-  #logo {
-    background: url("../assets/appcraft-logo-dark.svg");
-    width: 100px;
-    height: 100px;
-    background-size: 100px 100px;
+    a {
+      margin: 0 $section-spacing 0 0;
+      color: $nav-text-color;
+      padding-top: 2em;
+      line-height: 2em;
+      display: inline-block;
+    }
   }
 
   .active {
     color: $accent-color
   }
-  .external-nav {
-    .icon-link {
-      width: $icon-size;
-      height: $main-menu-line-height;
-      margin: 0 $logical-separator-spacing 0 0;
+
+  #nav-left {
+    position: absolute;
+    width: 40%;
+  }
+  #logo-container {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+
+    #logo {
       display: block;
+
+      img {
+        height: $main-menu-line-height;
+        object-fit: scale-down;
+      }
     }
-    .facebook {
-      background: url("../assets/facebook-light.svg") no-repeat center, left;
+  }
+
+  #nav-right {
+    width: 40%;
+    position: absolute;
+    left: 60%;
+
+    #contact {
+      position: absolute;
+      right: 40%;
     }
-    .twitter {
-      background: url("../assets/twitter-light.svg") no-repeat center, left;
+
+    .external-nav {
+      position: absolute;
+      right: 0;
+
+      .icon-link {
+        width: $icon-size;
+        height: $main-menu-line-height;
+        margin: 0 $logical-separator-spacing 0 0;
+        display: block;
+      }
+
+      .facebook {
+        background: url("../assets/facebook-light.svg") no-repeat center, left;
+      }
+
+      .github {
+        background: url("../assets/github-light.svg") no-repeat center, left;
+      }
+
+      .twitter {
+        background: url("../assets/twitter-light.svg") no-repeat center, left;
+      }
     }
   }
 }
@@ -144,10 +171,12 @@ h4 {
 #category-nav {
   text-align: center;
   background-color: $category-nav-background-color;
+  position: relative;
+  height: 4em;
 
   li {
     list-style: none;
-    float: left;
+    display: inline-block;
   }
 
   a {
@@ -225,12 +254,12 @@ h4 {
       min-height: 10em;
       max-height: 12em;
       overflow: hidden;
-      box-shadow: 0 1px 2px 0 rgba(192,205,216,0.50);
+      box-shadow: 0 1px 2px 0 rgba(192, 205, 216, 0.50);
       border-radius: 3px;
 
       :hover {
-        box-shadow:none;
-        cursor:pointer;
+        box-shadow: none;
+        cursor: pointer;
       }
 
       :after {
@@ -311,7 +340,6 @@ h4 {
 }
 
 #wrapper, #teaser, #footer-content, #page-navigation, .nav-content {
-  padding: 0 $section-spacing;
   margin: 0 auto;
   max-width: $max-chars;
   position: relative;

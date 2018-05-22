@@ -21,9 +21,10 @@ external:
 - title: "Facebook"
   id: "facebook"
   url: "https://www.facebook.com/groups/budapest.mobile/"
-- title: "Twitter"
-  id: "twitter"
-  url: "https://twitter.com/@appcraftend2end"
 - title: "GitHub"
   id: "github"
   url: "https://github.com/AppCraft-Projects"
+- title: "Twitter"
+  id: "twitter"
+  url: "https://twitter.com/@appcraftend2end"
+

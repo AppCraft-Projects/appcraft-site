@@ -4,7 +4,7 @@
         <ul id="nav-left">
             {% for item in site.data.static_page_data.categories %}
             <li>
-                <a href="{{ site.baseurl }}/{{item.url}}"
+                <a href="{{ site.baseurl }}{{item.url}}"
                    alt="{{ item.title }}"
                    {% if item.url == page.permalink %}class="active" {% endif %}
                    id="{{ item.id }}">
@@ -14,7 +14,9 @@
             {% endfor %}
         </ul>
         <div id="logo-container">
-            <a id="logo" href="{{ site.baseurl }}/">&nbsp;</a>
+            <a id="logo" href="{{ site.baseurl }}/">
+                <img src="{{ site.baseurl }}/assets/appcraft-logo-full.svg" />
+            </a>
         </div>
         <div id="nav-right">
             <ul>
