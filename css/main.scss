@@ -362,8 +362,10 @@ h4 {
 
 #wrapper, #teaser, #footer-content, #page-navigation, .nav-content {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1080px;
   position: relative;
+  box-sizing: border-box;
+  padding: 0 $inline-spacing;
 }
 
 #teaser {
