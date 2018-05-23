@@ -1,7 +1,7 @@
 <div id="entries">
-    <ul id="entry-list">
+    <div id="entry-list">
         {% for entry in include.entries %}
-        <li class="entry-card {{ entry.collection }}-card" data-date="{{ entry.date | date: '%Y%m%d' }}">
+        <div class="entry-card {{ entry.collection }}-card" data-date="{{ entry.date | date: '%Y%m%d' }}">
             <p class="entry-icon {{ entry.collection }}-icon"></p>
             <p class="entry-meta">
                 <span class="entry-date">{{ entry.date | date: "%Y. %m. %d." }}</span>
@@ -14,8 +14,8 @@
                 {% include tag_list.html tags = entry.tags %}
             </p>
             {% endif %}
-        </li>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
     <div class="clear"></div>
 </div>

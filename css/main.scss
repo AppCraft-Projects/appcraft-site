@@ -92,6 +92,9 @@ h4 {
 
 #main-nav {
   text-align: center;
+  font-family: 'Libre Franklin extralight';
+  font-size: 1em;
+  text-transform: uppercase;
   background-color: $main-nav-background-color;
   position: relative;
   height: 6em;
@@ -171,7 +174,8 @@ h4 {
 }
 
 #category-nav {
-  font-family: $mainnav-font;
+  font-family: 'Libre Franklin medium';
+  font-size: .875em;
   text-transform: uppercase;
   position: relative;
   text-align: center;
@@ -238,9 +242,10 @@ h4 {
 
 #entries {
   margin-top: $section-spacing;
+  position: relative;
 
   #entry-list {
-    position: relative;
+    
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -261,7 +266,7 @@ h4 {
       position: relative;
       box-sizing: border-box;
       list-style: none;
-      width: 42%;
+      width: 48%;
       background-color: $post-background-color;
       padding: $inline-spacing;
       min-height: 10em;
@@ -269,8 +274,53 @@ h4 {
       overflow: hidden;
       border-top: 0px solid transparent;
       border-radius: 3px;
-      margin: 0 $section-spacing $section-spacing 0;
+      margin: 1%;
+      
 
+      .entry-meta {
+        color: $background-text-color;
+        font-size: $background-text-size;
+        margin: $inline-spacing 0;
+      }
+
+      .entry-title a {
+        color: $main-text-color;
+        font-size: $h3-font-size;
+        line-height: $h3-line-height;
+      }
+
+      .blog-icon {
+        width: 35px;
+        height: 42px;
+        background: url("../assets/icons/blog-icon.svg") no-repeat;
+        background-size: 100%;
+      }
+
+      .news-icon {
+        width: 50px;
+        height: 42px;
+        background: url("../assets/icons/news-icon.svg") no-repeat;
+        background-size: 100%;
+      }
+
+      .meetups-icon {
+        width: 57px;
+        height: 42px;
+        background: url("../assets/icons/meetup-icon.svg") no-repeat;
+        background-size: 100%;
+      }
+
+      .workshops-icon {
+        width: 61px;
+        height: 42px;
+        background: url("../assets/icons/workshop-icon.svg") no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    .blog-card{
+      
+      
       &:hover {
         box-shadow: none;
         cursor: pointer;
@@ -294,55 +344,6 @@ h4 {
         z-index: -1;
         transition: height .25s;
         }
-
-      .entry-meta {
-        color: $background-text-color;
-        font-size: $background-text-size;
-        margin: $inline-spacing 0;
-      }
-
-      .entry-title a {
-        color: $main-text-color;
-        font-size: $h3-font-size;
-        line-height: $h3-line-height;
-      }
-
-      .blog-icon {
-        width: 35px;
-        height: 42px;
-        background: url("../assets/icons/blog-icon.svg") no-repeat;
-      }
-
-      .news-icon {
-        width: 50px;
-        height: 42px;
-        background: url("../assets/icons/news-icon.svg") no-repeat;
-      }
-
-      .meetups-icon {
-        width: 57px;
-        height: 42px;
-        background: url("../assets/icons/meetup-icon.svg") no-repeat;
-      }
-
-      .workshops-icon {
-        width: 61px;
-        height: 42px;
-        background: url("../assets/icons/workshop-icon.svg") no-repeat;
-      }
-    }
-
-    .posts-card:hover:after {
-      content: '';
-      display: block;
-      width: 94%;
-      height: 48px;
-      box-shadow: 0 2px 45px 0 #97B0C6;
-      position: absolute;
-      bottom: 0;
-      left: 3%;
-      z-index: -1;
-      transition: height .5s;
     }
 
   }
@@ -432,6 +433,9 @@ h4 {
       }
       .twitter {
         background: url("../assets/icons/twitter-dark.svg") no-repeat center, center;
+      }
+      .github {
+        background: url("../assets/icons/github-dark.svg") no-repeat center, center;
       }
     }
   }
