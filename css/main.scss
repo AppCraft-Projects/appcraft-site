@@ -1,6 +1,6 @@
 ---
 ---
-
+@import "font.scss";
 //noinspection CssInvalidCharsetRule
 @charset "utf-8";
 
@@ -171,21 +171,24 @@ h4 {
 }
 
 #category-nav {
-  position: static;
+  font-family: $mainnav-font;
+  text-transform: uppercase;
+  position: relative;
   text-align: center;
   background-color: $category-nav-background-color;
-  position: relative;
   height: 3.5rem;
+
 
   li {
     list-style: none;
     display: inline-block;
+    line-height: 3.5rem;
   }
 
   a {
     margin: 0 $section-spacing 0 0;
     color: $nav-text-color;
-    line-height: $main-menu-line-height;
+    line-height: 3.5rem;
   }
 
   #nav-left, #nav-right {
@@ -237,39 +240,60 @@ h4 {
   margin-top: $section-spacing;
 
   #entry-list {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
 
-    li:nth-child(even) {
-      margin: 0 0 $inline-spacing 0;
-    }
+    // li:nth-child(even) {
+    //   margin: 0 0 $inline-spacing 0;
+    // }
 
-    li:nth-child(odd) {
-      margin: 0 4% 4% 0;
-    }
+    // li:nth-child(odd) {
+    //   margin: 0 4% 4% 0;
+    // }
 
     .entry-card {
       position: relative;
       box-sizing: border-box;
-      float: left;
       list-style: none;
-      width: 48%;
+      width: 42%;
       background-color: $post-background-color;
       padding: $inline-spacing;
       min-height: 10em;
       max-height: 12em;
       overflow: hidden;
-      box-shadow: 0 1px 2px 0 rgba(192, 205, 216, 0.50);
+      border-top: 0px solid transparent;
       border-radius: 3px;
+      margin: 0 $section-spacing $section-spacing 0;
 
-      :hover {
+      &:hover {
         box-shadow: none;
         cursor: pointer;
       }
 
-      :after {
+      &:after {
         content: '';
         display: block;
         height: 0;
-      }
+        }
+
+      &:hover:after {
+        content: '';
+        display: block;
+        width: 94%;
+        height: 20px;
+        box-shadow: 0 8px 36px 0 #1C2A43;
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+        z-index: -1;
+        transition: height .25s;
+        }
 
       .entry-meta {
         color: $background-text-color;
@@ -286,25 +310,25 @@ h4 {
       .blog-icon {
         width: 35px;
         height: 42px;
-        background: url("../assets/blog-icon.svg") no-repeat;
+        background: url("../assets/icons/blog-icon.svg") no-repeat;
       }
 
       .news-icon {
         width: 50px;
         height: 42px;
-        background: url("../assets/news-icon.svg") no-repeat;
+        background: url("../assets/icons/news-icon.svg") no-repeat;
       }
 
       .meetups-icon {
         width: 57px;
         height: 42px;
-        background: url("../assets/meetup-icon.svg") no-repeat;
+        background: url("../assets/icons/meetup-icon.svg") no-repeat;
       }
 
       .workshops-icon {
         width: 61px;
         height: 42px;
-        background: url("../assets/workshop-icon.svg") no-repeat;
+        background: url("../assets/icons/workshop-icon.svg") no-repeat;
       }
     }
 
@@ -389,7 +413,7 @@ h4 {
     .logo {
       width: 20%;
       height: $main-menu-line-height;
-      background: url("../assets/appcraft-logo-dark.svg") no-repeat center, center;
+      background: url("../assets/icons/appcraft-logo-dark.svg") no-repeat center, center;
     }
     .external-nav {
       width: 40%;
@@ -404,10 +428,10 @@ h4 {
         display: block;
       }
       .facebook {
-        background: url("../assets/facebook-dark.svg") no-repeat center, center;
+        background: url("../assets/icons/facebook-dark.svg") no-repeat center, center;
       }
       .twitter {
-        background: url("../assets/twitter-dark.svg") no-repeat center, center;
+        background: url("../assets/icons/twitter-dark.svg") no-repeat center, center;
       }
     }
   }
