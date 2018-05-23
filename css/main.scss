@@ -5,8 +5,9 @@
 @charset "utf-8";
 
 // fonts
-$default-font: 'PT Sans', sans-serif;
-$accent-font: 'PT Serif', serif;
+$heading-font: 'Libre Franklin semibold', Arial, serif;
+$mainnav-font: 'Libre Franklin extralight', Arial, serif;
+$paragraph-font: 'HK grotesk medium', Arial, serif;
 $code-font: 'Source Code Pro', monospace;
 
 // sizes
@@ -50,11 +51,12 @@ $background-text-size: 0.8em;
 }
 
 html {
-  font-family: $default-font;
+  font-family: $paragraph-font;
   font-size: 100%;
 }
 
 body {
+  border: 32px solid $nav-text-color;
   background-color: $page-color;
   color: $main-text-color;
 }
@@ -68,21 +70,21 @@ a {
 }
 
 h2 {
-  font-family: $accent-font;
+  font-family: $paragraph-font;
   font-size: $h2-font-size;
   line-height: $h2-line-height;
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
 h3 {
-  font-family: $accent-font;
+  font-family: $paragraph-font;
   font-size: $h3-font-size;
   line-height: $h3-line-height;
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
 h4 {
-  font-family: $accent-font;
+  font-family: $paragraph-font;
   font-size: $h4-font-size;
   line-height: $h4-line-height;
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
@@ -154,25 +156,26 @@ h4 {
       }
 
       .facebook {
-        background: url("../assets/facebook-light.svg") no-repeat center, left;
+        background: url("../assets/icons/facebook-light.svg") no-repeat center, left;
       }
 
       .github {
-        background: url("../assets/github-light.svg") no-repeat center, left;
+        background: url("../assets/icons/github-light.svg") no-repeat center, left;
       }
 
       .twitter {
-        background: url("../assets/twitter-light.svg") no-repeat center, left;
+        background: url("../assets/icons/twitter-light.svg") no-repeat center, left;
       }
     }
   }
 }
 
 #category-nav {
+  position: static;
   text-align: center;
   background-color: $category-nav-background-color;
   position: relative;
-  height: 4em;
+  height: 3.5rem;
 
   li {
     list-style: none;
@@ -201,7 +204,7 @@ h4 {
   }
 
   .active {
-    color: $accent-color
+    color: $accent-color;
   }
 }
 
@@ -210,13 +213,13 @@ h4 {
   margin-top: $section-spacing;
   padding: $page-spacing;
   h1 {
-    font-family: $accent-font;
+    font-family: $paragraph-font;
     font-size: 2.5em;
     line-height: 2em;
     margin: 0;
   }
   p {
-    font-family: $accent-font;
+    font-family: $paragraph-font;
   }
   #post-meta {
     color: $background-text-color;

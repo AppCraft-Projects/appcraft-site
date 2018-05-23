@@ -50,7 +50,6 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2017.3)
       tzinfo (>= 1.0.0)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -60,7 +59,6 @@ DEPENDENCIES
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   tzinfo-data
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.16.2
