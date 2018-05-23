@@ -1,5 +1,7 @@
 ---
 ---
+
+//noinspection CssUnknownTarget
 @import "font.scss";
 //noinspection CssInvalidCharsetRule
 @charset "utf-8";
@@ -56,7 +58,6 @@ html {
 }
 
 body {
-  border: 32px solid $nav-text-color;
   background-color: $page-color;
   color: $main-text-color;
 }
@@ -90,9 +91,13 @@ h4 {
   padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
 }
 
+#page {
+  padding-bottom: $inline-spacing;
+}
+
 #main-nav {
   text-align: center;
-  font-family: 'Libre Franklin extralight';
+  font-family: 'Libre Franklin extralight', serif;
   font-size: 1em;
   text-transform: uppercase;
   background-color: $main-nav-background-color;
@@ -174,14 +179,13 @@ h4 {
 }
 
 #category-nav {
-  font-family: 'Libre Franklin medium';
+  font-family: 'Libre Franklin medium', serif;
   font-size: .875em;
   text-transform: uppercase;
   position: relative;
   text-align: center;
   background-color: $category-nav-background-color;
   height: 3.5rem;
-
 
   li {
     list-style: none;
@@ -195,21 +199,6 @@ h4 {
     line-height: 3.5rem;
   }
 
-  #nav-left, #nav-right {
-    width: 40%;
-  }
-
-  #logo-container {
-    width: 20%;
-  }
-
-  #logo {
-    background: url("../assets/appcraft-logo-dark.svg");
-    width: 100px;
-    height: 100px;
-    background-size: 100px 100px;
-  }
-
   .active {
     color: $accent-color;
   }
@@ -219,22 +208,27 @@ h4 {
   background-color: $post-background-color;
   margin-top: $section-spacing;
   padding: $page-spacing;
+
   h1 {
     font-family: $paragraph-font;
     font-size: 2.5em;
     line-height: 2em;
     margin: 0;
   }
+
   p {
     font-family: $paragraph-font;
   }
+
   #post-meta {
     color: $background-text-color;
     font-size: $background-text-size;
   }
+
   #post-body {
     margin-top: $section-spacing
   }
+
   li {
     list-style-position: inside;
   }
@@ -245,37 +239,34 @@ h4 {
   position: relative;
 
   #entry-list {
-    
+
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    
 
-    // li:nth-child(even) {
-    //   margin: 0 0 $inline-spacing 0;
-    // }
+     div:nth-child(even) {
+       margin: 0 0 2% 0;
+     }
 
-    // li:nth-child(odd) {
-    //   margin: 0 4% 4% 0;
-    // }
+     div:nth-child(odd) {
+       margin: 0 2% 2% 0;
+     }
 
     .entry-card {
       position: relative;
       box-sizing: border-box;
       list-style: none;
-      width: 48%;
+      width: 49%;
       background-color: $post-background-color;
       padding: $inline-spacing;
       min-height: 10em;
       max-height: 12em;
       overflow: hidden;
-      border-top: 0px solid transparent;
+      border-top: 0 solid transparent;
       border-radius: 3px;
-      margin: 1%;
-      
 
       .entry-meta {
         color: $background-text-color;
@@ -318,9 +309,8 @@ h4 {
       }
     }
 
-    .blog-card{
-      
-      
+    .blog-card {
+
       &:hover {
         box-shadow: none;
         cursor: pointer;
@@ -330,7 +320,7 @@ h4 {
         content: '';
         display: block;
         height: 0;
-        }
+      }
 
       &:hover:after {
         content: '';
@@ -343,13 +333,14 @@ h4 {
         left: 3%;
         z-index: -1;
         transition: height .25s;
-        }
+      }
     }
 
   }
 }
 
 .tag-list-block {
+
   li {
     margin: 0 $inline-spacing 0 0;
     padding: 0 $inline-spacing 0 0;
@@ -357,10 +348,12 @@ h4 {
     float: left;
     list-style-type: none;
   }
+
   a {
     color: $background-text-color;
     font-size: $background-text-size;
   }
+
   a:hover {
     color: $tag-hover-color;
     text-decoration: underline;
@@ -369,7 +362,7 @@ h4 {
 
 #wrapper, #teaser, #footer-content, #page-navigation, .nav-content {
   margin: 0 auto;
-  max-width: $max-chars;
+  max-width: 1000px;
   position: relative;
 }
 
@@ -394,14 +387,17 @@ h4 {
 
 #bottom {
   background-color: #ffffff;
-  margin-top: 4em;
+
   footer {
+
     .links, .logo, .external-nav {
       float: left;
     }
+
     li {
       list-style-type: none;
     }
+
     .links {
       width: 40%;
 
@@ -411,32 +407,44 @@ h4 {
         line-height: $main-menu-line-height;
       }
     }
+
     .logo {
       width: 20%;
       height: $main-menu-line-height;
       background: url("../assets/icons/appcraft-logo-dark.svg") no-repeat center, center;
     }
+
     .external-nav {
       width: 40%;
       text-align: right;
+
       li {
         float: right;
       }
+
       .icon-link {
         width: $icon-size;
         height: $main-menu-line-height;
         margin: 0 0 0 $logical-separator-spacing;
         display: block;
       }
+
       .facebook {
         background: url("../assets/icons/facebook-dark.svg") no-repeat center, center;
       }
+
       .twitter {
         background: url("../assets/icons/twitter-dark.svg") no-repeat center, center;
       }
+
       .github {
         background: url("../assets/icons/github-dark.svg") no-repeat center, center;
       }
+    }
+
+    .copyright {
+      font-size: $background-text-size;
+      text-align: center;
     }
   }
 }
@@ -448,5 +456,7 @@ h4 {
   right: 0;
 }
 
+//noinspection CssUnknownTarget
 @import "media";
+//noinspection CssUnknownTarget
 @import "gist";
