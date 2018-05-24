@@ -1,6 +1,6 @@
 ---
 ---
-@import "font.scss";
+
 //noinspection CssInvalidCharsetRule
 @charset "utf-8";
 
@@ -166,6 +166,9 @@ h4 {
       .twitter {
         background: url("../assets/icons/twitter-light.svg") no-repeat center, left;
       }
+      .meetup {
+        background: url("../assets/icons/meetup01.svg") no-repeat center, left;
+      }
     }
   }
 }
@@ -330,6 +333,11 @@ h4 {
         height: 42px;
         background: url("../assets/icons/workshop-icon.svg") no-repeat;
       }
+      .conference-icon {
+        width: 36px;
+        height: 42px;
+        background: url("../assets/icons/conference-icon.svg") no-repeat;
+      }
     }
 
     .posts-card:hover:after {
@@ -344,7 +352,33 @@ h4 {
       z-index: -1;
       transition: height .5s;
     }
+    .workshops-card, .meetups-card {
+      background-color: $accent-color;
 
+      &:hover {
+        box-shadow: none;
+        cursor: pointer;
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        height: 0;
+        }
+
+      &:hover:after {
+        content: '';
+        display: block;
+        width: 94%;
+        height: 20px;
+        box-shadow: 0 8px 36px 0 #1C2A43;
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+        z-index: -1;
+        transition: height .25s;
+        }
+    }
   }
 }
 
@@ -433,6 +467,12 @@ h4 {
       .twitter {
         background: url("../assets/icons/twitter-dark.svg") no-repeat center, center;
       }
+      .github {
+        background: url("../assets/icons/github-dark.svg") no-repeat center, center;
+      }
+      .meetup {
+        background: url("../assets/icons/meetup01-dark.svg") no-repeat center, center;
+      }
     }
   }
 }
@@ -446,3 +486,4 @@ h4 {
 
 @import "media";
 @import "gist";
+@import "font.scss";
