@@ -8,21 +8,16 @@
     <div id="wrapper">
         {{ content }}
     </div>
-    {% include bottom.html %}
 </div>
+{% include bottom.html %}
 <script>
 
     function fixFooter() {
-        var page = document.getElementById('page');
-        var style = page.currentStyle || window.getComputedStyle(page);
-        var pageTopPadding = style.paddingTop.replace("px", "");
-        var wrapper = document.getElementById('wrapper');
+        var page = document.getElementById('page')
         var bottom = document.getElementById('bottom');
-        var arbitraryMarginToKeep = 30;
-        var totalHeight = wrapper.offsetHeight + bottom.offsetHeight + parseInt(pageTopPadding);
-        console.log("height: " + totalHeight);
+        console.log("bottom height:, " + bottom.offsetHeight + " page height: " + page.offsetHeight);
         console.log("inner height: " + window.innerHeight);
-        if (totalHeight + arbitraryMarginToKeep < window.innerHeight) {
+        if (page.offsetHeight + bottom.offsetHeight < window.innerHeight) {
             bottom.classList.add("stickybottom");
         } else {
             bottom.classList.remove("stickybottom")

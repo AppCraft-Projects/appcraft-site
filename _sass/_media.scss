@@ -1,7 +1,62 @@
-@media (max-width: 600px) {
-  #page-navigation {
-    height: 5em;
-    line-height: 2.5em;
+@media (max-width: 500px) {
+  #entries {
+
+    #entry-list {
+
+      .entry-card {
+        width: 100%;
+        margin: 0;
+      }
+
+      div:nth-child(even) {
+        margin: 0 0 2% 0
+      }
+
+      div:nth-child(odd) {
+        margin: 0 0 2% 0
+      }
+    }
+  }
+  #main-nav {
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    padding: 0;
+
+    #nav-left {
+      display: flex;
+      justify-content: center;
+
+      li {
+        height: 3em;
+
+        a {
+          padding-top: 0;
+          line-height: 3em;
+        }
+      }
+    }
+
+    #nav-right {
+      display: none;
+    }
+
+    #logo-container {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  #logo-container {
+    display: none;
+  }
+  #main-nav #nav-left {
+    width: 55%;
+  }
+  #main-nav #nav-right {
+    width: 40%;
+    left: 60%;
   }
 }
 
@@ -9,15 +64,26 @@
   body {
     font-size: 16px
   }
+  #entries #entry-list .entry-card {
+    max-height: 24em;
+  }
 }
+
 @media (min-width: 400px) {
   body {
     font-size: 16px
   }
+  #entries #entry-list .entry-card {
+    max-height: 22em;
+  }
 }
+
 @media (min-width: 470px) {
   body {
     font-size: 17px
+  }
+  #entries #entry-list .entry-card {
+    max-height: 20em;
   }
 }
 
@@ -25,17 +91,27 @@
   body {
     font-size: 18px
   }
+  #entries #entry-list .entry-card {
+    max-height: 18em;
+  }
 }
 
 @media (min-width: 802px) {
   body {
     font-size: 19px
   }
+  #entries #entry-list .entry-card {
+    max-height: 15em;
+  }
 }
 
 @media (min-width: 1003px) {
   body {
     font-size: 20px
+  }
+  #entries #entry-list .entry-card {
+    min-height: 10em;
+    max-height: 12em;
   }
 }
 
