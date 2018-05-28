@@ -1,4 +1,5 @@
-
+---
+---
 @charset "utf-8";
 
 // fonts
@@ -170,7 +171,7 @@ h4 {
         background: url("../assets/icons/twitter-light.svg") no-repeat center, left;
       }
       .meetup {
-        background: url("../assets/icons/meetup01.svg") no-repeat center, left;
+        background: url("../assets/icons/meetup01-icon.svg") no-repeat center, left;
       }
     }
   }
@@ -475,9 +476,10 @@ h4 {
         background: url("../assets/icons/meetup01-dark.svg") no-repeat center, center;
       }
 
-    .copyright {
-      font-size: $background-text-size;
-      text-align: center;
+      .copyright {
+        font-size: $background-text-size;
+        text-align: center;
+      }
     }
   }
 }
@@ -493,4 +495,5 @@ h4 {
 @import "media";
 //noinspection CssUnknownTarget
 @import "gist";
+//noinspection CssUnknownTarget
 @import "font.scss";
