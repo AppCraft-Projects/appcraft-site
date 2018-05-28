@@ -27,4 +27,7 @@ external:
 - title: "Twitter"
   id: "twitter"
   url: "https://twitter.com/@appcraftend2end"
+- title: "Meetup"
+  id: "meetup"
+  url: "https://www.meetup.com/appcraft/"
 
