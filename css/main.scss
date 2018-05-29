@@ -37,6 +37,9 @@ $nav-text-color: #fff;
 $accent-color: #fbc100;
 $post-background-color: #fff;
 $tag-hover-color: #1b2436;
+$meetup-color:#FB004F;
+$conf-color:#0658E9;
+$workshp-color: #00E016;
 
 $main-text-color: #111b2c;
 $background-text-color: #9298a4;
@@ -263,9 +266,17 @@ h4 {
       padding: $inline-spacing;
       min-height: 10em;
       max-height: 12em;
-      overflow: hidden;
-      border-top: 0 solid transparent;
+      border-top: 2px solid transparent;
       border-radius: 3px;
+
+      &:hover {
+        border-top: 2px solid $accent-color;
+        transition: border-top .2s ease;
+      }
+
+      &:hover ~ div:not(:hover) {
+        z-index: -5;
+      }
 
       .entry-meta {
         color: $background-text-color;
@@ -283,30 +294,29 @@ h4 {
         width: 35px;
         height: 42px;
         background: url("../assets/icons/blog-icon.svg") no-repeat;
-        background-size: 100%;
+        
       }
 
       .news-icon {
         width: 50px;
         height: 42px;
         background: url("../assets/icons/news-icon.svg") no-repeat;
-        background-size: 100%;
+        
       }
 
       .meetups-icon {
         width: 57px;
         height: 42px;
         background: url("../assets/icons/meetup-icon.svg") no-repeat;
-        background-size: 100%;
+        
       }
 
       .workshops-icon {
         width: 61px;
         height: 42px;
         background: url("../assets/icons/workshop-icon.svg") no-repeat;
-        background-size: 100%;
       }
-      .conference-icon {
+      .conferences-icon {
         width: 36px;
         height: 42px;
         background: url("../assets/icons/conference-icon.svg") no-repeat;
@@ -339,9 +349,25 @@ h4 {
         transition: height .25s;
       }
     }
-    .workshops-card, .meetups-card {
-      background-color: $accent-color;
 
+
+    .workshops-card {
+      border-left: 4px solid $workshp-color;
+    }
+    
+    
+    .meetups-card {
+      border-left: 4px solid $meetup-color;
+    }
+
+    .conferences-card {
+      border-left: 4px solid $conf-color;
+    }
+    
+    
+    
+    .diffusedshadow {
+      
       &:hover {
         box-shadow: none;
         cursor: pointer;
