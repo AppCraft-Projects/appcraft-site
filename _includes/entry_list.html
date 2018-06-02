@@ -1,7 +1,7 @@
 <div id="entries">
     <div id="entry-list">
         {% for entry in include.entries %}
-        <div class="entry-card {{ entry.collection }}-card" data-date="{{ entry.date | date: '%Y%m%d' }}">
+        <div class="entry-card {{ entry.collection }}-card diffusedshadow" data-date="{{ entry.date | date: '%Y%m%d' }}">
             <p class="entry-icon {{ entry.collection }}-icon"></p>
             <p class="entry-meta">
                 <span class="entry-date">{{ entry.date | date: "%Y. %m. %d." }}</span>
