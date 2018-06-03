@@ -18,6 +18,7 @@ $header-bottom-spacing: 0.1em;
 $section-spacing: 2em;
 $page-spacing: 3em;
 $inline-spacing: 1em;
+$tag-spacing: 0.5em;
 $max-chars: 80ch;
 $accent-border-width: 0.25rem;
 $non-important-font-size: 0.8em;
@@ -39,7 +40,7 @@ $post-background-color: #fff;
 $tag-hover-color: #1b2436;
 $meetup-color:#FB004F;
 $conf-color:#0658E9;
-$workshp-color: #00E016;
+$workshop-color: #00E016;
 
 $main-text-color: #111b2c;
 $background-text-color: #9298a4;
@@ -92,10 +93,6 @@ h4 {
 
 #page {
   padding-bottom: $inline-spacing;
-}
-
-.nav-item {
-
 }
 
 #main-nav {
@@ -242,7 +239,7 @@ h4 {
       background-color: $post-background-color;
       padding: $inline-spacing;
       min-height: 10em;
-      max-height: 12em;
+      max-height: 13em;
       border-top: 2px solid transparent;
       border-radius: 3px;
 
@@ -329,7 +326,7 @@ h4 {
 
 
     .workshops-card {
-      border-left: 4px solid $workshp-color;
+      border-left: 4px solid $workshop-color;
     }
     
     
@@ -376,7 +373,6 @@ h4 {
 
   li {
     margin: 0 $inline-spacing 0 0;
-    padding: 0 $inline-spacing 0 0;
     display: block;
     float: left;
     list-style-type: none;
@@ -401,15 +397,6 @@ h4 {
   padding: 0 $inline-spacing;
 }
 
-#teaser {
-  padding-bottom: $section-spacing;
-}
-
-#next {
-  display: block;
-  float: right;
-}
-
 #intro {
   margin: $section-spacing auto $logical-separator-spacing auto;
   max-width: $max-chars;
@@ -418,6 +405,11 @@ h4 {
 #page-navigation {
   line-height: $one-liner-height;
   overflow: auto;
+
+  #next {
+    display: block;
+    float: right;
+  }
 }
 
 .external-nav {

@@ -2,7 +2,7 @@
 excerpt: Example blog post 1 excerpt
 title: Example blog post 1  with a very long title which might not fit because it is very long
 date: 2018-04-01
-tags: [kotlin, react, ruby, native, clojure]
+tags: [kotlin, react, ruby, native, clojure, programming]
 ---
 
 A londoni Novoda csapatának érdeklődését is felkeltette a React Native technológia, és egy hónapig alaposan megtesztelték egy Twitter-klón iOS és Android változatának építésével.
