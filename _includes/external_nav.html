@@ -1,10 +1,12 @@
-<div class="external-nav">
+<div class="nav external-nav">
     <ul>
         {% for item in site.data.static_page_data.external %}
-        <li>
+        <li class="nav-item">
             <a href="{{item.url}}"
                alt="{{ item.title }}"
-               class="icon-link {{ item.id }}">&nbsp;</a>
+               class="icon-link {{ item.id }}">
+                <img src="{{ site.baseurl }}/assets/icons/{{ item.id }}-{{ include.type }}.svg" />
+            </a>
         </li>
         {% endfor %}
     </ul>

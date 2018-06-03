@@ -94,6 +94,10 @@ h4 {
   padding-bottom: $inline-spacing;
 }
 
+.nav-item {
+
+}
+
 #main-nav {
   text-align: center;
   font-family: 'Libre Franklin extralight', serif;
@@ -104,28 +108,28 @@ h4 {
   height: 6em;
   padding-top: 1em;
 
-  li {
-    list-style: none;
-    float: left;
-    vertical-align: bottom;
-
-    a {
-      margin: 0 $section-spacing 0 0;
-      color: $nav-text-color;
-      padding-top: 2em;
-      line-height: 2em;
-      display: inline-block;
-    }
-  }
-
   .active {
     color: $accent-color
+  }
+
+  a {
+    color: $nav-text-color;
   }
 
   #nav-left {
     position: absolute;
     width: 40%;
+
+    li {
+      list-style: none;
+      vertical-align: bottom;
+      display: inline-block;
+      margin: 0 $section-spacing 0 0;
+      padding-top: 2em;
+      line-height: 2em;
+    }
   }
+
   #logo-container {
     width: 20%;
     position: absolute;
@@ -141,42 +145,15 @@ h4 {
     }
   }
 
-  #nav-right {
-    width: 40%;
+  #contact {
     position: absolute;
-    left: 60%;
+    left: 65%;
+    padding-top: 2em;
+    line-height: 2em;
+  }
 
-    #contact {
-      position: absolute;
-      right: 40%;
-    }
-
-    .external-nav {
-      position: absolute;
-      right: 0;
-
-      .icon-link {
-        width: $icon-size;
-        height: $main-menu-line-height;
-        margin: 0 $logical-separator-spacing 0 0;
-        display: block;
-      }
-
-      .facebook {
-        background: url("../assets/icons/facebook-light.svg") no-repeat center, left;
-      }
-
-      .github {
-        background: url("../assets/icons/github-light.svg") no-repeat center, left;
-      }
-
-      .twitter {
-        background: url("../assets/icons/twitter-light.svg") no-repeat center, left;
-      }
-      .meetup {
-        background: url("../assets/icons/meetup01-icon.svg") no-repeat center, left;
-      }
-    }
+  .external-nav {
+    margin-top: 0.5em;
   }
 }
 
@@ -416,7 +393,7 @@ h4 {
   }
 }
 
-#wrapper, #teaser, #footer-content, #page-navigation, .nav-content {
+#wrapper, #teaser, #footer-nav, #page-navigation, .nav-content {
   margin: 0 auto;
   max-width: 1080px;
   position: relative;
@@ -443,17 +420,44 @@ h4 {
   overflow: auto;
 }
 
-#bottom {
+.external-nav {
+  position: absolute;
+  right: 0;
+
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .icon-link {
+    position: relative;
+    width: $icon-size;
+    height: $main-menu-line-height;
+    margin: 0 $logical-separator-spacing 0 0;
+    display: block;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+  }
+}
+
+footer {
   background-color: #ffffff;
 
-  footer {
+  #footer-nav {
+    position: relative;
+    height: 5em;
 
-    .links, .logo, .external-nav {
-      float: left;
+    .links, .logo {
+      position: absolute;
     }
 
     li {
-      list-style-type: none;
+      list-style: none;
+      display: inline-block;
     }
 
     .links {
@@ -468,45 +472,16 @@ h4 {
 
     .logo {
       width: 20%;
+      left: 40%;
       height: $main-menu-line-height;
       background: url("../assets/icons/appcraft-logo-dark.svg") no-repeat center, center;
     }
+  }
 
-    .external-nav {
-      width: 40%;
-      text-align: right;
-
-      li {
-        float: right;
-      }
-
-      .icon-link {
-        width: $icon-size;
-        height: $main-menu-line-height;
-        margin: 0 0 0 $logical-separator-spacing;
-        display: block;
-      }
-
-      .facebook {
-        background: url("../assets/icons/facebook-dark.svg") no-repeat center, center;
-      }
-
-      .twitter {
-        background: url("../assets/icons/twitter-dark.svg") no-repeat center, center;
-      }
-
-      .github {
-        background: url("../assets/icons/github-dark.svg") no-repeat center, center;
-      }
-      .meetup {
-        background: url("../assets/icons/meetup01-dark.svg") no-repeat center, center;
-      }
-
-      .copyright {
-        font-size: $background-text-size;
-        text-align: center;
-      }
-    }
+  .copyright {
+    font-size: $background-text-size;
+    width: 100%;
+    text-align: center;
   }
 }
 

@@ -2,17 +2,17 @@
 {% assign entries = site.collections | where: 'category', include.category %}
 {% assign count = entries | size %}
 {% if count > 0 %}
-<nav id="category-nav">
+<nav id="category-nav" class="nav">
     <div class="nav-content">
         <ul>
-            <li>
+            <li class="nav-item">
                 <a class="{% if page.subcategory == 'all' %}active{% endif %}"
                    href="{{ site.baseurl }}/{{include.category}}/">
                     All
                 </a>
             </li>
             {% for item in entries %}
-            <li>
+            <li class="nav-item">
                 <a class="{% if page.subcategory == item.subcategory %}active{% endif %}
                              {{ item.subcategory }}-subcategory"
                    href="{{ site.baseurl }}/{{item.category}}/{{ item.label }}">

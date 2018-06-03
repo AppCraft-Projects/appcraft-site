@@ -1,0 +1,17 @@
+<footer>
+    <div id="footer-nav">
+        <div class="links">
+            {% assign about = site.data.static_page_data.about %}
+            {% assign contact = site.data.static_page_data.contact %}
+            <a href="{{ site.baseurl }}/{{about.url}}">
+                {{ about.title }}
+            </a>
+            <a href="{{contact.url}}">
+                {{ contact.title }}
+            </a>
+        </div>
+        <div class="logo">&nbsp;</div>
+        {% include external_nav.html type="dark" %}
+    </div>
+    <div class="copyright">All rights reserved &copy; AppCraft 2018</div>
+</footer>

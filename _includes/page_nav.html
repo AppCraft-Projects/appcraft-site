@@ -5,15 +5,11 @@
         {% if page.previous.url %}
             Previous: <a class="prev"
                          href="{{page.previous.url | prepend:site.baseurl}}">&laquo;{{page.previous.title}}</a>
-        {% else %}
-            &nbsp;
         {% endif %}
     </span>
     <span id="next">
         {% if page.next.url %}
             Next: <a class="next" href="{{page.next.url | prepend:site.baseurl}}">{{page.next.title}} &raquo;</a>
-        {% else %}
-            &nbsp;
         {% endif %}
     </span>
 </div>
