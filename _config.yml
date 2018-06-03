@@ -108,6 +108,7 @@ defaults:
     values:
       layout: "blog_details"
       regenerate: true
+      taggable: true
       category: "posts"
       subcategory: "blog"
   - scope:
@@ -116,6 +117,7 @@ defaults:
     values:
       layout: "news_details"
       regenerate: true
+      taggable: true
       category: "posts"
       subcategory: "news"
   - scope:
@@ -124,6 +126,7 @@ defaults:
     values:
       layout: "meetup_details"
       regenerate: true
+      taggable: true
       category: "events"
       subcategory: "meetups"
   - scope:
@@ -132,6 +135,7 @@ defaults:
     values:
       layout: "conference_details"
       regenerate: true
+      taggable: true
       category: "events"
       subcategory: "conferences"
   - scope:
@@ -140,6 +144,7 @@ defaults:
     values:
       layout: "workshop_details"
       regenerate: true
+      taggable: true
       category: "events"
       subcategory: "workshops"
   - scope:

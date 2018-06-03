@@ -116,13 +116,14 @@ h4 {
   #nav-left {
     position: absolute;
     width: 40%;
+    left: 0;
 
     li {
       list-style: none;
       vertical-align: bottom;
       display: inline-block;
       margin: 0 $section-spacing 0 0;
-      padding-top: 2em;
+      padding: 2em 0 0 0;
       line-height: 2em;
     }
   }
@@ -337,34 +338,54 @@ h4 {
     .conferences-card {
       border-left: 4px solid $conf-color;
     }
-    
-    
-    
-    .diffusedshadow {
-      
-      &:hover {
-        box-shadow: none;
-        cursor: pointer;
+  }
+}
+
+#tags {
+  margin-top: $section-spacing;
+  position: relative;
+
+  #tag-list {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .tag-card:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    .tag-card {
+      position: relative;
+      box-sizing: border-box;
+      list-style: none;
+      width: 31.99%;
+      background-color: $post-background-color;
+      padding: $inline-spacing;
+      min-height: 8em;
+      max-height: 13em;
+      border-top: 2px solid transparent;
+      border-radius: 3px;
+      margin: 0 2% 2% 0;
+
+      .tag-name {
+        a {
+          line-height: 1em;
+          background-color: $accent-color;
+          padding: 0 $tag-spacing;
+          color: $main-text-color;
+        }
       }
 
-      &:after {
-        content: '';
-        display: block;
-        height: 0;
-        }
+      .tag-description {
+        font-size: $background-text-size;
+        color: $background-text-color;
+      }
 
-      &:hover:after {
-        content: '';
-        display: block;
-        width: 94%;
-        height: 20px;
-        box-shadow: 0 8px 36px 0 #1C2A43;
-        position: absolute;
-        bottom: 0;
-        left: 3%;
-        z-index: -1;
-        transition: height .25s;
-        }
+      &:hover {
+        border-top: 2px solid $accent-color;
+        transition: border-top .2s ease;
+      }
     }
   }
 }
@@ -482,6 +503,22 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.diffusedshadow {
+
+  &:hover:after {
+    content: '';
+    display: block;
+    width: 94%;
+    height: 20px;
+    box-shadow: 0 8px 36px 0 #1C2A43;
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    z-index: -1;
+    transition: height .5s;
+  }
 }
 
 //noinspection CssUnknownTarget
