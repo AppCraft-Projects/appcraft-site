@@ -2,8 +2,8 @@
 layout: default
 permalink: /posts/news/
 category: posts
-selected: news
+subcategory: news
 ---
-{% assign entries = site.documents | where: 'collection', page.selected | sort: 'date' | reverse %}
+{% assign entries = site.documents | where: 'collection', page.subcategory | sort: 'date' | reverse %}
 
 {% include entry_list.html entries=entries %}

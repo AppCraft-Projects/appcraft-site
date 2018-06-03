@@ -2,9 +2,9 @@
 layout: default
 permalink: /events/conferences/
 category: events
-selected: conferences
+subcategory: conferences
 ---
 
-{% assign entries = site.documents | where: 'collection', page.selected | sort: 'date' | reverse %}
+{% assign entries = site.documents | where: 'collection', page.subcategory | sort: 'date' | reverse %}
 
 {% include entry_list.html entries=entries %}

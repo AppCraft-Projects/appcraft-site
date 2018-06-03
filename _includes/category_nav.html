@@ -6,15 +6,15 @@
     <div class="nav-content">
         <ul>
             <li>
-                <a
-                        class="{% if include.selected == 'all' %}active{% endif %}"
-                        href="{{ site.baseurl }}/{{include.category}}/">
+                <a class="{% if page.subcategory == 'all' %}active{% endif %}"
+                   href="{{ site.baseurl }}/{{include.category}}/">
                     All
                 </a>
             </li>
             {% for item in entries %}
             <li>
-                <a class="{% if include.selected == item.label %}active{% endif %} {{ item.subcategory }}-subcategory"
+                <a class="{% if page.subcategory == item.subcategory %}active{% endif %}
+                             {{ item.subcategory }}-subcategory"
                    href="{{ site.baseurl }}/{{item.category}}/{{ item.label }}">
                     {{ item.display }}
                 </a>

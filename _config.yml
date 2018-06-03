@@ -12,6 +12,7 @@ plugins_dir:     _plugins
 layouts_dir:     _layouts
 data_dir:        _data
 includes_dir:    _includes
+debug: false
 collections:
   blog:
     output: true
@@ -46,6 +47,8 @@ collections:
   tags:
     output: true
     permalink: "/tags/:name/"
+    category: "tags"
+
 
 # Handling Reading
 safe:                 false
@@ -92,51 +95,60 @@ defaults:
     values:
       layout: "default"
       author: "AppCraft"
+
+# These are the default settings for each collection defined above in collections.
+#
+# We need to redefine category and subcategory here because these variables will be
+# loaded for each path which fits a collection. The category / subcategory defined
+# in the categories above is not visible sadly from the `page` variable.
+# Related Jekyll issue: https://github.com/jekyll/jekyll/issues/3044
   - scope:
       path: ""
       type: "blog"
     values:
       layout: "blog_details"
+      regenerate: true
       category: "posts"
       subcategory: "blog"
-      taggable: true
   - scope:
       path: ""
       type: "news"
     values:
       layout: "news_details"
+      regenerate: true
       category: "posts"
       subcategory: "news"
-      taggable: true
   - scope:
       path: ""
       type: "meetups"
     values:
       layout: "meetup_details"
+      regenerate: true
       category: "events"
       subcategory: "meetups"
-      taggable: true
   - scope:
       path: ""
       type: "conferences"
     values:
       layout: "conference_details"
+      regenerate: true
       category: "events"
       subcategory: "conferences"
-      taggable: true
   - scope:
       path: ""
       type: "workshops"
     values:
       layout: "workshop_details"
+      regenerate: true
       category: "events"
       subcategory: "workshops"
-      taggable: true
   - scope:
       path: ""
       type: "tags"
     values:
       layout: "tag_details"
+      regenerate: true
+      category: "tags"
 liquid:
   error_mode: warn
 

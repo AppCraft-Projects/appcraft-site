@@ -1,0 +1,118 @@
+{% if site.debug %}
+
+{% assign collection_variables = "category|subcategory|permalink|output" | split: "|" %}
+{% assign collection_count = site.collections.size %}
+
+{% assign page_variables = "id|category|subcategory|title|excerpt|url|date|categories|tags|path" | split: "|" %}
+{% assign page_variable_count = page_variables.size %}
+
+{% assign site_variables = "debug|url|baseurl|description" | split: "|" %}
+{% assign site_variable_count = site_variables.size %}
+<div id="debug">
+    <h1>Debug</h1>
+    <table>
+        <thead>
+        <tr>
+            <th class="category-header"
+                colspan="{{ collection_count }}">
+                <h2>Collections</h2>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            {% for coll in site.collections %}
+            <th>
+                <h3>{{ coll.label }}</h3>
+            </th>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for coll in site.collections %}
+            <td>
+                <dl>
+                    {% for variable in collection_variables %}
+                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                    <dt class="{{ thecycle }}">{{ variable }}</dt>
+                    <dd class="{{ thecycle }}">
+                        {% if coll[variable] %}
+                        {{ coll[variable]}}
+                        {% else %}
+                        <p class="missing">Missing!</p>
+                        {% endif %}
+                    </dd>
+                    {% endfor %}
+                </dl>
+            </td>
+            {% endfor %}
+        </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+        <tr>
+            <th class="category-header"
+                colspan="{{ page_variable_count }}">
+                <h2>Current Page</h2>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            {% for variable in page_variables %}
+            <td>
+                <h3>{{ variable }}</h3>
+                {% if page[variable] %}
+                <p>{{ page[variable]}}</p>
+                {% else %}
+                <p class="missing">Missing!</p>
+                {% endif %}
+            </td>
+            {% endfor %}
+        </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+        <tr>
+            <th class="category-header"
+                colspan="{{ page_variable_count }}">
+                <h2>Site Variables</h2>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            {% for variable in site_variables %}
+            <td>
+                <h3>{{ variable }}</h3>
+                {% if site[variable] %}
+                <p>{{ site[variable]}}</p>
+                {% else %}
+                <p class="missing">Missing!</p>
+                {% endif %}
+            </td>
+            {% endfor %}
+        </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+        <tr>
+            <th class="category-header"
+                colspan="1">
+                <h2>Misc</h2>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <h3>Layout</h3>
+                <p>{{ page.layout }}</p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+{% endif %}
