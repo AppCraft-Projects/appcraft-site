@@ -5,7 +5,7 @@
 // fonts
 $heading-font: 'Libre Franklin semibold', Arial, serif;
 $mainnav-font: 'Libre Franklin extralight', Arial, serif;
-$paragraph-font: 'HK grotesk medium', Arial, serif;
+$paragraph-font: 'HK grotesk regular', Arial, serif;
 $code-font: 'Source Code Pro', monospace;
 
 // sizes
@@ -18,10 +18,10 @@ $accent-border-width: 0.25rem;
 $non-important-font-size: 0.8em;
 
 // spacing
-$logical-separator-spacing: 1em;
+$logical-separator-spacing: 1.2em;
 $header-bottom-spacing: 0.2em;
 $section-spacing: 2em;
-$page-spacing: 3em;
+$page-spacing: 4em;
 $inline-spacing: 1em;
 $tag-spacing: 0.5em;
 
@@ -72,6 +72,24 @@ body {
   clear: both;
 }
 
+hr {
+  margin: $section-spacing 0;
+  display: block;
+  border: 0;
+  text-align: center;
+  overflow: visible;
+  box-sizing: content-box;
+  line-height: 0;
+  height: 0;
+
+  &:before {
+    content: '...';
+    display: inline-block;
+    color: $background-text-color;
+    letter-spacing: 1em;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -80,21 +98,21 @@ h2 {
   font-family: $paragraph-font;
   font-size: $h2-font-size;
   line-height: $h2-line-height;
-  padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
+  padding: $logical-separator-spacing 0 0 0;
 }
 
 h3 {
   font-family: $paragraph-font;
   font-size: $h3-font-size;
   line-height: $h3-line-height;
-  padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
+  padding: $logical-separator-spacing 0 0 0;
 }
 
 h4 {
   font-family: $paragraph-font;
   font-size: $h4-font-size;
   line-height: $h4-line-height;
-  padding: $logical-separator-spacing 0 $header-bottom-spacing 0;
+  padding: $logical-separator-spacing 0 0 0;
 }
 
 #page {
@@ -190,7 +208,7 @@ h4 {
 #post {
   background-color: $post-background-color;
   margin-top: $section-spacing;
-  padding: $page-spacing;
+  padding: $section-spacing $page-spacing;
 
   h1 {
     font-family: $paragraph-font;
@@ -201,7 +219,8 @@ h4 {
 
   p {
     font-family: $paragraph-font;
-    padding: 0 0 $logical-separator-spacing 0;
+    line-height: 1.8em;
+    padding: 0.7em 0 0.9em 0;
   }
 
   #post-meta {
@@ -213,12 +232,21 @@ h4 {
     margin-top: $section-spacing
   }
 
+  .tag-list {
+    padding-left: 0;
+  }
+
   ul {
-    padding-bottom: $logical-separator-spacing;
+    padding: $logical-separator-spacing 0 $logical-separator-spacing $logical-separator-spacing;
+
+    li:last-child {
+      padding-bottom: 0;
+    }
   }
 
   li {
-    list-style-position: inside;
+    display: list-item;
+    padding-bottom: $logical-separator-spacing;
   }
 }
 
@@ -386,6 +414,7 @@ h4 {
           padding: 0 $tag-spacing;
           color: $main-text-color;
         }
+        margin-bottom: $inline-spacing;
       }
 
       .tag-description {
@@ -506,6 +535,7 @@ footer {
     font-size: $background-text-size;
     width: 100%;
     text-align: center;
+    padding-bottom: $section-spacing;
   }
 }
 
@@ -523,7 +553,7 @@ footer {
     display: block;
     width: 94%;
     height: 20px;
-    box-shadow: 0 8px 36px 0 #1C2A43;
+    box-shadow: 0 7px 30px 0 #1C2A43;
     position: absolute;
     bottom: 0;
     left: 3%;

@@ -15,7 +15,7 @@ Ami pedig jellemzően nehezíti a megértést, a kellemetlen meglepetésekről n
 
 Ennek következtében is alakulhatnak ki időről-időre olyan kacifántos ügyek, mint amelyen pár hete a Facebook licensek esetében jött fel.
 
-# Egészséges kétkedés
+## Egészséges kétkedés
 Az egész sztorit Raúl Kripalani (Apache Foundation) [írásával](http://bit.ly/raul-facebook-license) indult, szó szerint futótűzként járta be a közösségi csatornákat.
 
 Röviden összefoglalva felhívta a startupok figyelmét Facebook licenselési gyakorlatára a React példájával, és ellenjavallotta annak használatát.
@@ -26,7 +26,8 @@ Nem tartom magam megmondó-embernek a témában, viszont dolgozunk Reactos proje
 
 Fontos hangsúlyozni, minden alaposság ellenére kimaradhattak lényeges részletek, meglehet az értelmezésem sem mindig teljes. *Ha egészen biztosra szeretnél menni, érdemes felkeresni egy a témára specializálódott ügyvédet.*
 
-# Apache 2.0 vs Facebook BSP+Patent
+## Apache 2.0 vs Facebook BSP+Patent
+
 Közel sem fekete-fehér helyzetről van szó, Raúl postjában vannak jó pontok, de úgyszintén féligazságok is. Nem annyira egyszerű a verdikt, ahogy azt elénk tárta.
 
 Az alaposabb megértés érdekében érdemes több dolgot is tisztán látni. Egyrészt a nyílt forrású kód használata és a szabadalmak erősen elválnak egymástól, nem szabad összemosni azokat.
@@ -50,7 +51,7 @@ Ez eddig nem hangzik túl jól, SŐT, viszont jár néhány fontos előnnyel is:
 - Nem használnak copyleftet, ami a későbbi potenciális szabadalmi trollkodásnak megy elébe.
 - A sima BSD esetében elvi lehetőség van arra, hogy a tulajdonos úgy döntsön, hogy a projekt felhasználóit license díj megfizetésére kötelezze. (A szabadalom licenszelését el kell választani a nyílt forrású kód felhasználásától, külön dolgokról van szó.)
 
-# Mi van akkor ha?
+## Mi van akkor ha?
 
 Terjünk rá a nehezebb témákra, amit sokan mások felhoztak a napokban.
 
@@ -101,7 +102,7 @@ Ez azonban szerintem a szűkebb réteg, manapság jellemzően inkább a szerver 
 
 **E.** Láttam már olyat is, hogy a **megvásárolt alkalmazásokat az új tulajdonos több-kevesebb lépésben a saját termékekébe olvasztotta**. A publikus példák közül lásd az elmúlt két évből sokunk kedvenceit, a Sunrise Caledart vagy a Wunderlistet, amelyeket a Microsoft darál be az Outlookba.
 
-# Milyen más opciók vannak?
+## Milyen más opciók vannak?
 
 Tegyük fel, hogy bármelyik okból kifolyólag mégsem szeretnél Reacttal dolgozni / folytatni. Ez is érthető, ez esetben is van számos lehetőséged, válasszuk azonban szét az eseteket.
 
@@ -137,7 +138,7 @@ Magyarán nincs bajuk a Facebook licensének tartalmával, a cég nem is rendelk
 
 Ezt az ügyet egyébként már azért is érdekes lesz követni, mert ebből láthatóvá válik mennyi idő az átállás nagyobb projektek esetében. Egyébként ahogy látom a [Mithrilt](https://mithril.js.org/) fontolgatják [helyette](https://github.com/Automattic/wp-calypso/issues/650#issuecomment-235086367).
 
-# Eddig nem volt példa ilyen ügyre
+## Eddig nem volt példa ilyen ügyre
 
 Persze nem jelenti azt, hogy a jövőben sem lesz. Abban egészen viszont biztos vagyok, hogy a Facebooknál rendkívül óvatosnak kezelik majd ezt az egész kérdéskört.
 
@@ -151,7 +152,7 @@ Biztos vagyok abban, hogy egy ilyen lépés szerencsétlen folyamatokat indítan
 
 Úgy gondolom ezerszer megfontolnák, megéri-e nekik ehhez a fegyverhez nyúlni, és ennek következtében mindezeket kockára tenni.
 
-# Utolsó gondolatok
+## Utolsó gondolatok
 
 Annyi biztos, hogy minden érintett cégnek alaposan meg kell vizsgálnia ezt az ügyet a saját kontextusában. Nem egyértelmű és rengeteg szempontot kell figyelembe venni.
 
