@@ -1,24 +1,32 @@
 <!--suppress ALL -->
-<nav id="main-nav" class="nav">
-    <div class="nav-content">
-        <ul id="nav-left">
-            {% for item in site.data.static_page_data.categories %}
-            <li class="nav-item">
-                <a href="{{ site.baseurl }}{{item.url}}"
-                   alt="{{ item.title }}"
-                   {% if item.id == page.category %}class="active" {% endif %}
-                   id="{{ item.id }}">
-                    {{ item.title }}
+<nav id="main-nav">
+    <div class="wrapper">
+        <ul class="nav-list">
+            <li class="nav-item static-nav">
+                <ul>
+                    {% for item in site.data.static_page_data.categories %}
+                    <li class="static-nav-item">
+                        <a href="{{ site.baseurl }}{{item.url}}"
+                           alt="{{ item.title }}"
+                           {% if item.id== page.category %}class="active" {% endif %}
+                           id="{{ item.id }}">
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li class="nav-item logo-container">
+                <a class="main-logo" href="{{ site.baseurl }}/">
+                    <img src="{{ site.baseurl }}/assets/icons/appcraft-logo-full.svg"/>
                 </a>
             </li>
-            {% endfor %}
+            <li class="nav-item contact">
+                <a href="{{ site.data.static_page_data.contact.url }}">Contact</a>
+            </li>
+            <li class="nav-item external-nav">
+                {% include external_nav.html type="light" %}
+            </li>
         </ul>
-        <div id="logo-container">
-            <a id="logo" href="{{ site.baseurl }}/">
-                <img src="{{ site.baseurl }}/assets/icons/appcraft-logo-full.svg" />
-            </a>
-        </div>
-        <a id="contact" href="{{ site.data.static_page_data.contact.url }}">Contact</a>
-        {% include external_nav.html type="light" %}
     </div>
 </nav>

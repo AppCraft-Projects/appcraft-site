@@ -2,26 +2,23 @@
 {% assign entries = site.collections | where: 'category', include.category %}
 {% assign count = entries | size %}
 {% if count > 0 %}
-<nav id="category-nav" class="nav">
-    <div class="nav-content">
-        <ul>
-            <li class="nav-item">
-                <a class="{% if page.subcategory == 'all' %}active{% endif %}"
-                   href="{{ site.baseurl }}/{{include.category}}/">
-                    All
-                </a>
-            </li>
-            {% for item in entries %}
-            <li class="nav-item">
-                <a class="{% if page.subcategory == item.subcategory %}active{% endif %}
+<nav class="category-nav">
+    <ul class="nav-list">
+        <li class="static-nav-item">
+            <a class="{% if page.subcategory == 'all' %}active{% endif %}"
+               href="{{ site.baseurl }}/{{include.category}}/">
+                All
+            </a>
+        </li>
+        {% for item in entries %}
+        <li class="static-nav-item">
+            <a class="{% if page.subcategory == item.subcategory %}active{% endif %}
                              {{ item.subcategory }}-subcategory"
-                   href="{{ site.baseurl }}/{{item.category}}/{{ item.label }}">
-                    {{ item.display }}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-        <div class="clear"></div>
-    </div>
+               href="{{ site.baseurl }}/{{item.category}}/{{ item.label }}">
+                {{ item.display }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </nav>
 {% endif %}

@@ -1,17 +1,38 @@
+<!--suppress ALL -->
 <footer id="footer">
-    <div id="footer-nav">
-        <div class="links">
-            {% assign about = site.data.static_page_data.about %}
-            {% assign contact = site.data.static_page_data.contact %}
-            <a href="{{ site.baseurl }}/{{about.url}}">
-                {{ about.title }}
-            </a>
-            <a href="{{contact.url}}">
-                {{ contact.title }}
-            </a>
-        </div>
-        <div class="logo">&nbsp;</div>
-        {% include external_nav.html type="dark" %}
+    <nav class="wrapper footer-nav">
+        <ul class="nav-list">
+            <li class="nav-item static-nav">
+                {% assign about = site.data.static_page_data.about %}
+                {% assign contact = site.data.static_page_data.contact %}
+                <ul>
+                    <li class="static-nav-item">
+                        <a href="{{ site.baseurl }}/{{about.url}}">
+                            {{ about.title }}
+                        </a>
+                    </li>
+                    <li class="static-nav-item">
+                        <a href="{{contact.url}}">
+                            {{ contact.title }}
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item logo-container">
+                <div class="footer-logo">
+                    <img src="{{ site.baseurl }}/assets/icons/appcraft-logo-dark.svg"/>
+                </div>
+            </li>
+            <li class="nav-item external-nav">
+                {% include external_nav.html type="dark" %}
+            </li>
+        </ul>
+    </nav>
+    <div class="copyright">
+        Licensed under Creative Commons.
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Creative Commons License" style="border-width:0"
+                 src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
+        </a>
     </div>
-    <div class="copyright">All rights reserved &copy; AppCraft 2018</div>
 </footer>

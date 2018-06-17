@@ -17,46 +17,81 @@
       }
     }
   }
-  #main-nav {
-    display: flex;
-    justify-content: center;
-    height: 3em;
-    padding: 0;
 
-    #nav-left {
-      display: flex;
-      justify-content: center;
+  #tags {
 
-      li {
-        height: 3em;
+    #tag-list {
 
-        a {
-          padding-top: 0;
-          line-height: 3em;
-        }
+      .tag-card {
+        display: block;
+        width: 100%;
+        margin: 0;
       }
-    }
 
-    #nav-right {
-      display: none;
-    }
+      .tag-card:nth-child(even) {
+        margin: 0 0 2% 0
+      }
 
-    #logo-container {
-      display: none;
+      .tag-card:nth-child(odd) {
+        margin: 0 0 2% 0
+      }
     }
   }
 }
 
-@media (min-width: 500px) and (max-width: 700px) {
-  #logo-container {
-    display: none;
+@media (min-width: 500px) and (max-width: 800px) {
+  #tags {
+
+    #tag-list {
+
+      .tag-card {
+        position: relative;
+        box-sizing: border-box;
+        list-style: none;
+        width: 49%;
+        padding: $inline-spacing;
+        min-height: 10em;
+        max-height: 13em;
+        border-top: 2px solid transparent;
+        border-radius: 3px;
+      }
+
+      .tag-card:nth-child(even) {
+        margin: 0 0 2% 0;
+      }
+
+      .tag-card:nth-child(odd) {
+        margin: 0 2% 2% 0;
+      }
+      div:nth-child(3n) {
+        margin: 0 0 2% 0;
+      }
+    }
   }
-  #main-nav #nav-left {
-    width: 55%;
-  }
-  #main-nav #nav-right {
-    width: 40%;
-    left: 60%;
+}
+
+@media (max-width: 800px) {
+  nav {
+
+    text-align: center;
+
+    .nav-list {
+      height: auto;
+      line-height: 2em;
+    }
+
+    .nav-item {
+      position: static;
+      padding-top: 0;
+    }
+
+    .logo-container {
+      display: none !important;
+    }
+
+    .contact {
+      display: none;
+    }
   }
 }
 
@@ -67,6 +102,12 @@
   #entries #entry-list .entry-card {
     max-height: 24em;
   }
+  .wrapper {
+    padding: 0 0.4em;
+  }
+  #post {
+    padding: 1em 1em;
+  }
 }
 
 @media (min-width: 400px) {
@@ -75,6 +116,12 @@
   }
   #entries #entry-list .entry-card {
     max-height: 22em;
+  }
+  .wrapper {
+    padding: 0 0.5em;
+  }
+  #post {
+    padding: 1.5em 1.5em;
   }
 }
 
@@ -85,6 +132,12 @@
   #entries #entry-list .entry-card {
     max-height: 20em;
   }
+  .wrapper {
+    padding: 0 0.6em;
+  }
+  #post {
+    padding: 2em 2em;
+  }
 }
 
 @media (min-width: 625px) {
@@ -94,6 +147,12 @@
   #entries #entry-list .entry-card {
     max-height: 18em;
   }
+  .wrapper {
+    padding: 0 0.7em;
+  }
+  #post {
+    padding: 2em 2.5em;
+  }
 }
 
 @media (min-width: 802px) {
@@ -102,6 +161,12 @@
   }
   #entries #entry-list .entry-card {
     max-height: 15em;
+  }
+  .wrapper {
+    padding: 0 0.8em;
+  }
+  #post {
+    padding: 2em 3em;
   }
 }
 
