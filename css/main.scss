@@ -453,6 +453,14 @@ nav {
   }
 }
 
+.tag-details {
+
+  li {
+    padding-bottom: 0 !important;
+  }
+
+}
+
 .tag-list-block {
 
   .tag-list {
@@ -493,7 +501,7 @@ nav {
 }
 
 .content {
-  margin-top: $inline-spacing !important;
+  margin-top: $inline-spacing;
 }
 
 #intro {
