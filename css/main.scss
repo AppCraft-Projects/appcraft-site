@@ -123,6 +123,10 @@ h4 {
 }
 
 nav {
+  font-family: 'Libre Franklin extralight', serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
 
   .nav-list {
     position: relative;
@@ -163,10 +167,6 @@ nav {
 }
 
 #main-nav {
-  font-family: 'Libre Franklin extralight', serif;
-  font-size: 1em;
-  text-transform: uppercase;
-  text-align: center;
   background-color: $main-nav-background-color;
 
   .nav-list {
@@ -574,17 +574,11 @@ footer {
 
 .diffusedshadow {
 
-  &:hover:after {
-    content: '';
-    display: block;
-    width: 94%;
-    height: 20px;
-    box-shadow: 0 7px 30px 0 #1C2A43;
-    position: absolute;
-    bottom: 0;
-    left: 3%;
-    z-index: -1;
-    transition: height .5s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.5s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   }
 }
 

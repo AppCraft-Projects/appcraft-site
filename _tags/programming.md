@@ -1,5 +1,5 @@
 ---
 slug: programming
 name: Programming
-description: programming rövid leírása.
+description: Programozással kapcsolatos témák.
 ---

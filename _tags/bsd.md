@@ -1,5 +1,5 @@
 ---
 slug: bsd
 name: BSD
-description: a family of Unix-like operating systems, including FreeBSD, NetBSD and OpenBSD.
+description: Unix-szerü operációs rendszer család, mely tartalmazza a FreeBDS-t, a NetBSD-t és az OpenBSD-t.
 ---

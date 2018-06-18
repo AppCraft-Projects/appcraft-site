@@ -1,5 +1,5 @@
 ---
 slug: licensing
 name: Licensing
-description: licensing rövid leírása.
+description: Minden, ami szerzői joggal kapcsolatos.
 ---

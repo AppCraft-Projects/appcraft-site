@@ -1,5 +1,5 @@
 ---
 slug: ruby
 name: Ruby
-description: a multi-platform open-source, dynamic object-oriented interpreted language, created by Yukihiro Matsumoto (Matz) in 1995.
+description: Multiplatfrom open-source dinamikus objektum orientált és interpretált nyelv. Yukihiro Matsumoto (Matz) hozta létre 1995-ben.
 ---
