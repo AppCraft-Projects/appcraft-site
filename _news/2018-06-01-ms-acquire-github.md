@@ -5,7 +5,7 @@ event_date: 2018-02-04
 tags: [kotlin, react, ruby]
 ---
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/github-ms-01.jpeg)
+![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/github-ms-01.png)
 
 Egy ilyen jellegű fejlemény tutira komoly arconpörgést hozna magával az open source ökoszisztémában.
 
