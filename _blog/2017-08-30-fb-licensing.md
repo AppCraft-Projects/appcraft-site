@@ -16,6 +16,7 @@ Ami pedig jellemzően nehezíti a megértést, a kellemetlen meglepetésekről n
 Ennek következtében is alakulhatnak ki időről-időre olyan kacifántos ügyek, mint amelyen pár hete a Facebook licensek esetében jött fel.
 
 ## Egészséges kétkedés
+
 Az egész sztorit Raúl Kripalani (Apache Foundation) [írásával](http://bit.ly/raul-facebook-license) indult, szó szerint futótűzként járta be a közösségi csatornákat.
 
 Röviden összefoglalva felhívta a startupok figyelmét Facebook licenselési gyakorlatára a React példájával, és ellenjavallotta annak használatát.
@@ -47,6 +48,7 @@ Facebook visszaperelhet az általad használt nyílt forrású projekteket érin
 Alapvetően a nyílt forrású projekteiket egyfajta falként használják a szabadalmi portfóliójuk védelmében.
 
 Ez eddig nem hangzik túl jól, SŐT, viszont jár néhány fontos előnnyel is:
+
 - Egyfelől írásos ígéretet tesznek, hogy nem fognak perelni téged a szabadalmak miatt. Ha azonban Te teszed ugyanezt, az már más téma.
 - Nem használnak copyleftet, ami a későbbi potenciális szabadalmi trollkodásnak megy elébe.
 - A sima BSD esetében elvi lehetőség van arra, hogy a tulajdonos úgy döntsön, hogy a projekt felhasználóit license díj megfizetésére kötelezze. (A szabadalom licenszelését el kell választani a nyílt forrású kód felhasználásától, külön dolgokról van szó.)
