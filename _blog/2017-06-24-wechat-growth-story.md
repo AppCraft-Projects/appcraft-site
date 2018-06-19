@@ -1,5 +1,5 @@
 ---
-excerpt: Néhány hete már morogtam, hogy mekkorára nőttek mostanában az iOS appok, de a napokban három olyan “meglepő” felfedezésem volt, hogy újra elő kell vennem a témát.
+excerpt: A conversation UI egy kiváló példa erre. Meglehetősen felkapott trend lett belőle, és felénk is teret kezdett hódítani magának.
 title: A WeChat növekedési sztori
 date: 2017-06-18
 tags: [react, licensing, bsd, patents, facebook]
