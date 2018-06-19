@@ -7,7 +7,7 @@ end-time: "2018-02-19T21:00:00+00:00"
 tags: ["java", "kotlin"]
 address: "Grape Solutions HQ - 1023, Budapest Árpád fejedelem útja 26-28."
 coords: "47.4966016, 19.0578469"
-event_date: 2018-06-19
+event_date: 2018-06-17
 ---
 
 ![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/meetup-2018-june-19-01.png)
