@@ -1,4 +1,4 @@
-about_page_url: "/"
+about_page_url: "/about"
 contact:
   title: "CONTACT"
   id: "contact"
@@ -10,7 +10,7 @@ about:
 categories:
 - title: "POSTS"
   id: "posts"
-  url: "/posts/"
+  url: "/"
 - title: "EVENTS"
   id: "events"
   url: "/events/"
