@@ -7,7 +7,7 @@ tags: [react, licensing, bsd, patents, facebook]
 
 Néhány hete már morogtam, hogy mekkorára nőttek mostanában az iOS appok, de a napokban három olyan “meglepő” felfedezésem volt, hogy újra elő kell vennem a témát.
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/app-size-01.jpeg)
+![alt text](https://appcraft.hu/assets/img/app-size-01.jpeg)
 
 Csak néhány példa:
 

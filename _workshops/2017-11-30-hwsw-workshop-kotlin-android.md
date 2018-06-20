@@ -6,7 +6,7 @@ series: workshop
 tags: [kotlin, react, ruby]
 ---
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/hwsw-mobile-workshops-01.png)
+![alt text](https://appcraft.hu/assets/img/hwsw-mobile-workshops-01.png)
 
 Igazán repül az idő, 2014-ben volt az első előadásom a **HWSW mobile!** konferencián. Kétségtelenül hálás téma volt, az Android arhitektúráról és a clean coderól általánosságban egész napokat tudnék dumálni és elmélkedni, de akkor és ott valahogy mégsem éreztem olyan ütősnek, ahogy azt szerettem volna.
 

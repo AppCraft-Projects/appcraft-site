@@ -5,13 +5,13 @@ date: 2017-10-04
 tags: [react, licensing, bsd, patents, facebook]
 ---
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/fb-license-02.png)
+![alt text](https://appcraft.hu/assets/img/fb-license-02.png)
 
 Néhány héttel ezelőtt az Apache alapítvány látványosan a Facebooknak feszült a React (és még egy tucatnyi technológia) licenszálási gyakorlata kapcsán.
 
 Az ügy meglehetősen széles körben váltott ki felháborodást a web fejlesztő közösségből, szinte minden irányból cincálták a cég BSD+Patent license variánsát.
 
-*Pár héttel ezelőtt én is írtam róla hideg fejjel átgondolva néhány gondolatot, [itt](https://appcraft-projects.github.io/appcraft-site/posts/blog/2017-08-30-fb-licensing) olvashatjátok.*
+*Pár héttel ezelőtt én is írtam róla hideg fejjel átgondolva néhány gondolatot, [itt](https://appcraft.hu/posts/blog/2017-08-30-fb-licensing) olvashatjátok.*
 
 ## A Facebook pár hét alatt beadta a derekát
 Hatalmas örömhullám söpört végig a közösségi hálókon, amikor is két hete a Facebook végül visszavonulót fújt, és a közösség akaratának engedve számos projektüknél MIT licenszre váltottak. Őszintén szólva azonban ezúttal nem osztoztam ebben az örömben velük.

@@ -5,7 +5,7 @@ event_date: 2018-06-15
 tags: [kotlin]
 ---
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/kotliners-conf-01.png)
+![alt text](https://appcraft.hu/assets/img/kotliners-conf-01.png)
 
 Biztosan sokan hallottátok már a hírt, volt a Kotliners konferencia. Az első hazai egész napos, Kotlin témájú nagy esemény.
 

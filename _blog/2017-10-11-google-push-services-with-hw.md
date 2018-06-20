@@ -5,7 +5,7 @@ date: 2017-10-11
 tags: [react, licensing, bsd, patents, facebook]
 ---
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/google-hw-01.jpeg)
+![alt text](https://appcraft.hu/assets/img/google-hw-01.jpeg)
 
 Bizonyosan többen emlékeztek még a Google évekkel ezelőtti kalandjára az okostelefon gyártó Motorolával. A [rekord összegű felvásárlást](http://bit.ly/google-buys-moto) problémás 2 év követte, egészen felemás volt az egész.
 
@@ -41,7 +41,7 @@ A jobb megértéshez azonban érdemes egy kicsit ránézni, a Google és az Andr
 
 Ha átböngészitek a Google a [legutóbbi néhány negyedéves jelentését](http://bit.ly/goog-quarterly), akkor simán arra a következtetésre fog jutni, hogy a cég direktben aligha profitál az Android rendszerből, de még a hardverekből sem igazán. Nagyjából 87% jön a hirdetésekből, és a többi főleg a szolgáltatásokból, mint Play Store vagy a felhő.
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/google-hw-02.jpeg)
+![alt text](https://appcraft.hu/assets/img/google-hw-02.jpeg)
 
 Ellenben a [mára több mint 2 milliárd aktív eszköz](http://bit.ly/android-2-billion) baromi jó hordozója a cég szolgáltatásainak, app és felhő szempontból egyaránt. Ezeken túl valódi adat aranybánya, ami a fejőstehén hirdetési részleget is komolyan támogatja. Márpedig ezek azok a területek, ahonnan a cég bevételeinek jelentős része érkezik.
 
@@ -51,7 +51,7 @@ Ezeken keresztül térül meg az a tömérdek erőforrás, amit a rendszer folya
 
 Nos, ebből a szép nagy tortából szeretnének az Android OEM-ek saját szeleteket kapni. A Samsung természetesen ezen a téren is élen jár, nem kell őket különösebben bíztatni, pontosan tudják mekkora piachoz juthatnak így. Azért is érdemes a példájukat tárgyalni, a többi szereplő is követi a példájukat.
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/google-hw-03.jpeg)
+![alt text](https://appcraft.hu/assets/img/google-hw-03.jpeg)
 
 Mindez a saját testreszabott TouchWiz felületükkel kezdődött és egy sor saját alkalmazással. Az évek során inkább kevesebb mint több sikert élhettek meg, összességében a Google kínálata stabilan tartotta magát.
 
@@ -61,7 +61,7 @@ Azonban az idei évben a Galaxy S8 mellett fordulni látszik a dolog, bár a Goo
 
 ## Ezen felbátorodva egyre több területen húznak bele…
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/google-hw-04.png)
+![alt text](https://appcraft.hu/assets/img/google-hw-04.png)
 
 A [Samsung Internet böngészője](http://bit.ly/samsung-internet) még egy jó példa, ami a WebKit-re építve bizony kifejezetten gyorsan lépdel előre, mint funkciókat, mind felhasználókat tekintve. [PWA területen például kifejezetten erős pozíciókat építettek ki](http://bit.ly/samsung-internet-pwa). Arról nem is beszélve, hogy többen használják már, mint a Microsoft böngészőjét.
 
@@ -69,17 +69,17 @@ Ezek a sikerek pedig további befektetésekre ösztökélik őket. Így egyre t�
 
 *Érdekességképp meg kell jegyezni, hogy a [Samsung elég komoly invesztál a Mozilla Servo projektjébe](http://bit.ly/mozilla-samsung-servo). Nem lepne meg, ha a következő év során ennek a gyümölcseit is láthatnánk az eszközein. A 2x-es rendering teljesítmény növekedés tutira jól fog jönni a jövő eszközeinél.
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/google-hw-05.jpeg)
+![alt text](https://appcraft.hu/assets/img/google-hw-05.jpeg)
 
 A böngésző azonban csak egy, más területeken is kiválják a Google-t. [Wearable kapcsán teljesen a saját megoldásukat favorizálják](http://bit.ly/samsung-wearable-lte). [Gear az első okostelefonos VR megoldások egyike volt](http://www.samsung.com/global/galaxy/gear-vr/), és töretlen lendülettel tolják is tovább. Elég erősen megy a közösködés a Facebookkal, a mai [Oculus Go bemutató](https://uploadvr.com/oc4-oculus-reveals-standalone-headset/) egyik érdekes pontja volt, hogy [vinni fogja a Gear VR appokat is](https://twitter.com/Tojiro/status/918166549503950848). Valamint az [AR kapcsán szintén megvan a saját tervük](https://augmented.reality.news/news/samsungs-monitorless-remote-desktop-smartglasses-blur-line-between-virtual-augmented-reality-0176310/).
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/google-hw-06.jpeg)
+![alt text](https://appcraft.hu/assets/img/google-hw-06.jpeg)
 
 ## Nincs egyedül a Samsung
 
 Mellettük a Xiaomi még egy rendkívül erős játékos, akik a számtalan eszközük mellett a szolgáltatásokban és a saját appokban is nagyon aktívak.
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/google-hw-07.jpeg)
+![alt text](https://appcraft.hu/assets/img/google-hw-07.jpeg)
 
 Ha az asszisztensek területét tekintjük a helyzetüket, akkor még csak nem is kényelmes az, elve underdogot játszanak az Amazon Alexája által uralt piacon.
 

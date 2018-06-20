@@ -10,7 +10,7 @@ coords: "47.4966016, 19.0578469"
 event_date: 2018-06-17
 ---
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/meetup-2018-june-19-01.png)
+![alt text](https://appcraft.hu/assets/img/meetup-2018-june-19-01.png)
 
 Nagyon sajnálom, hogy végül a májusi meetupot le kellett mondani. Nem volt még ilyen és nem könnyű szívvel tettem.
 

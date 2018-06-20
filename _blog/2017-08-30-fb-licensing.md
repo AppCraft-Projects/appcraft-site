@@ -5,7 +5,7 @@ date: 2017-08-30
 tags: [react, licensing, bsd, patents, facebook]
 ---
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/fb-license-01.png)
+![alt text](https://appcraft.hu/assets/img/fb-license-01.png)
 
 Tíz éve még hatalmas szám volt, ha egy IT óriás cég megnyitotta bármely technológiájának forrását, ma azonban ennek az ellentettjét nehéz elképzelni. Oda jutott a helyzet, hogy gyakorlatilag egyik jelentős szereplő sem maradhat ki.
 

@@ -9,7 +9,7 @@ A [AppCraft csoportban](http://bit.ly/bpm-fb) már számos alkalommal elővettem
 
 A *conversation UI* egy kiváló példa erre. Meglehetősen felkapott trend lett belőle, és felénk is teret kezdett hódítani magának. Persze még jókora előnyben vannak. Náluk a *WeChat univerzális UI*, egy tényleges **kapu az internetre**, de nevezhetjük *meta-platformnak* is. Szinte mindent összekötnek vele, üzletek, infók, foglalás, rendelés, fizetés, amit akarsz. Gyakran automatizálva működnek, emberek nélkül.
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/wechat-story-01.png)
+![alt text](https://appcraft.hu/assets/img/wechat-story-01.png)
 
 Egyébként ez a hozzáállás nekem kifejezetten furcsa. Még a nyugaton inkább darabolnák az appokat, addig Kínában egybe lapátolják a látszólag nem passzoló funkciókat. Hangsúlyozom látszólag, meg kell érteni őket.
 
@@ -17,7 +17,7 @@ Ezért is örülük az olyan [postoknak](http://bit.ly/wechat-growth-product), m
 
 Pedig mennyire nem volt sikeres az elején, de később mégis befutott. **0-ról kis híján 900M MAU-ra növekedett***. Product döntések, új funkciók, miértek és persze azok hatásai, mert így teljes a dolog.
 
-![alt text](https://appcraft-projects.github.io/appcraft-site/assets/img/wechat-story-02.png)
+![alt text](https://appcraft.hu/assets/img/wechat-story-02.png)
 
 ## Csoportra terveznek
 

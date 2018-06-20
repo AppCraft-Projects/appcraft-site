@@ -81,7 +81,7 @@ incremental: true
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "/appcraft-site"
+baseurl: "/"
 show_dir_listing: false
 
 # Outputting
