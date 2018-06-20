@@ -235,6 +235,8 @@ nav {
   img {
     width: 80%;
     object-fit: scale-down;
+    display: block;
+    margin: 0 auto;
   }
 
   h1 {
@@ -280,7 +282,7 @@ nav {
 .entries {
   position: relative;
 
-  #entry-list {
+  .entry-list {
 
     margin: 0 auto;
     width: 100%;

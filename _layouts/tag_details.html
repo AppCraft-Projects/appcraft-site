@@ -16,7 +16,7 @@ subcategory: all
 </article>
 <div class="content entries">
     {% assign entries = site.documents | where: 'taggable', 'true' | sort: 'date' | reverse %}
-    <div id="entry-list">
+    <div class="entry-list">
         {% for entry in entries %}
             {% if entry.tags contains page.slug %}
                 {% include entry_card.html entry=entry %}

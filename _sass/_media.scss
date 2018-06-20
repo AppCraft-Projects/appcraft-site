@@ -1,7 +1,7 @@
 @media (max-width: 500px) {
-  #entries {
+  .entries {
 
-    #entry-list {
+    .entry-list {
 
       .entry-card {
         width: 100%;
@@ -99,7 +99,7 @@
   body {
     font-size: 16px
   }
-  #entries #entry-list .entry-card {
+  .entries .entry-list .entry-card {
     max-height: 24em;
   }
   .wrapper {
@@ -117,7 +117,7 @@
   body {
     font-size: 16px
   }
-  #entries #entry-list .entry-card {
+  .entries .entry-list .entry-card {
     max-height: 22em;
   }
   .wrapper {
@@ -135,7 +135,7 @@
   body {
     font-size: 17px
   }
-  #entries #entry-list .entry-card {
+  .entries .entry-list .entry-card {
     max-height: 20em;
   }
   .wrapper {
@@ -153,7 +153,7 @@
   body {
     font-size: 18px
   }
-  #entries #entry-list .entry-card {
+  .entries .entry-list .entry-card {
     max-height: 18em;
   }
   .wrapper {
@@ -171,7 +171,7 @@
   body {
     font-size: 19px
   }
-  #entries #entry-list .entry-card {
+  .entries .entry-list .entry-card {
     max-height: 15em;
   }
   .wrapper {
@@ -189,7 +189,7 @@
   body {
     font-size: 20px
   }
-  #entries #entry-list .entry-card {
+  .entries .entry-list .entry-card {
     min-height: 10em;
     max-height: 14em;
   }
