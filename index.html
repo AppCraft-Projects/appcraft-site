@@ -1,12 +1,8 @@
 ---
 layout: default
+permalink: /
+category: posts
+subcategory: all
 ---
-<div id="intro">
-    <header>
-        <h1>AppCraft</h1>
-    </header>
-    <p>
-        End to End
-    </p>
-    <a class="cta-button" href="mailto:{{site.email}}">Contact us</a>
-</div>
+{% assign entries = site.documents | where: 'category', 'posts' | sort: 'date' | reverse %}
+{% include entry_list.html entries=entries %}
