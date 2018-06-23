@@ -6,7 +6,7 @@ contact:
 about:
   title: "ABOUT"
   id: "about"
-  url: ""
+  url: "/about/"
 categories:
 - title: "POSTS"
   id: "posts"
