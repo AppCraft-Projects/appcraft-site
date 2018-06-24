@@ -1,6 +1,6 @@
 ---
 host: "Gabor Orosz"
-excerpt: Epikus 4. szülinapi meetup
+excerpt: Meggünnepeltük az AppCraft 4. szülinapját a Grape Solutions irodájában
 title: 🍾 2018. június - Epikus 4. szülinapi meetup
 start-time: "2018-06-19T18:30:00+00:00"
 end-time: "2018-02-19T21:00:00+00:00"

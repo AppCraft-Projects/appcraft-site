@@ -1,6 +1,6 @@
 ---
 excerpt: Tíz éve még hatalmas szám volt, ha egy IT óriás cég megnyitotta bármely technológiájának forrását, ma azonban ennek az ellentettjét nehéz elképzelni.
-title: A Facebook license mizériáról érthetően
+title: A Facebook licensz mizériáról érthetően
 date: 2017-08-30
 tags: [react, licensing, bsd, patents, facebook]
 ---

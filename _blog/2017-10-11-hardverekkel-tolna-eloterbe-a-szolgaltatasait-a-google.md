@@ -2,7 +2,7 @@
 excerpt: Néhány hete már morogtam, hogy mekkorára nőttek mostanában az iOS appok, de a napokban három olyan “meglepő” felfedezésem volt, hogy újra elő kell vennem a témát.
 title: Hardverekkel tolná előtérbe a szolgáltatásait a Google
 date: 2017-10-11
-tags: [react, licensing, bsd, patents, facebook]
+tags: [google]
 ---
 
 ![alt text](https://appcraft.hu/assets/img/google-hw-01.jpeg)

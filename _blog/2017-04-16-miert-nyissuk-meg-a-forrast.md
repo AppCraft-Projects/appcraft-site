@@ -1,5 +1,5 @@
 ---
-excerpt: Ha dolgoztál már valahol nagyobb projekten, akkor jó eséllyel eszedbe jutott, hogy az általad írt kódot talán megérné nyílt forráskódúvá tenni. Ebben a cikkben összefoglalom a folyamat előnyeit és a hátrányait, valamint ha még sosem foglalkoztál nyílt forráskódú szoftverrel, adok pár ötletet, hogy miért lehet hasznos, ha így döntesz.
+excerpt: Miért érdemes megnyitni a programunk forrását? Ebben a cikkben körbejárjuk a témát és hasznos tanácsokat adunk a témakörben.
 title: Miért nyissuk meg a forrást?
 date: 2017-04-16
 tags: [oss, programming, licensing]

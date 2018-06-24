@@ -1,9 +1,9 @@
 ---
-excerpt: Két workshoppal is ott leszünk a HWSW mobile!-on
+excerpt: Két workshoppal is ott leszünk a HWSW mobile!-on -  Kotlin alapok Java fejlesztőknek és Android refaktorálás.
 title: 💪 Két workshoppal is ott leszünk a HWSW mobile!-on 💪
 event_date: 2017-11-30
 series: workshop
-tags: [kotlin, react, ruby]
+tags: [kotlin, java, programming]
 ---
 
 ![alt text](https://appcraft.hu/assets/img/hwsw-mobile-workshops-01.png)

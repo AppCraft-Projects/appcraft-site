@@ -1,8 +1,8 @@
 ---
-excerpt: Egy ilyen jellegű fejlemény tutira komoly arconpörgést hozna magával az open source ökoszisztémában.
+excerpt: A Microsoft megvásárolta a GitHub-ot. Egy ilyen jellegű fejlemény tutira komoly arconpörgést hoz magával az open source ökoszisztémában.
 title: Microsoft ➕ GitHub = ⁉️
 event_date: 2018-02-04
-tags: [kotlin, react, ruby]
+tags: [microsoft, github, acquisition]
 ---
 
 ![alt text](https://appcraft.hu/assets/img/github-ms-01.png)
