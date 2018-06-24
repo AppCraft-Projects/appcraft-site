@@ -3,6 +3,7 @@ excerpt: Néhány héttel ezelőtt az Apache alapítvány látványosan a Facebo
 title: Jól járunk a Facebook licensz váltással?
 date: 2017-10-04
 tags: [react, licensing, bsd, patents, facebook]
+author: Gabor Orosz
 ---
 
 ![alt text](https://appcraft.hu/assets/img/fb-license-02.png)

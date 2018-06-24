@@ -3,6 +3,7 @@ excerpt: Néhány hete már morogtam, hogy mekkorára nőttek mostanában az iOS
 title: Hardverekkel tolná előtérbe a szolgáltatásait a Google
 date: 2017-10-11
 tags: [google]
+author: Gabor Orosz
 ---
 
 ![alt text](https://appcraft.hu/assets/img/google-hw-01.jpeg)

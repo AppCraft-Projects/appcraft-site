@@ -3,6 +3,7 @@ excerpt: Rövid összefoglaló a Kotlin előnyeiről a Java-val szemben, és hog
 title: A Kotlin az új Java
 date: 2017-05-19
 tags: [programming, kotlin, java]
+author: Adam Arold
 ---
 
 > Ha már Java fejlesztőként dolgozol egy ideje, talán már elgondolkoztál azon, hogy melyik legyen a következő nyelv, amibe beleásod magad.

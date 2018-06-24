@@ -3,6 +3,7 @@ excerpt: A Microsoft megvásárolta a GitHub-ot. Egy ilyen jellegű fejlemény t
 title: Microsoft ➕ GitHub = ⁉️
 event_date: 2018-02-04
 tags: [microsoft, github, acquisition]
+author: Gabor Orosz
 ---
 
 ![alt text](https://appcraft.hu/assets/img/github-ms-01.png)

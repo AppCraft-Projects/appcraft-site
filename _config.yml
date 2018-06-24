@@ -70,6 +70,7 @@ unpublished: false
 whitelist: []
 plugins:
   - jekyll-gist
+  - jekyll-feed
 
 # Conversion
 markdown:    kramdown

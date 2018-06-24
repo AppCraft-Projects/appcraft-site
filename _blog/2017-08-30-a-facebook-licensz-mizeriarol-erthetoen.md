@@ -3,6 +3,7 @@ excerpt: Tíz éve még hatalmas szám volt, ha egy IT óriás cég megnyitotta 
 title: A Facebook licensz mizériáról érthetően
 date: 2017-08-30
 tags: [react, licensing, bsd, patents, facebook]
+author: Gabor Orosz
 ---
 
 ![alt text](https://appcraft.hu/assets/img/fb-license-01.png)
