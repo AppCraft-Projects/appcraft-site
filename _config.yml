@@ -17,31 +17,31 @@ keywords: ["programozás", "web", "tanácsadás", "hirek", "Kotlin", "Java", "fe
 collections:
   blog:
     output: true
-    permalink: "/posts/:collection/:name"
+    permalink: "posts/:collection/:year/:month/:day/:title:output_ext"
     category: "posts"
     subcategory: "blog"
     display: "Blog"
   news:
     output: true
-    permalink: "/posts/:collection/:name"
+    permalink: "posts/:collection/:year/:month/:day/:title:output_ext"
     category: "posts"
     subcategory: "news"
     display: "News"
   meetups:
     output: true
-    permalink: "/events/:collection/:name"
+    permalink: "posts/:collection/:year/:month/:day/:title:output_ext"
     category: "events"
     subcategory: "meetups"
     display: "Meetups"
   conferences:
     output: true
-    permalink: "/events/:collection/:name"
+    permalink: "posts/:collection/:year/:month/:day/:title:output_ext"
     category: "events"
     subcategory: "conferences"
     display: "Conferences"
   workshops:
     output: true
-    permalink: "/events/:collection/:name"
+    permalink: "posts/:collection/:year/:month/:day/:title:output_ext"
     category: "events"
     subcategory: "workshops"
     display: "Workshops"
