@@ -1,9 +1,17 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-    <meta name="author" content="Adam Arold">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="revisit-after" content="1 days">
+    <meta charset="utf-8">
+    <meta name="author" content="AppCraft">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="Creative Commons BY-SA">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+          content="{% if page.tags %}{{ page.tags | join: ', ' | truncate: 160 }}{% else %}{{ site.keywords | join: ', ' | truncate: 160  }}{% endif %}">
+    <meta name="description"
+          content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -13,8 +21,6 @@
     <meta name="theme-color" content="#ffffff">
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description"
-          content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="stylesheet" href="{{"/css/main.css" | prepend: site.baseurl }}">
     {% if site.debug %}
