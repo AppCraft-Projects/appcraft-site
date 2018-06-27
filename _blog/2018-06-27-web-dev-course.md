@@ -5,7 +5,7 @@ date: 2018-06-27
 tags: [web, development, course, video, free]
 ---
 
-![alt text](https://appcraft.hu/assets/img/course-bholt-web-dev.png)
+![alt text](https://appcraft.hu/assets/img/course-bholt-web-dev.jpeg)
 
 Az utóbbi időkben mintha eltűnt volna Brian Holt (Microsoft), de szerencsére nemrég visszatért. Ami azért frankó dolog, mert meglehetősen kedveltem, sőt kedvelem a kurzusait. A [React bevezetője](https://frontendmasters.com/courses/react/) az egyik kedvencem volt, máig az egyik legjobb a témában.
 
