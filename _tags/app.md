@@ -1,5 +1,5 @@
 ---
 slug: app
 name: App
-description: Alkalmazásokról általában
+description: Alkalmazásokról általában, lehet web vagy natív, mobil vagy desktop, ide mindet beleértjük.
 ---
