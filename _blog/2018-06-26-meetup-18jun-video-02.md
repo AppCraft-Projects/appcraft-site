@@ -11,7 +11,7 @@ Gyakran megesik, hogy a termékes vagy az UX-es inkább arra koncentrál, hogy m
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jn9d6uniZH0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
- A Jobs-to-be-Done keretrendszer az egyszerű perszónák helyett a felhasználók problémáira, céljaira és motivációira fókuszál.
+A Jobs-to-be-Done keretrendszer az egyszerű perszónák helyett a felhasználók problémáira, céljaira és motivációira fókuszál.
 
 Segítségével megértheted hogy mi vette rá a felhasználóidat, hogy kipróbálják az appodat vagy, hogy épp miért váltanak a konkurenciára.
 
