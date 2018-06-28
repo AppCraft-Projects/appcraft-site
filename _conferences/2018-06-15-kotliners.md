@@ -2,7 +2,7 @@
 excerpt: Conference for Kotliners
 title: 🎟️ Conference for Kotliners - Ott találkozunk!
 event_date: 2018-06-15
-tags: [kotlin]
+tags: [conference, kotlin]
 ---
 
 ![alt text](https://appcraft.hu/assets/img/kotliners-conf-01.png)

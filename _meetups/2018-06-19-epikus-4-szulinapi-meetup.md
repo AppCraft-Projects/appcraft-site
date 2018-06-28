@@ -4,7 +4,7 @@ excerpt: Meggünnepeltük az AppCraft 4. szülinapját a Grape Solutions irodáj
 title: 🍾 2018. június - Epikus 4. szülinapi meetup
 start-time: "2018-06-19T18:30:00+00:00"
 end-time: "2018-02-19T21:00:00+00:00"
-tags: ["java", "kotlin"]
+tags: [meetup, java, kotlin]
 address: "Grape Solutions HQ - 1023, Budapest Árpád fejedelem útja 26-28."
 coords: "47.4966016, 19.0578469"
 event_date: 2018-06-17
