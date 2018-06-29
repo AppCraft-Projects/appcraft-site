@@ -18,7 +18,7 @@ Rendesen vakarhatja a fejét, aki animációkat az Android app kapcsán animáci
 
 ## Mi is ez?
 
-tl;DR:
+tl;DR, csak a lényeg:
 - Tud mindent, amit a CoordinatorLayout, gazdag a pozicionálási eszközkészlet.
 - Megörökölte a TransitionManager layout tranzíciós képességeit.
 - És hozzátettek egy property animációs keretrendszert, amivel komplex mozgások kezelhetőek.
@@ -33,12 +33,12 @@ Egy mondatban tehát, a legfontosabb képességeket egy csomagba gyúrták össz
 
 Mindenképp izgi a cucc, összeszedtem magamnak néhány anyagot az átnézéshez, és úgy gondoltam nektek is hasznos lehet.
 
-Nicolas Roard írt erről egy cikksorozatot:
+Nicolas Roard írt erről egy frankó cikksorozatot:
 - [Part 1](http://bit.ly/android-motion-layout-p1)
 - [Part 2](http://bit.ly/android-motion-layout-p2)
 - [Part 3](http://bit.ly/android-motion-layout-p3)
 
-Valamint frissítették a ConstraintLayout példáit és a MotionLayout is kapott néhányat.
+Valamint frissítették a ConstraintLayout példáit, a MotionLayout is kapott néhányat.
 
 ## Ti mit gondoltok?
 Próbáltátok már? Van róla bármi benyomás? Mennyire sikerült javítani?
