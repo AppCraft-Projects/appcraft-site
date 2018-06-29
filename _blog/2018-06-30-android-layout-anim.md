@@ -29,7 +29,7 @@ tl;DR, csak a lényeg:
 
 Egy mondatban tehát, a legfontosabb képességeket egy csomagba gyúrták össze.
 
-## Néhány hasznos anyag
+## Néhány hasznos anyag
 
 Mindenképp izgi a cucc, összeszedtem magamnak néhány anyagot az átnézéshez, és úgy gondoltam nektek is hasznos lehet.
 
