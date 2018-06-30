@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /events/meetups/feed.xml
+---
+{%- assign entries = site.documents | where: 'subcategory', 'meetups' | sort: 'date' | reverse -%}
+{% include feed.html entries=entries %}

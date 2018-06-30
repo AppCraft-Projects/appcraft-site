@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /posts/news/feed.xml
+---
+{%- assign entries = site.documents | where: 'subcategory', 'news' | sort: 'date' | reverse -%}
+{% include feed.html entries=entries %}

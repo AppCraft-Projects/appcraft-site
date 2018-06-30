@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %}>
+    <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+    <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
+    <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>{{ '/' | absolute_url | xml_escape }}</id>
+
+    {% if site.title %}
+    <title type="html">{{ site.title | smartify | xml_escape }}</title>
+    {% elsif site.name %}
+    <title type="html">{{ site.name | smartify | xml_escape }}</title>
+    {% endif %}
+
+    {% if site.description %}
+    <subtitle>{{ site.description | xml_escape }}</subtitle>
+    {% endif %}
+
+    {% if site.author %}
+    <author>
+        <name>{{ site.author.name | default: site.author | xml_escape }}</name>
+        {% if site.author.email %}
+        <email>{{ site.author.email | xml_escape }}</email>
+        {% endif %}
+        {% if site.author.uri %}
+        <uri>{{ site.author.uri | xml_escape }}</uri>
+        {% endif %}
+    </author>
+    {% endif %}
+    {% for entry in entries limit: 10 %}
+    <entry{% if entry.lang %}{{" "}}xml:lang="{{ entry.lang }}"{% endif %}>
+    <title type="html">{{ entry.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
+    <link href="{{ entry.url | absolute_url }}" rel="alternate" type="text/html" title="{{ entry.title | xml_escape }}" />
+    <published>{{ entry.date | date_to_xmlschema }}</published>
+    <updated>{{ entry.last_modified_at | default: entry.date | date_to_xmlschema }}</updated>
+    <id>{{ entry.id | absolute_url | xml_escape }}</id>
+    <content type="html" xml:base="{{ entry.url | absolute_url | xml_escape }}">{{ entry.content | strip | xml_escape }}</content>
+
+    {% assign entry_author = entry.author | default: entry.authors[0] | default: site.author %}
+    {% assign entry_author = site.data.authors[entry_author] | default: entry_author %}
+    {% assign entry_author_email = entry_author.email | default: nil %}
+    {% assign entry_author_uri = entry_author.uri | default: nil %}
+    {% assign entry_author_name = entry_author.name | default: entry_author %}
+
+    <author>
+        <name>{{ entry_author_name | default: "" | xml_escape }}</name>
+        {% if entry_author_email %}
+        <email>{{ entry_author_email | xml_escape }}</email>
+        {% endif %}
+        {% if entry_author_uri %}
+        <uri>{{ entry_author_uri | xml_escape }}</uri>
+        {% endif %}
+    </author>
+
+    {% if entry.category %}
+    <category term="{{ entry.category | xml_escape }}" />
+    {% endif %}
+
+    {% for tag in entry.tags %}
+    <category term="{{ tag | xml_escape }}" />
+    {% endfor %}
+
+    {% if entry.excerpt and entry.excerpt != empty %}
+    <summary type="html">{{ entry.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
+    {% endif %}
+
+    {% assign entry_image = entry.image.path | default: entry.image %}
+    {% if entry_image %}
+    {% unless entry_image contains "://" %}
+    {% assign entry_image = entry_image | absolute_url %}
+    {% endunless %}
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ entry_image | xml_escape }}" />
+    {% endif %}
+    </entry>
+    {% endfor %}
+</feed>
