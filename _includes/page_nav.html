@@ -2,15 +2,20 @@
 {% if page.previous.url or page.next.url %}
 <div class="page-navigation">
     {% if page.previous.url %}
-    <span class="prev, page-nav-item">
-            Previous: <a class="prev"
-                         href="{{page.previous.url | prepend:site.baseurl}}">&laquo;{{page.previous.title}}</a>
-    </span>
+    <div class="prev page-nav-item">
+        <span>
+            &laquo; Előző: <a class="prev"
+                              href="{{page.previous.url | prepend:site.baseurl}}">{{page.previous.short_title}}</a>
+        </span>
+    </div>
     {% endif %}
     {% if page.next.url %}
-    <span class="next, page-nav-item">
-            Next: <a class="next" href="{{page.next.url | prepend:site.baseurl}}">{{page.next.title}} &raquo;</a>
-    </span>
+    <div class="next page-nav-item">
+        <span>
+            Következő: <a class="next"
+                          href="{{page.next.url | prepend:site.baseurl}}">{{page.next.short_title}} &raquo;</a>
+        </span>
+    </div>
     {% endif %}
 </div>
 {% else %}

@@ -4,6 +4,7 @@ title: 💪 Két workshoppal is ott leszünk a HWSW mobile!-on 💪
 event_date: 2017-11-30
 series: workshop
 tags: [kotlin, java, programming]
+short_title: HWSW mobile! workshopok
 ---
 
 ![alt text](https://appcraft.hu/assets/img/hwsw-mobile-workshops-01.png)

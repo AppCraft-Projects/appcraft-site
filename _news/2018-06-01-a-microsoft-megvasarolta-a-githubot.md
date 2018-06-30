@@ -4,6 +4,7 @@ title: Microsoft ➕ GitHub = ⁉️
 event_date: 2018-02-04
 tags: [microsoft, github, acquisition]
 author: Gabor Orosz
+short_title: Microsoft + Github
 ---
 
 ![alt text](https://appcraft.hu/assets/img/github-ms-01.png)

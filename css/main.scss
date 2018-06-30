@@ -514,14 +514,19 @@ nav {
 .page-navigation {
   line-height: $one-liner-height;
   overflow: auto;
+  position: relative;
 
-  .page-nav-item:last-child {
-    padding-right: 0;
+  .page-nav-item:first-child {
+    margin-right: 5%;
   }
 
   .page-nav-item {
     display: inline-block;
-    padding-right: $logical-separator-spacing;
+    position: relative;
+    width: 46%;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    vertical-align: top;
   }
 }
 

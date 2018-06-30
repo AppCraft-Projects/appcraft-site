@@ -3,6 +3,7 @@ excerpt: Gyakran megesik, hogy a termékes vagy az UX-es inkább arra koncentrá
 title: 📹 Júniusi meetup videók - Góré Dani és Jobs to be Done
 date: 2018-06-26
 tags: [meetup, appcraft, ux, research, persona, planning, user story]
+short_title: Júniusi meetup videók 2.
 ---
 
 ![alt text](https://appcraft.hu/assets/img/meetup-2018-june-19-02.png)

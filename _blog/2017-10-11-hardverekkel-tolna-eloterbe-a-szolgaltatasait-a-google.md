@@ -4,6 +4,7 @@ title: Hardverekkel tolná előtérbe a szolgáltatásait a Google
 date: 2017-10-11
 tags: [google]
 author: Gabor Orosz
+short_title: Google és a hardware-ek
 ---
 
 ![alt text](https://appcraft.hu/assets/img/google-hw-01.jpeg)

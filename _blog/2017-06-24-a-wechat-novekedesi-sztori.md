@@ -4,6 +4,7 @@ title: A WeChat növekedési sztori
 date: 2017-06-18
 tags: [wechat, growth]
 author: Gabor Orosz
+short_title: A WeChat növekedési sztori
 ---
 
 A [AppCraft csoportban](http://bit.ly/bpm-fb) már számos alkalommal elővettem a WeChat-et ([itt](http://bit.ly/sm-china-wechat), [itt](http://bit.ly/fb-f8-2015-ov), [itt](http://bit.ly/mobile-web-direction), [itt](http://bit.ly/meanwhile-in-asia), és [itt](http://bit.ly/mobile-ui-china)). Rendkívül érdekesnek tartom követni, egyfelelől a kulturális különbségek miatt, másrészt érdekes látni, ahogy ott kitalál dolgok felénk is átszivárognak.

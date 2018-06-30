@@ -1,13 +1,14 @@
 ---
 host: "Gabor Orosz"
-excerpt: A nagy tesztelős meetup kivonata
-title: "A nagy tesztelős meetup 1"
+excerpt: Mikulás másnapján, mikor már kiürültek a csizmák és elfogytak a csokik várni fogunk Titeket egy frankó évzáró meetup-al. 
+title: A nagy tesztelős meetup
 start-time: "2018-02-17T18:30:00+00:00"
 end-time: "2018-02-17T22:00:00+00:00"
 tags: [meetup, java, kotlin]
 address: "Supercharge HQ 1075, Károly krt 9. Budapest"
 coords: "47.4966016, 19.0578469"
 event_date: 2018-01-01
+short_title: A nagy tesztelős meetup
 ---
 
 Mikulás másnapján, mikor már kiürültek a csizmák és elfogytak a csokik várni fogunk Titeket egy frankó évzáró meetup-al. A novemberihez hasonlóan ezúttal is három különálló, érdekes témával készülünk.

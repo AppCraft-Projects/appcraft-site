@@ -4,6 +4,7 @@ title: A Facebook licensz mizériáról érthetően
 date: 2017-08-30
 tags: [react, licensing, bsd, patents, facebook]
 author: Gabor Orosz
+short_title: A Facebook licensz mizéria
 ---
 
 ![alt text](https://appcraft.hu/assets/img/fb-license-01.png)

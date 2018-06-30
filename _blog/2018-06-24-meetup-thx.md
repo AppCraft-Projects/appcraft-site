@@ -1,8 +1,9 @@
 ---
 excerpt: Ezúton is szeretnénk megköszönni, hogy ennyire sokan velünk tartottatok kedd este a negyedik szülinapi meetupunkon.
-title: 🤩 Köszönjük, hogy eljöttetek a meetupra + slideok
+title: 🤩 Köszönjük, hogy eljöttetek a meetupra + slide-ok
 date: 2018-06-23
 tags: [meetup, appcraft, ar, management, ux, slides]
+short_title: Júniusi meetup slide-ok
 ---
 
 ![alt text](https://appcraft.hu/assets/img/meetup-2018-june-19-01.png)

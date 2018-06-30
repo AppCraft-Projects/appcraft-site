@@ -3,6 +3,7 @@ excerpt: Rendesen vakarhatja a fejét, aki animációkat az Android app kapcsán
 title: Pofásodik az Android layoutos és animációs része 👀
 date: 2018-06-29
 tags: [android, layout, animation, video, development]
+short_title: Android layout és animáció fejlesztések
 ---
 
 Rendesen vakarhatja a fejét, aki animációkat az Android app kapcsán animációkban gondolkodik, a keretrendszer kínál néhány lehetőséget, amelyeket lehet kombinálgatni:

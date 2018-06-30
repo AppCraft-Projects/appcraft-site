@@ -3,6 +3,7 @@ excerpt: Habár a dedikált AR eszközök kicsit lassan röffennek be, de a mobi
 title: 📹 Júniusi meetup videók - Orosz Gábor és mobil AR trendek
 date: 2018-06-27
 tags: [meetup, appcraft, mobil, ar, trends]
+short_title: Júniusi meetup videók 3.
 ---
 
 ![alt text](https://appcraft.hu/assets/img/meetup-2018-june-19-03.png)

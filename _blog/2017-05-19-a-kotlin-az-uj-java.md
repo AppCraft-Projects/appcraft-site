@@ -4,6 +4,7 @@ title: A Kotlin az új Java
 date: 2017-05-19
 tags: [programming, kotlin, java]
 author: Adam Arold
+short_title: A Kotlin az új Java
 ---
 
 > Ha már Java fejlesztőként dolgozol egy ideje, talán már elgondolkoztál azon, hogy melyik legyen a következő nyelv, amibe beleásod magad.

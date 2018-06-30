@@ -3,6 +3,7 @@ excerpt: Felkerült Brian Holt Web Dev bevezető kurzusa és a Frontend Mastersn
 title: Brian Holt menő webfejlesztő kurzussal jelentkezett
 date: 2018-06-27
 tags: [web, development, course, video, free]
+short_title: Brian Holt webfejlesztő kurzusa
 ---
 
 ![alt text](https://appcraft.hu/assets/img/course-bholt-web-dev.jpeg)
