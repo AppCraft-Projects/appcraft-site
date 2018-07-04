@@ -85,4 +85,6 @@ Rengeteg hibája van a React Nativenak, de vannak az AirBnb háza táján is fur
 
 Nem fekete-fehér a sztori. Nem tisztán technológiai problémákról van szó, akadnak kultúrális sajátosságok is rendesen.
 
+Azok pedig ízes kérdések, hogy miért toltak bele ennyi időt és energiát, ha ennyire nem volt meg a fit.
+
 *Ti mit gondoltok?*
