@@ -1,7 +1,7 @@
 ---
 excerpt: Jókorát szólt az ügy, hogy az AirBnb mobil csapata elengedi a React Nativeot és visszaáll natívra.
 title: AirBnb 💔 React Native
-date: 2018-06-30
+date: 2018-07-04
 tags: [microsoft, windows, mobile, fun]
 short_title: AirBnb 💔 React Native
 ---
