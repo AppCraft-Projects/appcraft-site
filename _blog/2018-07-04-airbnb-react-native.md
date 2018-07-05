@@ -60,7 +60,9 @@ Felteszem volt náluk egy elég nagy és kellően hangos csoport, akik nem tudta
 
 ## Egy erős szponzor távozása átalakíthatta az erőviszonyokat
 
-Nekem kívülről a projekt egyik leglelkesebb támogatójának, vagy legalábbis szószólójának Leland Richardson ([@intelligibabble](https://twitter.com/intelligibabble)) tűnt. Számos szakmai fórumon brutálisan aktív volt.
+Nekem kívülről a projekt egyik leglelkesebb támogatójának, vagy legalábbis szószólójának Leland Richardson ([@intelligibabble](http://bit.ly/tw-lrichardson)) tűnt. Számos szakmai fórumon brutálisan aktív volt.
+
+Nem is volt kérdés, hogy mennyire committált volt a projekt kapcsán.
 
 A cégen belül sokakat felbátorított, számos projekt elindult, szépen pörgött ez az egész sztori.
 
