@@ -32,8 +32,6 @@ Két kulcs momentumot szeretnék kiemelni a sztoriból, mindkettőn sok múlhato
 
 A fenti felsorolás hármas pontja szerintem nagyon lényeges. A csapat egy *“write once, run everywhere”* megoldást keresett, kódot akart újrafelhasználni iOS és Android között.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The ability for RN product code to be shared across platforms at Airbnb *in my opinion* was an overwhelming success. Features in RN were often done with zero lines of platform-specific code. In this regard, it WORKED.</p>&mdash; Leland Richardson (@intelligibabble) <a href="https://twitter.com/intelligibabble/status/1010948686501691393?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 Ez részben sikerült is, viszont a React Native-ot nem kifejezetten erre a use casere tervezték, ez explicit ki is van mondva. Ez egy *“learn once, write everywhere”* platform. Ha weben már használod a Reactot és ha az ott megtanultak minták alapján építkeznél a többi platformra is, akkor jó választásnak bizonyulhat. Persze ez számos körülményen múlhat..
 
 Plusz használhatsz néhány egész varázslatos toolt:
@@ -60,6 +58,19 @@ Nem is vitázok ezzel, évekig ércelődtem a JavaScriptet a tervezési döntés
 
 Felteszem volt náluk egy elég nagy és kellően hangos csoport, akik nem tudtak megbarátkozni vele, és mostanra mentek át az érveik. Hiába minden effort, tanulás, miegymás, van ilyen a fejlesztési világban, amikor a csapatok kultúrájába nem fér bele egy technológiai csomag.
 
+## Egy erős szponzor távozása átalakíthatta az erőviszonyokat
+
+Nekem kívülről a projekt egyik leglelkesebb támogatójának, vagy legalábbis szószólójának Leland Richardson ([@intelligibabble](https://twitter.com/intelligibabble)) tűnt. Számos szakmai fórumon brutálisan aktív volt.
+
+A cégen belül sokakat felbátorított, számos projekt elindult, szépen pörgött ez az egész sztori.
+
+Ellenben látványos visszaesés történt viszont, amikor Leland a Googlehöz igazolt át. Utána a többi emberke lelkesedése is hamar lelankadt.
+
+Feltételezem, hogy a távozásával átalakultak az erőviszonyok a téma kapcsán. Nem itt történt volna ez meg először.
+
+Érdekes azt is látni, hogy mennyire más véleménye volt a projekt eredményeit tekintve.
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The ability for RN product code to be shared across platforms at Airbnb *in my opinion* was an overwhelming success. Features in RN were often done with zero lines of platform-specific code. In this regard, it WORKED.</p>&mdash; Leland Richardson (@intelligibabble) <a href="https://twitter.com/intelligibabble/status/1010948686501691393?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## A React Native csapat is látja a problémákat
 
 Mindezek a problémák feltehetőleg korábban eljutottak a React Native cora csapatához is. Pár nappal az AirBnb bejelentés előtti blogpostjában Sophie Alpert ([@sophiebits](https://twitter.com/sophiebits))  összefoglalta a [nagy refactort](http://bit.ly/alpert-state-of-rn), amin a csapat épp nagy erőkkel dolgozik.
@@ -74,7 +85,9 @@ Gyorsba kigyűjtöttem a lényeget:
 
 >❓ Why ❓ Today, it's not possible to incorporate native navigation and gesture handling or native components like UICollectionView and RecyclerView without complex hacks. After our changes to the threading model, building features like this will be straightforward.
 
-Érdemes még mellé elolvasni Nick Schrock ([@schrockn](http://bit.ly/schrock-airbnb-rn)) tweet-szálát a témában, tök jól egymás mellé teszi‏ Gabriel és Sophie pontjait:
+---
+
+Érdemes mellé elolvasni Nick Schrock ([@schrockn](http://bit.ly/schrock-airbnb-rn)) tweet-szálát a témában, tök jól egymás mellé teszi‏ Gabriel és Sophie pontjait:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">5/ From <a href="https://twitter.com/gpeal8?ref_src=twsrc%5Etfw">@gpeal8</a>: re &quot;Long Lists&quot; Many of the limitations are difficult to overcome because of the threading. Adapter data can’t be accessed synchronously so it is possible to see views flash in as they get asynchronously rendered while scrolling quickly.&quot;</p>&mdash; Nick Schrock (@schrockn) <a href="https://twitter.com/schrockn/status/1009460618259296256?ref_src=twsrc%5Etfw">June 20, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Nyilván ezek rövid távon nem segítettek volna rajtuk, idő amíg elkészülnek.
