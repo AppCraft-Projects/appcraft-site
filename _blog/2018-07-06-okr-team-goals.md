@@ -64,7 +64,7 @@ Illetve ha mélyebben bele szeretnél ásni a gyakorlatába, akkor Rick Klau (Go
 
 Valamint ez a Google féle [guide](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) is nagyon hasznos.
 
-## Utolsó gondolatok
+## Zárásképpen
 
 Az OKR hasznos eszköz, tök jól működik, de fontos látni, hogy nem egy szent grálról van szó, nem old meg minden problémát magában.
 
