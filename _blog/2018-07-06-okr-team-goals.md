@@ -72,3 +72,5 @@ Az OKR hasznos eszköz, tök jól működik, de fontos látni, hogy nem egy szen
 
 *Kíváncsi vagyok mit gondoltok a témáról, meséljek még hasonlókról?*
 
+Illetve ha véleményed van vagy hozzászólnál, azt a [Facebook csoportunkban](http://bit.ly/acfb-okr) vagy [Twitteren](http://bit.ly/actw-okr) megteheted.
+
