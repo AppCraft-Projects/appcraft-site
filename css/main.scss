@@ -299,6 +299,10 @@ nav {
       margin: 0 2% 2% 0;
     }
 
+    .meetups-card .entry-title, .workshops-card .entry-title {
+      margin-left: 4em !important;
+    }
+
     .entry-card {
       position: relative;
       box-sizing: border-box;
@@ -326,17 +330,32 @@ nav {
         margin: $inline-spacing 0;
       }
 
-      .entry-title a {
-        color: $main-text-color;
-        font-size: $h3-font-size;
-        line-height: $h3-line-height;
+      .entry-title {
+        margin-left: 2.5em;
+        position: relative;
+        top: -6px;
+        height: 2.6em;
+
+        a {
+          color: $main-text-color;
+          font-size: $h3-font-size;
+          line-height: 1.3em;
+        }
+      }
+
+      .entry-tldr {
+        font-size: $background-text-size;
+        margin-bottom: $inline-spacing;
+      }
+
+      .entry-icon {
+        position: absolute;
       }
 
       .blog-icon {
         width: 35px;
         height: 42px;
         background: url("../assets/icons/blog-icon.svg") no-repeat;
-
       }
 
       .news-icon {
@@ -581,11 +600,11 @@ footer {
 
 .diffusedshadow {
 
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.5s ease-in-out;
 
   &:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   }
 }
 
