@@ -118,6 +118,30 @@ h4 {
   padding: $logical-separator-spacing 0 0 0;
 }
 
+blockquote {
+  background-color: $page-color;
+  font-style: italic;
+  font-size: $background-text-size;
+  color: $background-text-color;
+  padding: 0 $inline-spacing;
+  box-sizing: border-box;
+  border-left: 0.2em solid $category-nav-background-color;
+  margin: $logical-separator-spacing 0;
+}
+
+a code {
+  color: $conf-color;
+}
+
+code {
+  font-style: italic;
+  color: $category-nav-background-color;
+}
+
+blockquote li {
+  list-style-type: circle;
+}
+
 #page {
   padding-bottom: $inline-spacing;
 }
