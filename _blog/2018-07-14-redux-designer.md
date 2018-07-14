@@ -12,7 +12,7 @@ short_title: Redux designer szemmel
 
 Az elmúlt évek során akkora volt a hype, hogy a Redux szinte összenőtt a Reacttal, pedig ez nem mindig előnyös.
 
-Félreértés ne essék, alapvetően egy hasznos eszközről van szó, DE ... az esetek jelentős részében nincs szükség rá, simán elegendő a React alap ősrégi state vagy az új context megoldása.
+Félreértés ne essék, alapvetően egy hasznos eszközről van szó, DE ... az esetek jelentős részében nincs szükség rá, simán elegendő a React alap ősrégi state vagy az új [context](http://bit.ly/react-context-redux) megoldása.
 
 Akad több ok is:
 - sokszor-sokaknak nehézkes learning curve,
@@ -39,5 +39,5 @@ Néhány régebbi postot is összeszedtem a témában:
 
 *Kíváncsi vagyok mit gondoltok a témáról. Használjátok? Szeretitek?*
 
-Illetve ha véleményed van vagy hozzászólnál, azt a [Facebook csoportunkban](http://bit.ly/acfb-okr) vagy [Twitteren](http://bit.ly/actw-okr) megteheted.
+Illetve ha véleményed van vagy hozzászólnál, azt a [Facebook csoportunkban](hhttp://bit.ly/acfb-redux-designer) vagy [Twitteren](http://bit.ly/actw-redux-designer) megteheted.
 
