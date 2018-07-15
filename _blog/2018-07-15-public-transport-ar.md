@@ -1,9 +1,9 @@
 ---
 excerpt: Tényleges van hozzáadott értéke egy AR megoldásnak a tömegközelekdéshez, vagy csak egy fancy tech demó az egész?
-title: Jobban átláthatóvá AR-el a tömegközlekedés?
+title: Jobban átlátható a tömegközlekedés AR-el?
 date: 2018-07-15
-tags: [react, redux]
-short_title: AR a tömegközlekedésben
+tags: [ar]
+short_title: Jobban átlátható a tömegközlekedés AR-el?
 ---
 
 ## Innen indult ez a sztori...
