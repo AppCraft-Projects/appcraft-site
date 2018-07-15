@@ -1,9 +1,9 @@
 ---
 excerpt: Tényleges van hozzáadott értéke egy AR megoldásnak a tömegközelekdéshez, vagy csak egy fancy tech demó az egész?
-title: Jobban átlátható a tömegközlekedés AR-el?
+title: 🚏 Jobban átlátható a tömegközlekedés AR-el?
 date: 2018-07-15
 tags: [ar]
-short_title: Jobban átlátható a tömegközlekedés AR-el?
+short_title: 🚏 Jobban átlátható a tömegközlekedés AR-el?
 ---
 
 ## Innen indult ez a sztori...
@@ -20,7 +20,7 @@ A júniusi meetupos [előadásom](http://bit.ly/acm-18-june-vid-03) végén a Q&
 
 Magamból indulok ki, általában egész jól kiismerem magam Budapesten, de azért két appot, a BKK Futárt és Google Mapsot gyakran használom.
 
-Mindkét app másban jó....
+*Mindkét app másban jó....*
 - A Maps esetében pedig az útvonalak tervezése frankó.
 - A Futár esetében szeretem, hogy láthatom hány perc múlva érkezik egyik vagy másik járat egy adott megállóba, sőt azt is hol jár az útvonalon.
 
@@ -30,11 +30,11 @@ Szóval nincs egy igazi app mind felett.
 
 ## Kell még egy app?
 
-Van még egy use case, ami szenvedős, mutatom képpel, úgy könnyebb lesz megérteni. Előbb a Futár:
+Van még egy use case, ami szenvedős, mutatom képpel, úgy könnyebb lesz megérteni. *Előbb a Futár:*
 
 ![alt text](https://appcraft.hu/assets/img/ar-pt-02.png)
 
-Illetve így néz ki a Google Maps esetében:
+*Illetve így néz ki a Google Maps esetében:*
 
 ![alt text](https://appcraft.hu/assets/img/ar-pt-03.png)
 
