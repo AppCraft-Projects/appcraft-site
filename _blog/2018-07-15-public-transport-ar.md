@@ -42,8 +42,10 @@ Mondjuk a Széll Kálmánt elég jól ismerem, de az Örs Vezér téren időnké
 
 Na az ilyen és ehhez hasonló esetekben jó lenne egy ilyesmi AR app. Nem állítom, hogy nincs más jó megoldás, de ahogy ránéztem nekem fullosan ez ugrott be.
 
+Elférne még egy app, de az is, ha egyikbe beépítésre kerülne.
+
 *Ti mit gondoltok? Nektek hasznos lenne egy ilyen megoldás?*
 
-Illetve ha véleményed van vagy hozzászólnál, azt a [Facebook csoportunkban](hhttp://bit.ly/acfb-ar-pt) vagy [Twitteren](http://bit.ly/actw-ar-pt) megteheted.
+Illetve ha véleményed van vagy hozzászólnál, azt a [Facebook csoportunkban](http://bit.ly/acfb-ar-pt) vagy [Twitteren](http://bit.ly/actw-ar-pt) megteheted.
 
 PS: Autósoknak trollkodni nem ér. 😉
