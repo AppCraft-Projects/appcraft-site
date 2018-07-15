@@ -1,9 +1,9 @@
 ---
 excerpt: Tényleges van hozzáadott értéke egy AR megoldásnak a tömegközelekdéshez, vagy csak egy fancy tech demó az egész?
-title: 🚏 Jobban átlátható a tömegközlekedés AR-el?
+title: 🚏 Jobban átlátható lesz a tömegközlekedés AR-el?
 date: 2018-07-15
 tags: [ar]
-short_title: 🚏 Jobban átlátható a tömegközlekedés AR-el?
+short_title: 🚏 Jobban átlátható lesz a tömegközlekedés AR-el?
 ---
 
 ## Innen indult ez a sztori...
