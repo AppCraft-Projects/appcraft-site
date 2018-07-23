@@ -16,7 +16,7 @@ A célok pedig nem voltak egyszerűek:
 “We wanted to support full width (justified) layout, preserve the aspect ratio of each photo, be scrubbable, handle hundreds-of-thousands of photos, scroll at 60 fps, and load nearly instantly.”
 
 A cikk pedig a következők miatt tetszik...
-- Mert bemutatja, hogy egy egyszerűnek appsztrofálható feature bizony lehet kifejezetten komplex.
+- Mert bemutatja, hogy egy egyszerűnek aposztrofálható feature bizony lehet kifejezetten komplex.
 - Nem csupán behúztak egy tuti libet, meghívtak néhány API-t és kész.
 - Hanem átgondolták a probléma számos aspekusát és ténylegesen megtervezték a megoldást.
 
