@@ -13,7 +13,7 @@ Nagyon bírom az ilyen jellegű írásokat, mert habár hosszúak, de értékes,
 🔖 Erre [olvasható](http://bit.ly/gphotos-think-plan).
 
 A célok pedig nem voltak egyszerűek:
-“We wanted to support full width (justified) layout, preserve the aspect ratio of each photo, be scrubbable, handle hundreds-of-thousands of photos, scroll at 60 fps, and load nearly instantly.”
+> “We wanted to support full width (justified) layout, preserve the aspect ratio of each photo, be scrubbable, handle hundreds-of-thousands of photos, scroll at 60 fps, and load nearly instantly.”
 
 A cikk pedig a következők miatt tetszik...
 - Mert bemutatja, hogy egy egyszerűnek aposztrofálható feature bizony lehet kifejezetten komplex.
