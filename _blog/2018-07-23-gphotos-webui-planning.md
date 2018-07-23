@@ -1,9 +1,9 @@
 ---
 excerpt: Nem csupán behúztak egy tuti libet, meghívtak néhány API-t és kész, hanem átgondolták a probléma számos aspekusát és alaposan megtervezték a megoldást.
-title: 🕵🏻‍♂️ Bepillantás a Google Photos Web UI motorháztetője alá
+title: 🕵🏻‍ Bepillantás a Google Photos Web UI motorháztetője alá
 date: 2018-07-23
 tags: [frontend, planning, design]
-short_title: 🕵🏻‍♂️ Bepillantás a Google Photos Web UI motorháztetője alá
+short_title: 🕵🏻‍ Bepillantás a Google Photos Web UI motorháztetője alá
 ---
 
 ![alt text](https://appcraft.hu/assets/img/gphotos-webui-01.png)
