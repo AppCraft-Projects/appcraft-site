@@ -25,4 +25,4 @@ Ezzel nem a libek használatát szeretném lefitymálni, mert sokszor jók és s
 A gyakran száraz algoritmusok mellett az ilyen jellegű tervező gondolkodás átadásából több kellene.
 
 Ahogy azt egyszer egy okos ember mondta:
-“A jó fejlesztő dolga nem a sok kódsor sokasítása, hanem az üzleti problémák megoldása.”
+> “A jó fejlesztő dolga nem a sok kódsor sokasítása, hanem az üzleti problémák megoldása.”
