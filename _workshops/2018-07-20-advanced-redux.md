@@ -2,7 +2,6 @@
 excerpt: Két workshoppal is ott leszünk a HWSW mobile!-on -  Kotlin alapok Java fejlesztőknek és Android refaktorálás.
 title: 📢 Redux workshop jövő kedden
 event_date: 2018-07-20
-series: workshop
 tags: [react, redux, workshop]
 short_title: 📢 Redux workshop jövő kedden
 ---
