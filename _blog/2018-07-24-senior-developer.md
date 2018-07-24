@@ -10,8 +10,10 @@ Az alábbi tweet indította el ezt a témát egy ismerősömmel és gyorsan tov�
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Many engineers think coding is their only responsibility. Mentoring and making your team more effective is as important as you coding. By helping your team mates you are enabling people to code more and faster. Moreover, you are enabling them to be mentors in the future too.</p>&mdash; rallat (@rallat) <a href="https://twitter.com/rallat/status/1021307320142188544?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Tök jó felvetés, de azért ennél több is eszünke jutott:
-- A magas szintű technikai tudás a belépő ide, ehhez kell még hozzátenni.
+Tök jó felvetés, de azért ennél több is eszünke jutott.
+
+Az egész ott indul, hogy megvan a magas szintű technikai tudás, valamint a vérrel és verejtékkel szerzett komoly tapasztalat.
+És még épül rá jópár:
 - Felelősséget vállal a rá bízott munkáért, elviszi az elejétől a végéig.
 - Nem ködösít, nem mutogat másra, bevállalja a saját részét a hibákból és a megoldásra törekszik.
 - Jól kommunikál a többi csapattaggal, nem akaszkodik össze másokkal és nem kell postás mellé.
@@ -21,6 +23,6 @@ Tök jó felvetés, de azért ennél több is eszünke jutott:
 - Tömör és érhető doksit ír az elkészült munkáról.
 - Van némi termék szemlélete, megérti az üzleti problémákat, azok megoldására fókuszál.
 
-Nagyjából ezekkel a plusszokkal lehet szerintem tök jól kiemelkedni.
+A trükkös kérdés persze az, hogy ezeket az adott kontextusban hogyan lehet jól súlyozni. Mely tulajdonságokra van éppen jobban vagy kevésbé szükség.
 
 *Ti mit gondoltok? Van esetleg más is, amit hozzátennétek?*
