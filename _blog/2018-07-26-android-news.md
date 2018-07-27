@@ -1,6 +1,5 @@
 ---
-excerpt: Az idei I/O óta kicsi állóvíz alakult ki az Android körül, de  most kezdenének újra beindulni a történések.
-title: ☀️ Ébredeznek a dolgok az Android körül
+excerpt: Az elmúlt hónapokban kicsit álmosan zajlottak a történések az Android körül, most azonban újra felpörögni látszanak.
 date: 2018-07-27
 tags: [android]
 short_title: ☀️ Ébredeznek a dolgok az Android körül
@@ -8,7 +7,9 @@ short_title: ☀️ Ébredeznek a dolgok az Android körül
 
 ![alt text](https://appcraft.hu/assets/img/android-01.png)
 
-Az idei I/O óta kicsi állóvíz volt az Android körül (is), nyilván sokakat lekötött az ismerkedés az új JetPack és Android X libekkel, viszont lehet újra készülődni, mert rövidesen ismét beindulnak a történések.
+Volt mit tanulni az idei I/O óta az Android fejlesztőknek, volt ott újdonság rendesen. JetPack, Android X vagy MotionLayout, hoztak újdonságokat rendesen.
+
+Az elmúlt hónapokban kicsit álmosan zajlottak a történések, most azonban újra felpörögni látszanak, érdemes felkészíteni magunkat az nyár végi és őszi dömpingre.
 
 *Számos friss hírt gyűjtöttem egy csokorba...*
 
