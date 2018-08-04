@@ -1,5 +1,6 @@
 ---
 excerpt: Az elmúlt hónapokban kicsit álmosan zajlottak a történések az Android körül, most azonban újra felpörögni látszanak.
+title: ☀️ Ébredeznek a dolgok az Android körül
 date: 2018-07-27
 tags: [android]
 short_title: ☀️ Ébredeznek a dolgok az Android körül
