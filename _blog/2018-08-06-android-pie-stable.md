@@ -25,4 +25,4 @@ Egy rövid áttkintés azért dukál a korábbi postokból:
 
 A [fejlesztői újdonságokat](http://bit.ly/android-pie-dev-overview) és az API level 28 jóságait a szokásos oldalon foglalják össze.
 
-Nem lesz untakozás, jöhetnek a beszámolók az első benyomásokról! 😉
+Nem lesz unatkozás, jöhetnek a beszámolók az első benyomásokról! 😉
