@@ -8,7 +8,7 @@ short_title: 🥧 Megérkezett a stabil Android Pie
 
 ![alt text](https://appcraft.hu/assets/img/android-pie-01.png)
 
-Véget érhet a találgatás, a Pite nevet kapta az új Android a keresztségben, kint van a stabil kiadás.
+Véget érhet a találgatás, a [Pite](http://bit.ly/verge-android-pie) nevet kapta az új Android a keresztségben, kint van a stabil kiadás.
 
 Itten van a szokásos jó kis [overview oldal](http://bit.ly/android-pie-overview) a új funkciókról.
 
