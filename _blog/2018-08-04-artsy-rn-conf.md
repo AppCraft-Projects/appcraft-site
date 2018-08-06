@@ -12,9 +12,9 @@ Régóta szimpatizálok az Artsy csapat “open source by default” filozófiá
 
 Persze a kód könyvtárak kapacsán is ott vannak, számos projektbe [kontribútáltak](http://bit.ly/gh-cocoapods) vagy épp [nyitottak meg maguk](http://bit.ly/gh-artsy).
 
-De ami még királyabb, hogy kapunk némi kivonatot néhány tech topicról, ami a srácok gondolkodnak.  Megosztanak összefoglalókat:
-- a [technológiai elemzéseikről és döntéseikről](http://bit.ly/rn-navigation-choices),
-- a [frontend stackükről](http://bit.ly/artsy-fe-stack),
+De ami még királyabb, hogy kapunk némi kivonatot néhány tech topicról, ami a srácok gondolkodnak. Megosztanak összefoglalókat:
+- [technológiai elemzéseikről és döntéseikről](http://bit.ly/rn-navigation-choices),
+- [frontend stackükről](http://bit.ly/artsy-fe-stack),
 - de időnként a [retrospektívekről]((http://bit.ly/artsy-rn-retro)) is.
 
 Ezért is volt nagyon király látni, hogy egy ennyire dedikált csapat szervezett pár hete egy React Native konferenciát.
