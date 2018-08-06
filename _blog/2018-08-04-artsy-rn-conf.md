@@ -10,7 +10,7 @@ short_title: 📹 Artys x React Native - Konferencia videók
 
 Régóta szimpatizálok az Artsy csapat “open source by default” filozófiájával.
 
-Persze a kód könyvtárak kapacsán is ott vannak, számos projektbe [kontribútáltak](http://bit.ly/gh-cocoapods) vagy épp [nyitottak meg maguk](http://bit.ly/gh-artsy).
+Persze a kód könyvtárak kapcsán is ott vannak, számos projektbe [kontribútáltak](http://bit.ly/gh-cocoapods) vagy épp [nyitottak meg maguk](http://bit.ly/gh-artsy).
 
 De ami még királyabb, hogy kapunk némi kivonatot néhány tech topicról, ami a srácok gondolkodnak. Megosztanak összefoglalókat:
 - [technológiai elemzéseikről és döntéseikről](http://bit.ly/rn-navigation-choices),
