@@ -1,9 +1,9 @@
 ---
 excerpt: Régóta szimpatizálok az Artsy csapat “open source by default” filozófiájával. Király, hogy egy ennyire dedikált csapat szervezett pár hete egy React Native konferenciát.
-title: 📹 Konferencia ajánló - Artys x React Native
+title: 📹 Artys x React Native - Konferencia videók
 date: 2018-07-27
 tags: [android]
-short_title: 📹 Konferencia ajánló - Artys x React Native
+short_title: 📹 Artys x React Native - Konferencia videók
 ---
 
 ![alt text](https://appcraft.hu/assets/img/artsy-rn-conf-01.png)
