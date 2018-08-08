@@ -8,7 +8,7 @@ short_title: React Animations Workshop
 
 ![alt text](https://appcraft.hu/assets/img/react-anim-01.gif)
 
-> Mindenek előtt, regisztrálni [itt](http://bit.ly/bsw-react-anim) tudtok.
+> 📍 Mindenek előtt, regisztrálni [itt](http://bit.ly/bsw-react-anim) tudtok.
 
 Az AppCraft meetup szeptemberig pihen, de addig is szeretnénk egy jó kis eseményt, a Bene Studio féle React animációs workshopot a figyelmetekbe ajánlani.
 
@@ -20,16 +20,16 @@ Némi alaptudással érdemes rendelkezni:
 
 Továbbá BYOD, avagy hozd a saját géped, telepítsd előre a Node.js-t és create-react-app csomagot globálisan.
 
-Menetrend
+Menetrend:
 
-*18:15 - 18:30*: Regisztráció
+*18:15 - 18:30* - Regisztráció
 
-*18:30 - 20:30*: Workshop (**pontos kezdés!**)
+*18:30 - 20:30* - Workshop (**pontos kezdés!**)
 
-*20:30 - kiffuladásig*:  Laza beszélgetés, pizza-sör
+*20:30-tól kiffuladásig* -  Laza beszélgetés, pizza-sör
 
-Have fun! :)
+Have fun! 😁
 
-PS: Az eredeti esemény [erre](http://bit.ly/bsw-react-anim-event) található.
+*PS #1:* Az eredeti esemény [erre](http://bit.ly/bsw-react-anim-event) található.
 
-🇭🇺 Ez egy magyar nyelvű esemény, viszont külföldi fejlesztő ismerősök se riadjanak vissza: a Bene Studio mentorai folyamatosan segítenek angolul, illetve minden anyag angol nyelven lesz elérhető.
+*PS #2:* 🇭🇺 Ez egy magyar nyelvű esemény, viszont külföldi fejlesztő ismerősök se riadjanak vissza: a Bene Studio mentorai folyamatosan segítenek angolul, illetve minden anyag angol nyelven lesz elérhető.
