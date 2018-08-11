@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <head>
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <meta http-equiv="content-type" content="text/html;UTF-8">
@@ -22,13 +23,26 @@
 
     <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 
-    <link rel="stylesheet" href="{{"/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{"
+    /css/main.css" | prepend: site.baseurl }}">
     {% if site.debug %}
-    <link rel="stylesheet" href="{{"/css/debug.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{"
+    /css/debug.css" | prepend: site.baseurl }}">
     {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
     <link rel="alternate"
           type="application/rss+xml"
           title="{{ site.title }}"
-          href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+          href="{{ "
+    /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    {% if page.url == "/search" %}
+
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+    {% endif %}
 </head>

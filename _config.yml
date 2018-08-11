@@ -17,6 +17,7 @@ keywords: ["programozás", "web", "tanácsadás", "hirek", "Kotlin", "Java", "fe
 algolia:
   application_id: '142FY0Z6K2'
   index_name: appcraft-site
+  search_only_api_key: c2711810206b49f41be205da6dc1c80d
 collections:
   blog:
     output: true

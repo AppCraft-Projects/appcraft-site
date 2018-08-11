@@ -1,0 +1,70 @@
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+appId: '{{ site.algolia.application_id }}',
+indexName: '{{ site.algolia.index_name }}',
+apiKey: '{{ site.algolia.search_only_api_key }}'
+});
+
+const hitTemplate = function (hit) {
+let date = '';
+if (hit.date) {
+date = moment.unix(hit.date).format('YYYY.MM.DD.');
+}
+
+let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+
+let title = ""
+if (hit._highlightResult.title !== undefined) {
+title = hit._highlightResult.title.value;
+} else {
+title = hit.title
+}
+
+let breadcrumbs = '';
+if (hit._highlightResult.headings) {
+breadcrumbs = hit._highlightResult.headings.map(match => {
+return `<span class="post-breadcrumb">${match.value}</span>`
+}).join(' > ')
+}
+
+let content = ""
+if (hit._highlightResult.html !== undefined) {
+content = hit._highlightResult.html.value
+} else {
+content = hit.content
+}
+
+return `
+<div class="entry-card blog-card diffusedshadow" data-date="${date}">
+    <p class="entry-icon blog-icon"></p>
+    <p class="entry-title">
+        <a href="${url}">${title}</a>
+    </p>
+    <p class="entry-meta">
+        <span class="entry-date">${date}</span>
+    </p>
+    <p class="entry-tldr">
+        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+        ${content}
+    </p>
+</div>`;
+};
+
+search.addWidget(
+instantsearch.widgets.searchBox({
+container: '#search-searchbar',
+placeholder: 'Search into posts...',
+poweredBy: true // This is required if you're on the free Community plan
+})
+);
+
+search.addWidget(
+instantsearch.widgets.hits({
+container: '#search-hits',
+templates: {
+item: hitTemplate
+}
+})
+);
+
+search.start();

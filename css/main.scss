@@ -222,6 +222,67 @@ nav {
 
 }
 
+//////////////////////
+// search
+//////////////////////
+
+.search-container {
+
+  padding: $page-spacing 0;
+  background: #ffffff;
+
+  #search-searchbar {
+    .ais-search-box {
+      max-width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+
+}
+
+#search-hits {
+
+  .entry-card {
+    width: 100%;
+  }
+
+  .ais-Highlight {
+    color: #111;
+    font-style: normal;
+    text-decoration: underline;
+  }
+
+  .post-breadcrumbs {
+    color: #424242;
+    display: block;
+  }
+
+  .post-breadcrumb {
+    font-size: 18px;
+    color: #424242;
+  }
+
+  .ais-Highlight {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .ais-hits, .ais-hits--item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ais-Highlight {
+    color: #2a7ae2;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .post-snippet img {
+    display: none;
+  }
+}
+
 .category-nav {
   font-family: 'Libre Franklin medium', serif;
   font-size: .875em;
@@ -303,151 +364,158 @@ nav {
   }
 }
 
+// entries
+
 .entries {
   position: relative;
+}
 
-  .entry-list {
+.entry-list {
 
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
-    div:nth-child(even) {
-      margin: 0 0 2% 0;
-    }
+.entry-card:nth-child(even) {
+  margin: 0 0 2% 0;
+}
 
-    div:nth-child(odd) {
-      margin: 0 2% 2% 0;
-    }
+.entry-card:nth-child(odd) {
+  margin: 0 2% 2% 0;
+}
 
-    .meetups-card .entry-title, .workshops-card .entry-title {
-      margin-left: 4em !important;
-    }
+.meetups-card .entry-title, .workshops-card .entry-title {
+  margin-left: 4em !important;
+}
 
-    .entry-card {
-      position: relative;
-      box-sizing: border-box;
-      list-style: none;
-      width: 49%;
-      background-color: $post-background-color;
-      padding: $inline-spacing;
-      min-height: 10em;
-      max-height: 13em;
-      border-top: 2px solid transparent;
-      border-radius: 3px;
+.entry-card {
+  position: relative;
+  box-sizing: border-box;
+  list-style: none;
+  width: 49%;
+  background-color: $post-background-color;
+  padding: $inline-spacing;
+  min-height: 10em;
+  max-height: 13em;
+  border-top: 2px solid transparent;
+  border-radius: 3px;
 
-      &:hover {
-        border-top: 2px solid $accent-color;
-        transition: border-top .2s ease;
-      }
+  &:hover {
+    border-top: 2px solid $accent-color;
+    transition: border-top .2s ease;
+  }
 
-      &:hover ~ div:not(:hover) {
-        z-index: -5;
-      }
-
-      .entry-meta {
-        color: $background-text-color;
-        font-size: $background-text-size;
-        margin: $inline-spacing 0;
-      }
-
-      .entry-title {
-        margin-left: 2.5em;
-        position: relative;
-        top: -6px;
-        height: 2.6em;
-
-        a {
-          color: $main-text-color;
-          font-size: $h3-font-size;
-          line-height: 1.3em;
-        }
-      }
-
-      .entry-tldr {
-        font-size: $background-text-size;
-        margin-bottom: $inline-spacing;
-      }
-
-      .entry-icon {
-        position: absolute;
-      }
-
-      .blog-icon {
-        width: 35px;
-        height: 42px;
-        background: url("../assets/icons/blog-icon.svg") no-repeat;
-      }
-
-      .news-icon {
-        width: 50px;
-        height: 42px;
-        background: url("../assets/icons/news-icon.svg") no-repeat;
-
-      }
-
-      .meetups-icon {
-        width: 57px;
-        height: 42px;
-        background: url("../assets/icons/meetup-icon.svg") no-repeat;
-
-      }
-
-      .workshops-icon {
-        width: 61px;
-        height: 42px;
-        background: url("../assets/icons/workshop-icon.svg") no-repeat;
-      }
-      .conferences-icon {
-        width: 36px;
-        height: 42px;
-        background: url("../assets/icons/conference-icon.svg") no-repeat;
-      }
-    }
-
-    .blog-card {
-
-      &:hover {
-        box-shadow: none;
-        cursor: pointer;
-      }
-
-      &:after {
-        content: '';
-        display: block;
-        height: 0;
-      }
-
-      &:hover:after {
-        content: '';
-        display: block;
-        width: 94%;
-        height: 20px;
-        box-shadow: 0 8px 36px 0 #1C2A43;
-        position: absolute;
-        bottom: 0;
-        left: 3%;
-        z-index: -1;
-        transition: height .25s;
-      }
-    }
-
-    .workshops-card {
-      border-left: 4px solid $workshop-color;
-    }
-
-    .meetups-card {
-      border-left: 4px solid $meetup-color;
-    }
-
-    .conferences-card {
-      border-left: 4px solid $conf-color;
-    }
+  &:hover ~ div:not(:hover) {
+    z-index: -5;
   }
 }
+
+.entry-meta {
+  color: $background-text-color;
+  font-size: $background-text-size;
+  margin: $inline-spacing 0;
+}
+
+.entry-title {
+  margin-left: 2.5em;
+  position: relative;
+  top: -6px;
+  height: 2.6em;
+
+  a {
+    color: $main-text-color;
+    font-size: $h3-font-size;
+    line-height: 1.3em;
+  }
+}
+
+.entry-tldr {
+  font-size: $background-text-size;
+  margin-bottom: $inline-spacing;
+}
+
+.entry-icon {
+  position: absolute;
+}
+
+.blog-icon {
+  width: 35px;
+  height: 42px;
+  background: url("../assets/icons/blog-icon.svg") no-repeat;
+}
+
+.news-icon {
+  width: 50px;
+  height: 42px;
+  background: url("../assets/icons/news-icon.svg") no-repeat;
+
+}
+
+.meetups-icon {
+  width: 57px;
+  height: 42px;
+  background: url("../assets/icons/meetup-icon.svg") no-repeat;
+
+}
+
+.workshops-icon {
+  width: 61px;
+  height: 42px;
+  background: url("../assets/icons/workshop-icon.svg") no-repeat;
+}
+
+.conferences-icon {
+  width: 36px;
+  height: 42px;
+  background: url("../assets/icons/conference-icon.svg") no-repeat;
+}
+
+.blog-card {
+
+  &:hover {
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    height: 0;
+  }
+
+  &:hover:after {
+    content: '';
+    display: block;
+    width: 94%;
+    height: 20px;
+    box-shadow: 0 8px 36px 0 #1C2A43;
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    z-index: -1;
+    transition: height .25s;
+  }
+}
+
+.workshops-card {
+  border-left: 4px solid $workshop-color;
+}
+
+.meetups-card {
+  border-left: 4px solid $meetup-color;
+}
+
+.conferences-card {
+  border-left: 4px solid $conf-color;
+}
+
+///////////////
+// tags
+///////////////
 
 #tags {
   position: relative;

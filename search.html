@@ -1,0 +1,21 @@
+---
+layout: search
+permalink: /search
+---
+
+<div class="search-container">
+    <div class="wrapper">
+        <div id="search-searchbar"></div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="content entries" id="search-hits">
+        <div class="entry-list">
+            {% for entry in site.posts %}
+            {% include entry_card.html entry=entry %}
+            {% endfor %}
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+

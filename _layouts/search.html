@@ -6,13 +6,9 @@
 <div id="page">
     {% include main_nav.html %}
     {% include category_nav.html category=page.category selected=page.selected %}
-    <div class="wrapper">
-        {{ content }}
-    </div>
+    {{ content }}
 </div>
-
 {% include footer.html %}
 {% include script.html %}
-
 </body>
 </html>
