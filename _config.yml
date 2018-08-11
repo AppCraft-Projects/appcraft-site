@@ -14,6 +14,9 @@ data_dir:        _data
 includes_dir:    _includes
 debug: false
 keywords: ["programozás", "web", "tanácsadás", "hirek", "Kotlin", "Java", "fejlesztés"]
+algolia:
+  application_id: '142FY0Z6K2'
+  index_name: appcraft-site
 collections:
   blog:
     output: true
