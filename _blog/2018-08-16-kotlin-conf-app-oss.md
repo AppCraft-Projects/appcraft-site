@@ -1,9 +1,9 @@
 ---
 excerpt: Pár nap különbséggel két nyílt forrású konferencia app is kapott némi felhajtást twitteren, úgy gondoltam érdekes lehet pár mondatot ezekről kicsit beszélni.
-title: 🕵️‍♀️ Kotlinos csemege - Betekintés két konferencia app forrásába
+title: 🕵️‍ Kotlinos csemege - Betekintés két konferencia app forrásába
 date: 2018-08-16
 tags: [kotlin, android, reference, conference, app, architecture, component]
-short_title: 🕵️‍♀️ Kotlinos csemege - Betekintés két konferencia app forrásába
+short_title: 🕵️‍ Kotlinos csemege - Betekintés két konferencia app forrásába
 ---
 
 Pár nap különbséggel két nyílt forrású konferencia app is kapott némi felhajtást twitteren, úgy gondoltam érdekes lehet pár mondatot ezekről kicsit beszélni.
