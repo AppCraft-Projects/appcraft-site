@@ -474,33 +474,6 @@ nav {
   background: url("../assets/icons/conference-icon.svg") no-repeat;
 }
 
-.blog-card {
-
-  &:hover {
-    box-shadow: none;
-    cursor: pointer;
-  }
-
-  &:after {
-    content: '';
-    display: block;
-    height: 0;
-  }
-
-  &:hover:after {
-    content: '';
-    display: block;
-    width: 94%;
-    height: 20px;
-    box-shadow: 0 8px 36px 0 #1C2A43;
-    position: absolute;
-    bottom: 0;
-    left: 3%;
-    z-index: -1;
-    transition: height .25s;
-  }
-}
-
 .workshops-card {
   border-left: 4px solid $workshop-color;
 }
