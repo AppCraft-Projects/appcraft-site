@@ -489,6 +489,11 @@ nav {
   background: url("../assets/icons/conference-icon.svg") no-repeat;
 }
 
+.icon-link img {
+  width: 16px;
+  height: 16px;
+}
+
 .workshops-card {
   border-left: 4px solid $workshop-color;
 }

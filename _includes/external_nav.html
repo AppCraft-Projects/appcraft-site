@@ -1,11 +1,24 @@
 <div class="nav external-nav">
     <ul>
+        {% if include.type == "light" %}
+        <li class="static-nav-item">
+            <a href="/search"
+               alt="Keresés"
+               class="icon-link">
+                {% if page.url == "/search" %}
+                <img src="{{ site.baseurl }}/assets/icons/search-active.svg"/>
+                {% else %}
+                <img src="{{ site.baseurl }}/assets/icons/search.svg"/>
+                {% endif %}
+            </a>
+        </li>
+        {% endif %}
         {% for item in site.data.static_page_data.external %}
         <li class="static-nav-item">
             <a href="{{item.url}}"
                alt="{{ item.title }}"
                class="icon-link {{ item.id }}">
-                <img src="{{ site.baseurl }}/assets/icons/{{ item.id }}-{{ include.type }}.svg" />
+                <img src="{{ site.baseurl }}/assets/icons/{{ item.id }}-{{ include.type }}.svg"/>
             </a>
         </li>
         {% endfor %}
