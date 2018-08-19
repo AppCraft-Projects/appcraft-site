@@ -3,7 +3,7 @@ excerpt: A Jetpack csomagot a Google I/O legfontosabb bejelentésének éreztem.
 title: 🛣️ Hasznos Android Navigation Component anyagok
 date: 2018-08-19
 tags: [android, jetpack, navigation, component, kotlin]
-short_title: 🕵🛣️ Hasznos Android Navigation Component anyagok
+short_title: 🛣️ Hasznos Android Navigation Component anyagok
 ---
 
 ## Néhány kósza bevezető gondolat...
