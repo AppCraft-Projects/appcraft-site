@@ -2,6 +2,7 @@
 excerpt: Folytatása lehetne a múltkori senioros témámnak. Tök jó videóba futottam Jem Youngtól, ahol a Netflix céges kultúrájának érdekes aspektusaiba vezet be.
 title: Céges kultúra, értékek és szenioritás
 date: 2018-08-07
+highlighted: true
 tags: [netflix, team, senior, value, culture]
 short_title: Céges kultúra, értékek és szenioritás
 ---
