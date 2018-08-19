@@ -416,6 +416,19 @@ nav {
   }
 }
 
+.card-highlight {
+  background: $accent-color;
+  color: $main-nav-background-color;
+
+  .tag-link {
+    color: $main-nav-background-color;
+  }
+
+  .entry-meta {
+    color: $main-nav-background-color;
+  }
+}
+
 .entry-meta {
   color: $background-text-color;
   font-size: $background-text-size;
