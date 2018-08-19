@@ -1,5 +1,5 @@
 ---
 slug: team
 name: Team
-description: Fejlesztői csapatok menedzselésével kapcsolatos témák gyűjtője.
+description: Minden, ami a fejlesztő csapatok építésével, menedzselésével kapcsolatos.
 ---
