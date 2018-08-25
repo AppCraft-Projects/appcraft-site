@@ -23,7 +23,7 @@ A motorháztető alatt arról van szó, hogy a DOM műveleteket batchekbe gyűjt
 
 ![alt text](https://appcraft.hu/assets/img/react-fiber-01.png)
 
-A *valóban hosszú verziót* meg sem próbálom elmagyarázni, ellenben az alábbi kép elég jól összefoglalja. Csak a valóban elszántaknak.
+A **valóban hosszú verziót** meg sem próbálom elmagyarázni, ellenben az alábbi kép elég jól összefoglalja. Csak a valóban elszántaknak.
 
 ![alt text](https://appcraft.hu/assets/img/react-fiber-02.jpeg)
 
@@ -152,10 +152,12 @@ Valamint csak azokkal az ágakkal foglalkoznak, azokat járják be, ahol tényle
 
 A commit, avagy a tényleges DOM-ba írás csak a folyamat végén történik meg.
 
-## Mire lesz képes?
+## Mire lesz képes?
 
 Első körben nem céljuk semmi új feature, fejlesztői oldalról nem fog különbözni a mostanitól. A lényeg, a priorizáció, ütemezés és a konkurencia kezelés a háttérben fog működni.
+
 Ez alól csak egyetlen kivétel van, mégpedig az, hogy a render már képes lesz több elemet visszadni. Ez már rég várt változás volt, viszont az API-kat nézve más nem lesz.
+
 Egyelőre nem kínálnak majd olyan API-okat, amire pl olyan libek mint a react-motion tudnának építeni, hogy az animációk prioritásával játszanak. Talán később.
 Minél kevesebb jelenleg működő appot szeretnének eltörni. Elvben nem kell hozzá előre dolgozni. Feltehetőleg simán működni fognak, ahogy ma is vannak. Persze, ha valami disznóságot csinált a fejlesztő, valami anti patternt, akkor fejre is állhat a világ.
 
@@ -166,7 +168,7 @@ Minél kevesebb jelenleg működő appot szeretnének eltörni. Elvben nem kell 
 - Lehetőséget kap a csapat a kódbázisuk kipucolására, egyúttal egyszerűbbé tenni a kontribútálást.
 - A különböző ágakat külön kis workerek renderelik majd.
 
-## Hol tart most? Mikorra várható?
+## Hol tart most? Mikorra várható?
 
 A Fiber első verziója már nagyon közel van, a *React 16-al* várható. De ebben a verzióban még kompatibilis módban fog futni, szinkron ütemezővel, ahogy a mostani React verziók is.
 
@@ -174,7 +176,8 @@ Ez a verzió már jelenleg is kész van, a Facebook és a Facebook Messenger má
 
 A React 17 izgalmasabb lesz, ott kapcsolják be alapértelmezetten az aszinkron ütemezőt, ettől a ponttól fogjuk a valódi előnyeit élvezni, de addig még sok munka van hátra.
 
-## Érdekes és hasznos linkek
+## Érdekes és hasznos linkek
+
 *A jobb források egyszerűen felsorolva:*
 - [Kész van már?](http://bit.ly/is-fiber-ready-yet)
 - [Andrew Clark tavaly nyári React Fiber architektúra összefoglalója.](http://bit.ly/react-fiber-architecture)
