@@ -26,4 +26,6 @@ Nem így Brandon Dail, aki ebben a friss-ropogós React Rally konferenciás elő
 	- Van még egy párhuzam a korutinokkal, kooperatív futtatási modellt írnak le.
 	- Az algebraic effect fogalom valójában sokkal egyszerűbb mint, aminek elsőre tűnik. Kb mint az eventek, történik valami, és annak hatására lefut egy funkció, ami kezeli. Hibakezelésnél, adatbázis vagy hálózat hívásnál, illetve mondjuk logolásnál is jól jön.
 
+Bizonyos szempontból olyan benyomást kelt bennem mintha egy mini-OS épülne a böngészőn belül, és ezt nem negatívan mondom. Látom a problémákat, amikre választ ad, tutire lesznek (sőt vannak) olyan komplex és reaktív webappok, ahol erre szükség van.
+
 Have fun! 😀
