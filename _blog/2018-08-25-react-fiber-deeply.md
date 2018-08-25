@@ -16,7 +16,7 @@ Nem így Brandon Dail, aki ebben a friss-ropogós React Rally konferenciás elő
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cWY1QzyFhfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## tl;DR
+## tl;DR
 
 *Tényleg csak néhány kiemelés:*
 - Rávilágít párhuzamokra az async rendering koncepció és az operációs rendszerek szál és folyamat fogalmai között.
