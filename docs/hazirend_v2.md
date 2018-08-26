@@ -1,18 +1,18 @@
 # Szabályzat
 
-Az AppCraft csoport célja a magyar alkalmazás-, és termékfejlesztő közösség építése és összefogása.
+Az AppCraft csoport célja a magyar alkalmazás- és termékfejlesztő közösség építése és összefogása.
 
 Ez egy olyan közösség, ahol megismerhetjük egymást, kommunikálhatunk, és bárki megoszthatja tudását a többiekkel.
 
 Nem húzunk egyik vagy másik platform felé sem.
 
 Tartsuk a fejlesztői témákat túlsúlyban, de emellett nagyon szívesen látunk designnal, UX-el, teszteléssel, illetve bármi 
-egyéb témában kapcsolódó postot is. Az adott téma keretei között minden belefér.
+egyéb témához kapcsolódó postot is.
 
 ## Külalak
 
-- Ha lehetséges, akkor a saját neveddel és fényképeddel postolj.
-- A magyar nyelvet használjuk, többnyelvű post esetén legyen magyar is.
+- Ha lehetséges, akkor a saját neveddel és fényképeddel posztolj.
+- A magyar nyelvet használjuk, többnyelvű poszt esetén legyen magyar is.
 - A jó geek / nerd humornak is van helye, de azért mértékkel.
 - Ha lehet, akkor [címkében] vagy a végén #hashtag használatával emeld ki a témádat.
 
@@ -21,39 +21,40 @@ egyéb témában kapcsolódó postot is. Az adott téma keretei között minden 
 - Kérjük, hogy *ne csak egy szimpla képet vagy linket dobj be*, nem biztos, hogy világos az olvasóknak a szándékod.
 - *Egy tl;DR nagyon sokat tud segíteni*, főleg ha hosszú cikket osztasz meg.
 - Fogalmazd meg jól a véleményedet, ez sokat segít az értékteremtő párbeszédek elindításában.
-  Amennyiben ez mégis hiányzik, kérni fogjuk tőled és egy-két ilyen alkalom után törölni fogjuk a postjaid.
+  Amennyiben ez mégis hiányzik, kérni fogjuk tőled és egy-két ilyen alkalom után törölni fogjuk a posztjaid.
 
 ## Stílus
-- Ne személyeskedj
-- Kerüld a trollkodást
+- Ne személyeskedj!
+- Kerüld a trollkodást!
 
 Ha ez nem sikerül, az adott bejegyzést / kommentet törölni fogjuk, az íróját pedig figyelmeztetni.
-Súlyos esetben, vagy több figyelmeztetésnél a kizárás is felmerülhet.
+Súlyos esetben vagy több figyelmeztetésnél a kizárás is felmerülhet.
 
 ## Hirdetések
 
-Nem bánjuk, ha hirdeted a saját szolgáltatásod, appod, céged, eseményed, vagy ha embert keresel, amíg mellette
+Nem bánjuk, ha hirdeted a saját szolgáltatásod, appod, céged, eseményed vagy ha embert keresel, amíg mellette
 értéket is teremtesz. Figyelj az alábbi pontokra:
 
-- Irj a technológiai oldaláról is. Például hogyan építettétek, milyen nehézségekkel találkoztatok,
+- Irj a technológiai oldaláról is. Például, hogyan építettétek, milyen nehézségekkel találkoztatok,
  illetve milyen módszerekkel küzdöttétek le ezeket.
 - Appot eseményt, állást, akármit, csak egyszer hirdess meg a csoportban.
 
-Az álláshirdetések postolásánál figyeljetek a következőkre:
+## Álláshirdetések
+
+Álláshirdetések posztolásánál figyeljetek a következőkre:
 
 - Kizárólag a témához kapcsolódó munkák megosztására adunk lehetőséget a csoportban: programozás,
   design, ux, stb...
 - Mindenképp nevezd meg a hirdető céget.
-- Röviden, egy két mondatban foglald össze a cég tevékenységét.
+- Röviden, egy-két mondatban foglald össze a cég tevékenységét.
 - Néhány releváns referencia pluszt jelent, de nem kötelező.
 - A pozíció rövid leírása nem kötelező, de szintén pluszt jelent.
 - Mellékeld a kapcsolattartó email címét.
-- A könnyebb visszakereshetőség érdekében a post végére írd be a #job taget.
+- A könnyebb visszakereshetőség érdekében a poszt végére írd be a #job taget.
 
 **A szabályzat korábbi pontjai itt is érvényesek.**
 
-Ha a hirdetés nem felel meg, akkor kevésbé aktív tagoknál felszólítás nélkül töröljük, aktívabb tagoknak írunk egy nyilvános sort,
-hogy rakja azt rendbe.
+Ha a hirdetés hiányos, akkor a kevésbé aktív tagok esetében felszólítás nélkül töröljük, aktívabb tagoknak pedig írunk egy nyilvános sort, hogy pótolja a hiányzó adatokat.
 
 ## Kerülendő témák
 
