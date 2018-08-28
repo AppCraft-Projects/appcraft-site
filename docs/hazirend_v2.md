@@ -1,3 +1,11 @@
+---
+excerpt: Ideje volt alaposan átnézni a Facebook csoportunk házirendünket és némiképp egyszerűsíteni rajta.
+title: ❗ Házirend v2
+date: 2018-08-28
+tags: [appcraft, ]
+short_title: ❗ Házirend v2
+---
+
 # Szabályzat
 
 Az AppCraft csoport célja a magyar alkalmazás- és termékfejlesztő közösség építése és összefogása.
@@ -23,9 +31,11 @@ A fejlesztői témákat mellett nagyon szívesen olvasunk designnal, UX-el, tesz
 
 Amennyiben ez mégis hiányzik, előbb kérni fogjuk tőled és egy-két ilyen alkalom után törölni fogjuk a posztjaid.
 
-## Stílus
-- Tiszteld a többiek véleményét és
+## Stílus.
+Legyen véleményed, de fogalmazd meg korrekten:
+- Hozz fel érveket és támaszd alá forrásokkal!
 - Ne személyeskedj!
+- Került csúnya szavakat!
 - Kerüld a trollkodást!
 
 Ha ez nem sikerül, az adott bejegyzést / kommentet törölni fogjuk, az íróját pedig figyelmeztetni.
@@ -42,10 +52,10 @@ Nem bánjuk, ha hirdeted a saját szolgáltatásod, appod, céged, eseményed va
 
 ## Álláshirdetések
 
-Álláshirdetések posztolásánál figyeljetek a következőkre:
+Állást kereső vagy kínáló hirdetéseknél figyeljetek a következőkre:
 
-- Kizárólag a témához kapcsolódó munkák megosztására adunk lehetőséget a csoportban: programozás,
-  design, ux, stb...
+- Kizárólag a témához kapcsolódó munkák megosztására adunk lehetőséget a csoportban: fejlesztés,
+  design, ux, termékmenedzsment, tesztelés stb...
 - Mindenképp nevezd meg a hirdető céget.
 - Röviden, egy-két mondatban foglald össze a cég tevékenységét.
 - Néhány releváns referencia pluszt jelent, de nem kötelező.
@@ -55,16 +65,16 @@ Nem bánjuk, ha hirdeted a saját szolgáltatásod, appod, céged, eseményed va
 
 **A szabályzat korábbi pontjai itt is érvényesek.**
 
-Ha a hirdetés hiányos, akkor a kevésbé aktív tagok esetében felszólítás nélkül töröljük, aktívabb tagoknak pedig írunk egy nyilvános sort, hogy pótolja a hiányzó adatokat.
+Ha a hirdetés hiányos, akkor a kevésbé aktív tagok esetében felszólítás nélkül töröljük, aktívabb tagoknak itt is előnyben vannak.
 
 ## Kerülendő témák
 
 A csoportban nem tűrjük meg a következő témákat:
-- Spam
+- Bármi spam
 - Más csoportok hirdetése. Ez alól kivétel, ha kommentben oda irányítasz másokat mivel adott témában az relevánsabb.
-- Ingyenes, tört és hasonló appok és játékok
+- Ingyenes, tört és hasonló alkalmazások, játékok, könyvek, videók
 - Illegális tartalmak
-- Alkalmazás és termék fejlesztéséhez nem kapcsolódó téma
+- Alkalmazás és termék fejlesztéséhez nem kapcsolódó témák
 - Politika
 - Vallás
 
