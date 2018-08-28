@@ -1,11 +1,3 @@
----
-excerpt: Ideje volt alaposan átnézni a Facebook csoportunk házirendünket és némiképp egyszerűsíteni rajta.
-title: ❗ Házirend v2
-date: 2018-08-28
-tags: [appcraft, ]
-short_title: ❗ Házirend v2
----
-
 # Szabályzat
 
 Az AppCraft csoport célja a magyar alkalmazás- és termékfejlesztő közösség építése és összefogása.
