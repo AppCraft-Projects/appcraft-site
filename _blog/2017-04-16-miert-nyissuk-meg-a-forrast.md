@@ -3,7 +3,7 @@ excerpt: Miért érdemes megnyitni a programunk forrását? Ebben a cikkben kör
 title: Miért nyissuk meg a forrást?
 date: 2017-04-16
 tags: [oss, programming, licensing]
-author: Adam Arold
+author: edem
 short_title: Miért nyissuk meg a forrást?
 ---
 

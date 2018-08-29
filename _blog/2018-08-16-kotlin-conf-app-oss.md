@@ -4,6 +4,7 @@ title: 🕵️‍ Kotlinos csemege - Betekintés két konferencia app forrásáb
 date: 2018-08-16
 tags: [kotlin, android, reference, conference, app, architecture, component]
 short_title: 🕵️‍ Kotlinos csemege - két konferencia app forrása
+author: ogabi
 ---
 
 Pár nap különbséggel két nyílt forrású konferencia app is kapott némi felhajtást twitteren, úgy gondoltam érdekes lehet pár mondatot ezekről kicsit beszélni.

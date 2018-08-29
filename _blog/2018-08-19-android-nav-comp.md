@@ -4,6 +4,7 @@ title: 🛣️ Hasznos Android Navigation Component anyagok
 date: 2018-08-19
 tags: [android, jetpack, navigation, component, kotlin]
 short_title: 🛣️ Hasznos Android Navigation Component anyagok
+author: ogabi
 ---
 
 ## Néhány kósza bevezető gondolat...

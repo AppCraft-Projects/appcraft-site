@@ -4,6 +4,7 @@ title: ☀️ Ébredeznek a dolgok az Android körül
 date: 2018-07-27
 tags: [android]
 short_title: ☀️ Ébredeznek a dolgok az Android körül
+author: ogabi
 ---
 
 ![alt text](https://appcraft.hu/assets/img/android-01.png)

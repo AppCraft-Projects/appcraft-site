@@ -4,6 +4,7 @@ title: 🥧 Megérkezett a stabil Android Pie
 date: 2018-08-06
 tags: [android]
 short_title: 🥧 Megérkezett a stabil Android Pie
+author: ogabi
 ---
 
 ![alt text](https://appcraft.hu/assets/img/android-pie-01.png)

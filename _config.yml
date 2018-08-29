@@ -53,6 +53,10 @@ collections:
     output: true
     permalink: "/tags/:name/"
     category: "tags"
+  authors:
+    output: true
+    permalink: "/authors/:name/"
+    category: "authors"
 
 
 # Handling Reading
@@ -161,6 +165,13 @@ defaults:
       layout: "tag_details"
       regenerate: true
       category: "tags"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author_details"
+      regenerate: true
+      category: "authors"
 liquid:
   error_mode: warn
 

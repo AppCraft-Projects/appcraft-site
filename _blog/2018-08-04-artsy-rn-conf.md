@@ -4,6 +4,7 @@ title: 📹 Artys x React Native - Konferencia videók
 date: 2018-08-04
 tags: [artsy, react-native, conference, video]
 short_title: 📹 Artys x React Native - Konferencia videók
+author: ogabi
 ---
 
 ![alt text](https://appcraft.hu/assets/img/artsy-rn-conf-01.png)

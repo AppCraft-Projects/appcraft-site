@@ -3,7 +3,7 @@ excerpt: Az utóbbi időkben a React fórumok és konferenciák egyik legfelkapo
 title: React Fiber összefoglaló
 date: 2017-04-17
 tags: [react, fiber, algorithm]
-author: Orosz Gábor
+author: ogabi
 short_title: React Fiber összefoglaló
 ---
 

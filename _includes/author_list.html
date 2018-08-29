@@ -1,0 +1,8 @@
+<div class="content entries">
+    <div class="entry-list">
+        {% for author in include.authors %}
+        {% include author_card.html author=author %}
+        {% endfor %}
+    </div>
+    <div class="clear"></div>
+</div>

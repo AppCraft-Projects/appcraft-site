@@ -4,6 +4,7 @@ title: AirBnb 💔 React Native
 date: 2018-07-04
 tags: [microsoft, windows, mobile, fun]
 short_title: AirBnb 💔 React Native
+author: ogabi
 ---
 
 ![alt text](https://appcraft.hu/assets/img/airbnb-react.png)

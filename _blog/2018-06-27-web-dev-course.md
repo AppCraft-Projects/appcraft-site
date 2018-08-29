@@ -4,6 +4,7 @@ title: Brian Holt menő webfejlesztő kurzussal jelentkezett
 date: 2018-06-27
 tags: [web, development, course, video, free]
 short_title: Brian Holt webfejlesztő kurzusa
+author: ogabi
 ---
 
 ![alt text](https://appcraft.hu/assets/img/course-bholt-web-dev.jpeg)

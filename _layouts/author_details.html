@@ -1,0 +1,9 @@
+---
+layout: default
+regenerate: true
+---
+
+{% assign entries = site.documents | where: 'collection', 'blog' | where: 'author', page.author | sort: 'date' | reverse %}
+
+{% include entry_list.html entries=entries %}
+

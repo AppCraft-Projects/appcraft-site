@@ -4,6 +4,7 @@ title: 👓 Mikor érik egy fejlesztő seniorrá?
 date: 2018-07-24
 tags: [developer, team, senior]
 short_title: 👓 Mikor érik egy fejlesztő seniorrá?
+author: ogabi
 ---
 
 Az alábbi tweet indította el ezt a témát egy ismerősömmel és gyorsan tovább is vittük, azt akartuk megfejteni, hogy mitől válik valaki senior szintű szakemberré.

@@ -4,6 +4,7 @@ short_title: A Nothing természete a Kotlinban
 excerpt: Aki a Java világból jön, annak a Nothing koncepciója szokatlan lehet. Ebben a cikkben kitisztázzuk ezt pár életszerű példával.
 date: 2018-07-08
 tags: [programming, kotlin, data-types]
+author: edem
 ---
 
 ## Mi az a `Nothing`?

@@ -1,0 +1,9 @@
+---
+layout: default
+permalink: /contact/
+category: authors
+---
+
+{% assign authors = site.documents | where: 'collection', 'authors' %}
+
+{% include author_list.html authors=authors %}

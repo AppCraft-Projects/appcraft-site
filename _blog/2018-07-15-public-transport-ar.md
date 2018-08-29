@@ -4,6 +4,7 @@ title: 🚏 Jobban átlátható lesz a tömegközlekedés AR-el?
 date: 2018-07-15
 tags: [ar]
 short_title: 🚏 Jobban átlátható lesz a tömegközlekedés AR-el?
+author: ogabi
 ---
 
 ## Innen indult ez a sztori...

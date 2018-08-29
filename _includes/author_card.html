@@ -1,0 +1,26 @@
+<div class="author-card entry-card diffusedshadow">
+    <p class="author-img">
+        <img src="/assets/img/avatar_{{author.author}}.jpg">
+    </p>
+    <p class="author-name">
+        <span>{{ author.name }}</span>
+        <span class="author-handle">@{{ author.author }}</span>
+    </p>
+    <p class="author-social">
+        <a href="{{author.facebook}}">
+            <img src="/assets/icons/facebook-dark.svg"/>
+        </a>
+        <a href="{{author.github}}">
+            <img src="/assets/icons/github-dark.svg"/>
+        </a>
+        <a href="{{author.twitter}}">
+            <img src="/assets/icons/twitter-dark.svg"/>
+        </a>
+    </p>
+    <div class="author-intro">
+        {{ author.content }}
+    </div>
+    <p class="author-link">
+        <a href="/authors/{{author.author}}">Tovább az irásokra</a>
+    </p>
+</div>

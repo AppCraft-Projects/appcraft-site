@@ -3,7 +3,7 @@ excerpt: A conversation UI egy kiváló példa erre. Meglehetősen felkapott tre
 title: A WeChat növekedési sztori
 date: 2017-06-18
 tags: [wechat, growth]
-author: Gabor Orosz
+author: ogabi
 short_title: A WeChat növekedési sztori
 ---
 

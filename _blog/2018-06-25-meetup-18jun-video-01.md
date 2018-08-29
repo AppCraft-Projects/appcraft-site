@@ -4,6 +4,7 @@ title: 📹 Júniusi meetup videók - Árvai Zoli története ázsiából
 date: 2018-06-25
 tags: [meetup, appcraft, asia, crisis, project, management, graphql, test]
 short_title: Júniusi meetup videók 1.
+author: ogabi
 ---
 
 Kezdjük a sort Zoli előadásának felvételével, ha nem lehettél ott személyesen szerintem érdemes pótolni.

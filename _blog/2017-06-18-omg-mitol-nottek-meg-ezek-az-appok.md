@@ -3,7 +3,7 @@ excerpt: Néhány hete már morogtam, hogy mekkorára nőttek mostanában az iOS
 title: 😮 OMG, mitől nőttek meg ezek az appok?
 date: 2017-06-18
 tags: [app, ios, android]
-author: Gabor Orosz
+author: ogabi
 short_title: Mitől nőttek meg az appok?
 ---
 

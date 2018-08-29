@@ -4,6 +4,7 @@ title: 🎨 Redux designer szemmel
 date: 2018-07-14
 tags: [react, redux]
 short_title: Redux designer szemmel
+author: ogabi
 ---
 
 ![alt text](https://appcraft.hu/assets/img/redux-designer-01.png)

@@ -4,6 +4,7 @@ title: Így működik a React Fiber!
 date: 2018-08-25
 tags: [react, fiber, algorithm]
 short_title: Így működik a React Fiber!
+author: ogabi
 ---
 
 Mikor egy bő éve a React Fiber sztorijával bővebben foglalkoztam, még bőven a kiadás előtt voltunk. De már kb egy éve kint van a stabil verzió, sokan észrevétlenül használják akár productionben is, illetve a csapat iterált jópárat az elképzelésen.

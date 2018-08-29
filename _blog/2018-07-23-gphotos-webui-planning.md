@@ -4,6 +4,7 @@ title: 🕵🏻‍ Bepillantás a Google Photos Web UI motorháztetője alá
 date: 2018-07-23
 tags: [frontend, planning, design]
 short_title: 🕵🏻‍ Bepillantás a Google Photos Web UI motorháztetője alá
+author: ogabi
 ---
 
 ![alt text](https://appcraft.hu/assets/img/gphotos-webui-01.png)

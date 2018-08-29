@@ -52,6 +52,7 @@ $workshop-color: #00E016;
 $main-text-color: #111b2c;
 $background-text-color: #9298a4;
 $background-text-size: 0.8em;
+$unimportant-text-size: 0.7em;
 
 // general rules
 * {
@@ -504,6 +505,96 @@ nav {
 
 .conferences-card {
   border-left: 4px solid $conf-color;
+}
+
+///////////////
+// authors
+///////////////
+
+.author-card {
+
+}
+
+.author-img {
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background: #ffffaa;
+  overflow: hidden;
+  border-radius: 50%;
+
+  img {
+    width: 4em;
+    height: 4em;
+    object-fit: scale-down;
+  }
+}
+
+.author-name {
+  margin: 0 0 .75em 5em;
+  position: relative;
+  font-family: $heading-font;
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+}
+
+.author-social {
+  margin-left: 5em;
+  position: relative;
+
+  a {
+    display: inline-block;
+    width: 1.6em;
+    height: 1.6em;
+  }
+
+  a:hover {
+    background-color: $page-color;
+    border-radius: 50%;
+  }
+
+  img {
+    display: block;
+    margin: 0.4em;
+    width: 0.8em;
+    height: 0.8em;
+  }
+}
+
+.author-intro {
+  margin-top: 3em;
+  color: $background-text-color;
+  font-size: $unimportant-text-size;
+}
+
+.author-handle {
+  color: $background-text-color;
+  font-size: $unimportant-text-size;
+  margin-left: $inline-spacing;
+}
+
+.author-link {
+
+  margin: tag-spacing 0 $tag-spacing 0;
+  height: 2em;
+  line-height: 2em;
+
+  a {
+    padding: 0 $tag-spacing;
+    position: absolute;
+    right: $tag-spacing;
+    font-family: $mainnav-font;
+    font-weight: bold;
+    color: $main-text-color;
+  }
+
+  a:hover {
+    background: $accent-color;
+  }
 }
 
 ///////////////

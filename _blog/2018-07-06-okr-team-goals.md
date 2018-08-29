@@ -4,6 +4,7 @@ title: OKR, avagy milyen célokért hajt a csapat? 🎯
 date: 2018-07-06
 tags: [product, management, team]
 short_title: OKR, csapat, célok
+author: ogabi
 ---
 
 ## Miért beszélünk a témáról?

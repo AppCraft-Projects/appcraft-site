@@ -5,6 +5,7 @@ date: 2018-08-07
 highlighted: true
 tags: [netflix, team, senior, value, culture]
 short_title: Céges kultúra, értékek és szenioritás
+author: ogabi
 ---
 
 Folytatása lehetne a múltkori [senioros témának](http://bit.ly/acs-senior-dev). Tök jó videóba futottam Netflix JavaScript Talkok között Jem Youngtól, ami tök érdekes aspektusait mutatta be a céges kultúrájuknak.
