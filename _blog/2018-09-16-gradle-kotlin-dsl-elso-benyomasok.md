@@ -9,7 +9,7 @@ short_title: Gradle Kotlin DSL első benyomások
 
 > A Gradle Kotlin DSL már létezik egy ideje. Ebben a cikkben áttekintjük, hogy mennyire hasznos eszköz.
 
-> A cikk megszületése óta [megjelent egy cikk](https://guides.gradle.org/migrating-build-logic-from-groovy-to-kotlin/)
+> Az írás megszületése óta [megjelent egy cikk](https://guides.gradle.org/migrating-build-logic-from-groovy-to-kotlin/)
  a témában a Gradle blogján. Érdemes elolvasni, nagyon hasznos dolgok vannak benne leírva, de ennek a cikknek a lényegén
  nem változtat.
 
@@ -20,7 +20,7 @@ miért is van erre szükség? Szerintem ez ebben az esetben is egy jó kérdés,
 [Groovy](http://groovy-lang.org/) hátulütői.
 
 Ha Java fejlesztő vagy és dolgoztál már [Maven](https://maven.apache.org/)-nel korábban, akkor a Gradle elég
-furának tűnhet elsőre. Az első probléma az, hogy nem `xml`-t kell [Maven](https://maven.apache.org/) írni hozzá,
+furának tűnhet elsőre. Az első probléma az, hogy nem `xml`-t kell írni hozzá,
 hanem programkódot. Ez önmagában is probléma lehet valakinek, aki a *Maven*-es deklaratív konfigurációhoz van szokva.
 
 Ezen kívül a nyelv, amit a *Gradle* konfigurálásához használhatunk, az a *Groovy*, ami pedig egy dinamikus nyelv.
@@ -126,7 +126,7 @@ elérhetővé válnak a lokális scope-ban, ugyanúgy, mint korábban Groovy-ban
 
 {% gist d15f5283e5582820c1af46ce7dc3d1cd %}
 
-A gyakorlatban az IDE támogatás egy kicsit nehézkes. Többszöri újraindítás után tér csak észhez az IDE és teszi számunkra
+A gyakorlatban az IDE támogatás egy kicsit nehézkes. Többszöri újraindítás után tér csak észhez és teszi számunkra
 elérhetővé a konfigurációs lehetőségeket, ami több percet is igénybe vehet.
 
 
@@ -135,12 +135,12 @@ elérhetővé a konfigurációs lehetőségeket, ami több percet is igénybe ve
 A Gradle-hez rengeteg Groovy példa áll rendelkezésre, amiket csak ki tudunk másolni ahhoz, hogy megoldjuk a problémáinkat.
 A *kotlin-dsl* esetében ez sajnos nincs így, és ez nem beépített plugin-eknél még jobban érezhető. A legtöbb projekt
 dokumentációjában Groovy kód található, de a Kotlin változatok egyelőre még hiányoznak. Ez alapvetően nem is lenne
-probléma, ha 1:1 megfeleltethetőség lenne a két verzió között, de sajnos ez nics így:
+probléma, ha 1:1 megfeleltethetőség lenne a két verzió között, de sajnos ez nincs így:
 
 
 ### Egyéni task-ok konfigurációja
 
-Néha, amikor olyan plugin-t szeretnénk használni, ami egyedi task-okat hoz mavával, akkro bele kell néznünk a
+Néha, amikor olyan plugin-t szeretnénk használni, ami egyedi task-okat hoz magával, akkor bele kell néznünk a
 forrásba, hogy rájöjjünk, hogy milyen típusokat is használnak valójában. Például, hogy ezt a Groovy kódot
 Kotlin-ra alakítsuk:
 
