@@ -9,6 +9,7 @@ address: "Grape Solutions HQ - 1023, Budapest Árpád fejedelem útja 26-28."
 coords: "47.4966016, 19.0578469"
 event_date: 2018-06-17
 short_title: AppCraft 4. szülinap
+author: appcraft
 ---
 
 ![alt text](https://appcraft.hu/assets/img/meetup-2018-june-19-01.png)

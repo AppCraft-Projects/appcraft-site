@@ -3,7 +3,7 @@ excerpt: Az idei Google I/O során mintha idén elmaradt volna az elmúlt évekb
 title: 🏖️ Véget érni látszik a nyári szünet a Firebase csapatnál
 event_date: 2018-08-18
 tags: [google, firebase, push notification, integration, jira, slack, cloud, firestore, functions, hosting]
-author: Gabor Orosz
+author: ogabi
 short_title: 🏖️ Véget érni látszik a nyári szünet a Firebase csapatnál
 ---
 

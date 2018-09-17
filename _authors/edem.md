@@ -4,6 +4,7 @@ author: edem
 facebook: https://www.facebook.com/rephaim
 github: https://github.com/adam-arold
 twitter: https://twitter.com/addamsson
+visible: true
 ---
 
 Pragmatikus szoftvermérnök és tervező vagyok, valamint az Open Source közösség [tagja](https://github.com/adam-arold).

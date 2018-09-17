@@ -3,7 +3,8 @@ name: Gabor Orosz
 author: ogabi
 facebook: https://www.facebook.com/ogabi
 github: https://github.com/gabororosz
-twitter: twitter
+twitter: https://twitter.com/gabororosz
+visible: true
 ---
 A budapest.mobile és az AppCraft alapítója. 
 Korábban mobil fejlesztési mániákus voltam, mostanra viszont a figyelmem inkább a termékfejleszés és a céges kultúra

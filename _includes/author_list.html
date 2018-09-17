@@ -1,7 +1,9 @@
 <div class="content entries">
     <div class="entry-list">
         {% for author in include.authors %}
-        {% include author_card.html author=author %}
+            {% if author.visible %}
+                {% include author_card.html author=author %}
+            {% endif %}
         {% endfor %}
     </div>
     <div class="clear"></div>

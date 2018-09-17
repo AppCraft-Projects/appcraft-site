@@ -4,7 +4,7 @@ title: 🤩 Köszönjük, hogy eljöttetek a meetupra + slide-ok
 date: 2018-06-23
 tags: [meetup, appcraft, ar, management, ux, slides]
 short_title: Júniusi meetup slide-ok
-author: ogabi
+author: appcraft
 ---
 
 ![alt text](https://appcraft.hu/assets/img/meetup-2018-june-19-01.png)
